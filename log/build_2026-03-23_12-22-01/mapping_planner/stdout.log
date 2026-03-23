@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/mapping_planner/mapping_planner.egg-info
+writing ../../build/mapping_planner/mapping_planner.egg-info/PKG-INFO
+writing dependency_links to ../../build/mapping_planner/mapping_planner.egg-info/dependency_links.txt
+writing requirements to ../../build/mapping_planner/mapping_planner.egg-info/requires.txt
+writing top-level names to ../../build/mapping_planner/mapping_planner.egg-info/top_level.txt
+writing manifest file '../../build/mapping_planner/mapping_planner.egg-info/SOURCES.txt'
+reading manifest file '../../build/mapping_planner/mapping_planner.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/mapping_planner/mapping_planner.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/daniel-choate/paml_ros2/build/mapping_planner/build
+creating /home/daniel-choate/paml_ros2/build/mapping_planner/build/lib
+creating /home/daniel-choate/paml_ros2/build/mapping_planner/build/lib/mapping_planner
+copying mapping_planner/planner_node.py -> /home/daniel-choate/paml_ros2/build/mapping_planner/build/lib/mapping_planner
+copying mapping_planner/__init__.py -> /home/daniel-choate/paml_ros2/build/mapping_planner/build/lib/mapping_planner
+copying mapping_planner/py.typed -> /home/daniel-choate/paml_ros2/build/mapping_planner/build/lib/mapping_planner
+running install
+running install_lib
+creating /home/daniel-choate/paml_ros2/install/mapping_planner/lib/python3.12/site-packages/mapping_planner
+copying /home/daniel-choate/paml_ros2/build/mapping_planner/build/lib/mapping_planner/planner_node.py -> /home/daniel-choate/paml_ros2/install/mapping_planner/lib/python3.12/site-packages/mapping_planner
+copying /home/daniel-choate/paml_ros2/build/mapping_planner/build/lib/mapping_planner/__init__.py -> /home/daniel-choate/paml_ros2/install/mapping_planner/lib/python3.12/site-packages/mapping_planner
+copying /home/daniel-choate/paml_ros2/build/mapping_planner/build/lib/mapping_planner/py.typed -> /home/daniel-choate/paml_ros2/install/mapping_planner/lib/python3.12/site-packages/mapping_planner
+byte-compiling /home/daniel-choate/paml_ros2/install/mapping_planner/lib/python3.12/site-packages/mapping_planner/planner_node.py to planner_node.cpython-312.pyc
+byte-compiling /home/daniel-choate/paml_ros2/install/mapping_planner/lib/python3.12/site-packages/mapping_planner/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/daniel-choate/paml_ros2/install/mapping_planner/share/ament_index
+creating /home/daniel-choate/paml_ros2/install/mapping_planner/share/ament_index/resource_index
+creating /home/daniel-choate/paml_ros2/install/mapping_planner/share/ament_index/resource_index/packages
+copying resource/mapping_planner -> /home/daniel-choate/paml_ros2/install/mapping_planner/share/ament_index/resource_index/packages
+copying package.xml -> /home/daniel-choate/paml_ros2/install/mapping_planner/share/mapping_planner
+running install_egg_info
+Copying ../../build/mapping_planner/mapping_planner.egg-info to /home/daniel-choate/paml_ros2/install/mapping_planner/lib/python3.12/site-packages/mapping_planner-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/daniel-choate/paml_ros2/build/mapping_planner/install.log'

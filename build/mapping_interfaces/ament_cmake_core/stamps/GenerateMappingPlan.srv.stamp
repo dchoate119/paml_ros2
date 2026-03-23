@@ -1,0 +1,11 @@
+string planning_frame
+float32 radius
+float32 start_angle_deg
+float32 end_angle_deg
+int32 num_views
+float32 height
+bool face_outward
+---
+bool success
+string message
+geometry_msgs/PoseArray planned_poses

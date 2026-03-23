@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mapping_interfaces/srv/detail/generate_mapping_plan__type_support_c.cpp.o"
+  "CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mapping_interfaces/srv/detail/generate_mapping_plan__type_support_c.cpp.o.d"
+  "libmapping_interfaces__rosidl_typesupport_fastrtps_c.pdb"
+  "libmapping_interfaces__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/mapping_interfaces/srv/detail/generate_mapping_plan__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/mapping_interfaces/srv/detail/generate_mapping_plan__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

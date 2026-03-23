@@ -1,0 +1,6 @@
+{
+  "package_name": "mapping_interfaces",
+  "non_idl_tuples": [
+    "/home/daniel-choate/paml_ros2/src/mapping_interfaces:srv/GenerateMappingPlan.srv"
+  ]
+}

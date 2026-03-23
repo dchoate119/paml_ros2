@@ -1,0 +1,2 @@
+[console_scripts]
+mapping_planner = mapping_planner.planner_node:main

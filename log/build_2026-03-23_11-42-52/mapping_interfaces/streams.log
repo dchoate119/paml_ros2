@@ -1,0 +1,33 @@
+[0.007s] Invoking command in '/home/daniel-choate/paml_ros2/build/mapping_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daniel-choate/paml_ros2/src/mapping_interfaces -DCMAKE_INSTALL_PREFIX=/home/daniel-choate/paml_ros2/install/mapping_interfaces
+[0.162s] -- The C compiler identification is GNU 13.3.0
+[0.264s] -- The CXX compiler identification is GNU 13.3.0
+[0.285s] -- Detecting C compiler ABI info
+[0.396s] -- Detecting C compiler ABI info - done
+[0.405s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.405s] -- Detecting C compile features
+[0.406s] -- Detecting C compile features - done
+[0.419s] -- Detecting CXX compiler ABI info
+[0.530s] -- Detecting CXX compiler ABI info - done
+[0.540s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.540s] -- Detecting CXX compile features
+[0.541s] -- Detecting CXX compile features - done
+[0.545s] -- Found ament_cmake: 2.7.4 (/opt/ros/kilted/share/ament_cmake/cmake)
+[0.677s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.780s] -- Found std_msgs: 5.5.1 (/opt/ros/kilted/share/std_msgs/cmake)
+[0.814s] -- Found rosidl_generator_c: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[0.826s] -- Found rosidl_generator_cpp: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[0.842s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.859s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.887s] -- Found geometry_msgs: 5.5.1 (/opt/ros/kilted/share/geometry_msgs/cmake)
+[0.901s] -- Found rosidl_default_generators: 1.7.1 (/opt/ros/kilted/share/rosidl_default_generators/cmake)
+[0.914s] -- Found rosidl_adapter: 4.9.6 (/opt/ros/kilted/share/rosidl_adapter/cmake)
+[1.202s] [31mCMake Error at /opt/ros/kilted/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):
+[1.202s]   Packages installing interfaces must include
+[1.202s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[1.202s]   package.xml
+[1.202s] Call Stack (most recent call first):
+[1.202s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[1.202s] 
+[1.202s] [0m
+[1.202s] -- Configuring incomplete, errors occurred!
+[1.206s] Invoked command in '/home/daniel-choate/paml_ros2/build/mapping_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daniel-choate/paml_ros2/src/mapping_interfaces -DCMAKE_INSTALL_PREFIX=/home/daniel-choate/paml_ros2/install/mapping_interfaces
