@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/mapping_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mapping_interfaces/srv/detail/execute_mapping_plan__type_support.c.o"
+  "CMakeFiles/mapping_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mapping_interfaces/srv/detail/execute_mapping_plan__type_support.c.o.d"
   "CMakeFiles/mapping_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mapping_interfaces/srv/detail/generate_mapping_plan__type_support.c.o"
   "CMakeFiles/mapping_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mapping_interfaces/srv/detail/generate_mapping_plan__type_support.c.o.d"
   "libmapping_interfaces__rosidl_typesupport_introspection_c.pdb"
   "libmapping_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/mapping_interfaces/srv/detail/execute_mapping_plan__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/mapping_interfaces/srv/detail/execute_mapping_plan__type_support.c"
   "rosidl_typesupport_introspection_c/mapping_interfaces/srv/detail/generate_mapping_plan__rosidl_typesupport_introspection_c.h"
   "rosidl_typesupport_introspection_c/mapping_interfaces/srv/detail/generate_mapping_plan__type_support.c"
 )

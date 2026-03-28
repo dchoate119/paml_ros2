@@ -26,6 +26,7 @@ setup(
     entry_points={
         'console_scripts': [
         'mapping_executor = mapping_executor.executor_node:main',
+        'mapping_client = mapping_executor.mapping_client:main',
         ],
     },
 )

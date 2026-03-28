@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "mapping_interfaces__rs",
+		"source" : "/home/daniel-choate/paml_ros2/build/mapping_interfaces/mapping_interfaces__rs"
+	}
+}

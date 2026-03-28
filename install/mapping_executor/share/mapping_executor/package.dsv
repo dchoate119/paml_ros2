@@ -1,0 +1,6 @@
+source;share/mapping_executor/hook/pythonpath.ps1
+source;share/mapping_executor/hook/pythonpath.dsv
+source;share/mapping_executor/hook/pythonpath.sh
+source;share/mapping_executor/hook/ament_prefix_path.ps1
+source;share/mapping_executor/hook/ament_prefix_path.dsv
+source;share/mapping_executor/hook/ament_prefix_path.sh

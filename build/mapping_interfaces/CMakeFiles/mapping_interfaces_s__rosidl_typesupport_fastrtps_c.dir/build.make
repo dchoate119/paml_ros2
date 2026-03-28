@@ -111,7 +111,7 @@ rosidl_generator_py/mapping_interfaces/mapping_interfaces_s__rosidl_typesupport_
 rosidl_generator_py/mapping_interfaces/mapping_interfaces_s__rosidl_typesupport_fastrtps_c.so: /opt/ros/kilted/lib/librmw.so
 rosidl_generator_py/mapping_interfaces/mapping_interfaces_s__rosidl_typesupport_fastrtps_c.so: /opt/ros/kilted/lib/librosidl_dynamic_typesupport.so
 rosidl_generator_py/mapping_interfaces/mapping_interfaces_s__rosidl_typesupport_fastrtps_c.so: /opt/ros/kilted/lib/librosidl_typesupport_fastrtps_c.so
-rosidl_generator_py/mapping_interfaces/mapping_interfaces_s__rosidl_typesupport_fastrtps_c.so: /opt/ros/kilted/lib/libfastcdr.so.2.3.3
+rosidl_generator_py/mapping_interfaces/mapping_interfaces_s__rosidl_typesupport_fastrtps_c.so: /opt/ros/kilted/lib/x86_64-linux-gnu/libfastcdr.so.2.3.5
 rosidl_generator_py/mapping_interfaces/mapping_interfaces_s__rosidl_typesupport_fastrtps_c.so: /opt/ros/kilted/lib/libservice_msgs__rosidl_generator_c.so
 rosidl_generator_py/mapping_interfaces/mapping_interfaces_s__rosidl_typesupport_fastrtps_c.so: /opt/ros/kilted/lib/libbuiltin_interfaces__rosidl_generator_c.so
 rosidl_generator_py/mapping_interfaces/mapping_interfaces_s__rosidl_typesupport_fastrtps_c.so: /opt/ros/kilted/lib/librosidl_runtime_c.so

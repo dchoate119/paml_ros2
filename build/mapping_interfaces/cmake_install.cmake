@@ -51,6 +51,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mapping_interfaces/srv" TYPE FILE FILES "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_type_description/mapping_interfaces/srv/ExecuteMappingPlan.json")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/mapping_interfaces/mapping_interfaces" TYPE DIRECTORY FILES "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c/mapping_interfaces/" REGEX "/[^/]*\\.h$")
 endif()
 
@@ -101,7 +105,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmapping_interfaces__rosidl_typesupport_fastrtps_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmapping_interfaces__rosidl_typesupport_fastrtps_c.so"
-         OLD_RPATH "/home/daniel-choate/paml_ros2/build/mapping_interfaces:/opt/ros/kilted/lib:"
+         OLD_RPATH "/home/daniel-choate/paml_ros2/build/mapping_interfaces:/opt/ros/kilted/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmapping_interfaces__rosidl_typesupport_fastrtps_c.so")
@@ -132,7 +136,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmapping_interfaces__rosidl_typesupport_fastrtps_cpp.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmapping_interfaces__rosidl_typesupport_fastrtps_cpp.so"
-         OLD_RPATH "/opt/ros/kilted/lib:/home/daniel-choate/paml_ros2/build/mapping_interfaces:"
+         OLD_RPATH "/opt/ros/kilted/lib:/home/daniel-choate/paml_ros2/build/mapping_interfaces:/opt/ros/kilted/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmapping_interfaces__rosidl_typesupport_fastrtps_cpp.so")
@@ -284,7 +288,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mapping_interfaces/mapping_interfaces_s__rosidl_typesupport_fastrtps_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mapping_interfaces/mapping_interfaces_s__rosidl_typesupport_fastrtps_c.so"
-         OLD_RPATH "/home/daniel-choate/paml_ros2/build/mapping_interfaces:/opt/ros/kilted/lib:"
+         OLD_RPATH "/home/daniel-choate/paml_ros2/build/mapping_interfaces:/opt/ros/kilted/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mapping_interfaces/mapping_interfaces_s__rosidl_typesupport_fastrtps_c.so")
@@ -308,7 +312,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mapping_interfaces/mapping_interfaces_s__rosidl_typesupport_introspection_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mapping_interfaces/mapping_interfaces_s__rosidl_typesupport_introspection_c.so"
-         OLD_RPATH "/home/daniel-choate/paml_ros2/build/mapping_interfaces:/opt/ros/kilted/lib:"
+         OLD_RPATH "/home/daniel-choate/paml_ros2/build/mapping_interfaces:/opt/ros/kilted/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mapping_interfaces/mapping_interfaces_s__rosidl_typesupport_introspection_c.so")
@@ -332,7 +336,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mapping_interfaces/mapping_interfaces_s__rosidl_typesupport_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mapping_interfaces/mapping_interfaces_s__rosidl_typesupport_c.so"
-         OLD_RPATH "/home/daniel-choate/paml_ros2/build/mapping_interfaces:/opt/ros/kilted/lib:"
+         OLD_RPATH "/home/daniel-choate/paml_ros2/build/mapping_interfaces:/opt/ros/kilted/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.12/site-packages/mapping_interfaces/mapping_interfaces_s__rosidl_typesupport_c.so")
@@ -356,7 +360,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmapping_interfaces__rosidl_generator_py.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmapping_interfaces__rosidl_generator_py.so"
-         OLD_RPATH "/home/daniel-choate/paml_ros2/build/mapping_interfaces:/opt/ros/kilted/lib:"
+         OLD_RPATH "/home/daniel-choate/paml_ros2/build/mapping_interfaces:/opt/ros/kilted/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmapping_interfaces__rosidl_generator_py.so")
@@ -367,12 +371,33 @@ endif()
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/daniel-choate/paml_ros2/build/mapping_interfaces/mapping_interfaces__rs/cmake_install.cmake")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rust_packages" TYPE FILE FILES "/home/daniel-choate/paml_ros2/build/mapping_interfaces/ament_cmake_index/share/ament_index/resource_index/rust_packages/mapping_interfaces")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mapping_interfaces" TYPE DIRECTORY FILES "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_rs/mapping_interfaces/rust")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mapping_interfaces/srv" TYPE FILE FILES "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_adapter/mapping_interfaces/srv/GenerateMappingPlan.idl")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mapping_interfaces/srv" TYPE FILE FILES "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_adapter/mapping_interfaces/srv/ExecuteMappingPlan.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mapping_interfaces/srv" TYPE FILE FILES "/home/daniel-choate/paml_ros2/src/mapping_interfaces/srv/GenerateMappingPlan.srv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mapping_interfaces/srv" TYPE FILE FILES "/home/daniel-choate/paml_ros2/src/mapping_interfaces/srv/ExecuteMappingPlan.srv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

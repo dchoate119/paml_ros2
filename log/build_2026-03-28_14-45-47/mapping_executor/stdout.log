@@ -1,0 +1,42 @@
+running egg_info
+creating ../../build/mapping_executor/mapping_executor.egg-info
+writing ../../build/mapping_executor/mapping_executor.egg-info/PKG-INFO
+writing dependency_links to ../../build/mapping_executor/mapping_executor.egg-info/dependency_links.txt
+writing entry points to ../../build/mapping_executor/mapping_executor.egg-info/entry_points.txt
+writing requirements to ../../build/mapping_executor/mapping_executor.egg-info/requires.txt
+writing top-level names to ../../build/mapping_executor/mapping_executor.egg-info/top_level.txt
+writing manifest file '../../build/mapping_executor/mapping_executor.egg-info/SOURCES.txt'
+reading manifest file '../../build/mapping_executor/mapping_executor.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/mapping_executor/mapping_executor.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/daniel-choate/paml_ros2/build/mapping_executor/build
+creating /home/daniel-choate/paml_ros2/build/mapping_executor/build/lib
+creating /home/daniel-choate/paml_ros2/build/mapping_executor/build/lib/mapping_executor
+copying mapping_executor/executor_node.py -> /home/daniel-choate/paml_ros2/build/mapping_executor/build/lib/mapping_executor
+copying mapping_executor/__init__.py -> /home/daniel-choate/paml_ros2/build/mapping_executor/build/lib/mapping_executor
+copying mapping_executor/mapping_client.py -> /home/daniel-choate/paml_ros2/build/mapping_executor/build/lib/mapping_executor
+copying mapping_executor/py.typed -> /home/daniel-choate/paml_ros2/build/mapping_executor/build/lib/mapping_executor
+running install
+running install_lib
+creating /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor
+copying /home/daniel-choate/paml_ros2/build/mapping_executor/build/lib/mapping_executor/executor_node.py -> /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor
+copying /home/daniel-choate/paml_ros2/build/mapping_executor/build/lib/mapping_executor/__init__.py -> /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor
+copying /home/daniel-choate/paml_ros2/build/mapping_executor/build/lib/mapping_executor/mapping_client.py -> /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor
+copying /home/daniel-choate/paml_ros2/build/mapping_executor/build/lib/mapping_executor/py.typed -> /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor
+byte-compiling /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor/executor_node.py to executor_node.cpython-312.pyc
+byte-compiling /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor/mapping_client.py to mapping_client.cpython-312.pyc
+running install_data
+creating /home/daniel-choate/paml_ros2/install/mapping_executor/share/ament_index
+creating /home/daniel-choate/paml_ros2/install/mapping_executor/share/ament_index/resource_index
+creating /home/daniel-choate/paml_ros2/install/mapping_executor/share/ament_index/resource_index/packages
+copying resource/mapping_executor -> /home/daniel-choate/paml_ros2/install/mapping_executor/share/ament_index/resource_index/packages
+copying package.xml -> /home/daniel-choate/paml_ros2/install/mapping_executor/share/mapping_executor
+running install_egg_info
+Copying ../../build/mapping_executor/mapping_executor.egg-info to /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor-0.0.0-py3.12.egg-info
+running install_scripts
+Installing mapping_client script to /home/daniel-choate/paml_ros2/install/mapping_executor/lib/mapping_executor
+Installing mapping_executor script to /home/daniel-choate/paml_ros2/install/mapping_executor/lib/mapping_executor
+writing list of installed files to '/home/daniel-choate/paml_ros2/build/mapping_executor/install.log'

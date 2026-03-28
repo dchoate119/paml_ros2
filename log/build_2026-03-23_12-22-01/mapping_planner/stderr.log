@@ -1,5 +1,0 @@
-  File "/home/daniel-choate/paml_ros2/install/mapping_planner/lib/python3.12/site-packages/mapping_planner/planner_node.py", line 92
-    		with rclpy.init(args=args)
-    		                          ^
-SyntaxError: expected ':'
-

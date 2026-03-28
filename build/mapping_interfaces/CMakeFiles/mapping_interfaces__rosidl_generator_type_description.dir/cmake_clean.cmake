@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mapping_interfaces__rosidl_generator_type_description"
+  "rosidl_generator_type_description/mapping_interfaces/srv/ExecuteMappingPlan.json"
   "rosidl_generator_type_description/mapping_interfaces/srv/GenerateMappingPlan.json"
 )
 

@@ -14,6 +14,7 @@ find_package(rosidl_default_generators REQUIRED)
 # service generation
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GenerateMappingPlan.srv"
+  "srv/ExecuteMappingPlan.srv"
   DEPENDENCIES geometry_msgs std_msgs
 )
 

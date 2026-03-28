@@ -4,5 +4,3 @@ mapping_interfaces.egg-info/PKG-INFO
 mapping_interfaces.egg-info/SOURCES.txt
 mapping_interfaces.egg-info/dependency_links.txt
 mapping_interfaces.egg-info/top_level.txt
-mapping_interfaces/srv/__init__.py
-mapping_interfaces/srv/_generate_mapping_plan.py
