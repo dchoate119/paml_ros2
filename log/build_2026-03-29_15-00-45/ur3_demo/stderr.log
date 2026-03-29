@@ -1,0 +1,20 @@
+[0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):
+  ament_target_dependencies() is deprecated.  Use target_link_libraries()
+  with modern CMake targets instead.  Try replacing this call with:
+
+    target_link_libraries(move_demo PUBLIC
+      moveit_ros_planning_interface::moveit_common_planning_interface_objects
+      moveit_ros_planning_interface::moveit_move_group_interface
+      moveit_ros_planning_interface::moveit_planning_scene_interface
+      rclcpp::rclcpp
+    )
+
+Call Stack (most recent call first):
+  CMakeLists.txt:15 (ament_target_dependencies)
+
+[0m
+In file included from [01m[K/home/daniel-choate/paml_ros2/src/ur3_demo/src/move_demo.cpp:2[m[K:
+[01m[K/home/daniel-choate/ws_moveit/install/moveit_ros_planning_interface/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                       [01;36m[K^[m[K
+

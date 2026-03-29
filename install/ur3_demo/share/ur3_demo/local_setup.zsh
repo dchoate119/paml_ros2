@@ -1,0 +1,1 @@
+/home/daniel-choate/paml_ros2/build/ur3_demo/ament_cmake_environment_hooks/local_setup.zsh

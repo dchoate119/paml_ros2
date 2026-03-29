@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/daniel-choate/paml_ros2/src/ur3_demo" FILES "/opt/ros/kilted/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ur3_demo/environment")

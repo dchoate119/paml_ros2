@@ -28,8 +28,8 @@ Initial Implementation: 30243fc
 TODO List 
 - [ ] Package setup for phase 1
 	- [x] mapping_planner
-	- [ ] mapping_executor
-	- [ ] MoveIt
+	- [x] mapping_executor
+	- [x] MoveIt
 	- [ ] ur3_driver
 	- [ ] robot_state_publisher 
 	- [ ] static_tf_publisher 
@@ -49,8 +49,10 @@ TODO List
 	- [ ] optimize for smooth execution 
 - [ ] mapping_executor
 	- [x] basic setup for trajectory execution 
-	- [ ] mapping_client setup for specific scene 
+	- [x] mapping_client setup for specific scene 
 - [ ] MoveIt
+	- [x] basic demo for moving UR3 
+	- [x] visualize in rviz
 - [ ] ur3_driver
 - [ ] robot_state_publisher 
 - [ ] static_tf_publisher 
