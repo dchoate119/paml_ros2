@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/daniel-choate/paml_ros2/src/ur3_demo" FILES "/home/daniel-choate/paml_ros2/build/ur3_demo/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ur3_demo/environment")

@@ -2,11 +2,13 @@ import rclpy
 from rclpy.node import Node
 import numpy as np 
 import time
+from rclpy.executors import ExternalShutdownException, MultiThreadedExecutor
 
-from geometry_msgs.msg import Pose, PoseArray
+from geometry_msgs.msg import Pose, PoseArray, PoseStamped
 from mapping_interfaces.srv import ExecuteMappingPlan
 
-# from tf_transformations import quaternion_from_euler
+from rclpy.action import ActionClient
+from moveit_msgs.action import MoveGroup
 
 
 class MappingExecutor(Node):
@@ -21,6 +23,10 @@ class MappingExecutor(Node):
 		)
 
 		self.get_logger().info('Mapping Executor ready!')
+
+		self.move_group_client = ActionClient(self, MoveGroup, '/move_action')
+
+		self.move_group_client.wait_for_server()
 
 	def execute_callback(self, request, response):
 		"""
@@ -41,11 +47,21 @@ class MappingExecutor(Node):
 		for i, pose in enumerate(poses):
 
 			# Simulate robot motion 
-			self.move_robot(pose,i)
-			time.sleep(1.0)
+			success = self.move_robot(pose,i)
 
-			# Simulate capture
-			self.capture_data(i)
+			# handle loop failure
+			if not success:
+				response.success = False
+				response.message = f"Failed at pose {i}"
+				response.completed_count = i
+				response.failed_index = i
+				return response
+
+			# time.sleep(1.0) # Remove later - accounted for in move function wait=True
+
+			if capture:
+				# Simulate capture
+				self.capture_data(i)
 
 		# Success
 		response.success = True
@@ -63,9 +79,116 @@ class MappingExecutor(Node):
 	def move_robot(self, pose,i):
 		"""
 		Will use moveit to move robot
-		Simulating movement for now
+		Input: pose, i (pose index)
+		Output: physical (or simualted) robot movement
 		"""
-		self.get_logger().info(f"[{i}] robot moving to pose {pose}")
+		self.get_logger().info(f"[{i}] Robot moving to pose")
+
+		# # Wait for moveit action server 
+		# if not self.move_group_client.wait_for_server(timeout_sec=5.0):
+		# 	self.get_logger().error("MoveIt action server not available")
+		# 	return False
+
+		# Create goal messgae
+		goal_msg = MoveGroup.Goal()
+
+		# goal setup
+		goal_msg.request.group_name = "ur_manipulator"
+
+		# Convert pose 
+		pose_stamped = PoseStamped()
+		pose_stamped.header.frame_id = "base_link"
+		pose_stamped.pose = pose 
+
+		# goal constraints
+
+		# ADD CONSTRAINTS ****
+		from moveit_msgs.msg import Constraints, PositionConstraint, OrientationConstraint
+		from shape_msgs.msg import SolidPrimitive
+
+		constraints = Constraints()
+
+		# Position constraint 
+		pos_constraint = PositionConstraint()
+		pos_constraint.header.frame_id = "base_link"
+		pos_constraint.link_name = "tool0"   # end effector (UR3)
+
+		# Define small box around target
+		box = SolidPrimitive()
+		box.type = SolidPrimitive.BOX
+		box.dimensions = [0.01, 0.01, 0.01]
+
+		pos_constraint.constraint_region.primitives.append(box)
+		pos_constraint.constraint_region.primitive_poses.append(pose_stamped.pose)
+
+		pos_constraint.weight = 1.0
+
+
+		# # Orientation constraint 
+		# ori_constraint = OrientationConstraint()
+		# ori_constraint.header.frame_id = "base_link"
+		# ori_constraint.link_name = "tool0"
+
+		# # ori_constraint.orientation = pose_stamped.pose.orientation
+		# ori_constraint.orientation.x = pose_stamped.pose.orientation.x
+		# ori_constraint.orientation.y = pose_stamped.pose.orientation.y
+		# ori_constraint.orientation.z = pose_stamped.pose.orientation.z
+		# ori_constraint.orientation.w = pose_stamped.pose.orientation.w
+
+		# ori_constraint.absolute_x_axis_tolerance = 0.01
+		# ori_constraint.absolute_y_axis_tolerance = 0.01
+		# ori_constraint.absolute_z_axis_tolerance = 0.01
+
+		# ori_constraint.weight = 1.0
+
+
+		# ADD TO GOAL
+		constraints.position_constraints.append(pos_constraint)
+		# constraints.orientation_constraints.append(ori_constraint)
+
+		goal_msg.request.goal_constraints.append(constraints)
+
+
+		# *******
+
+
+		# send goal
+		self.get_logger().info(f"[{i}] Sending MoveIt goal...") # DEBUG
+		send_goal_future = self.move_group_client.send_goal_async(goal_msg)
+		self.get_logger().info(f"[{i}] Waiting for goal response...") # DEBUG
+		rclpy.spin_until_future_complete(self, send_goal_future)
+		self.get_logger().info(f"[{i}] Goal response future completed")
+		goal_handle = send_goal_future.result()
+
+		if goal_handle is None:
+			self.get_logger().error(f"[{i}] Goal handle is None")
+			return False
+
+
+		if not goal_handle.accepted:
+			self.get_logger().error(f"[{i}] Goal rejected")
+			return False
+
+		self.get_logger().info(f"[{i}] Goal accepted")
+
+
+		# Wait for result
+		result_future = goal_handle.get_result_async()
+		self.get_logger().info(f"[{i}] Waiting for action result...")
+		# while not result_future.done():
+    	# 	time.sleep(0.01)
+		rclpy.spin_until_future_complete(self, result_future)
+
+		self.get_logger().info(f"[{i}] Result future completed")
+		result = result_future.result()
+
+		if result is None:
+			self.get_logger().error(f"[{i}] No result returned")
+			return False
+
+
+		self.get_logger().info(f"[{i}] Motion complete")
+		return True
 
 
 	def capture_data(self,i):
@@ -78,14 +201,23 @@ class MappingExecutor(Node):
 
 
 def main(args=None):
-	try: 
-		with rclpy.init(args=args):
-			me = MappingExecutor()
+	rclpy.init(args=args)
 
-			rclpy.spin(me)
+	me = MappingExecutor()
+
+	executor = MultiThreadedExecutor()
+	executor.add_node(me)
+
+	try:
+		executor.spin()
 
 	except (KeyboardInterrupt, ExternalShutdownException):
 		pass
+
+	finally:
+		me.destroy_node()
+		rclpy.shutdown()
+
 
 if __name__ == "__main__":
 	main()

@@ -1,3 +1,4 @@
 [console_scripts]
 mapping_client = mapping_executor.mapping_client:main
 mapping_executor = mapping_executor.executor_node:main
+test_moveit = mapping_executor.test_moveit_node:main

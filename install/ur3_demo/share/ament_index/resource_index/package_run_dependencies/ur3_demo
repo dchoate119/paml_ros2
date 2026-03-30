@@ -1,1 +1,1 @@
-/home/daniel-choate/paml_ros2/build/ur3_demo/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ur3_demo
+rclcpp;moveit_ros_planning_interface;ament_lint_auto;ament_lint_common

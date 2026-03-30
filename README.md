@@ -54,6 +54,8 @@ TODO List
 	- [x] basic demo for moving UR3 
 	- [x] visualize in rviz
 - [ ] ur3_driver
+	- [x] basic implementation for UR3 movement
+	- [ ] link mapping client to moveit to execute trajectory
 - [ ] robot_state_publisher 
 - [ ] static_tf_publisher 
 - [ ] realsense_driver 
