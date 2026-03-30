@@ -11,11 +11,11 @@ During the reference map generation phase, the UR3 arm will execute a trajectory
 
 During the localization phase, a turtlebot wil execute a trajectory plan to travel across the previously mapped environment. At each timestep, a comparison to the reference map, using an ICP-style algorithm, will provide a global map state estimate to be used by Nav2 for velocity control.
 
-# Commit ID
-Initial Implementation: 30243fc
-Added mapping client: f64cc83
-Implementing moveit for ur3 - demo example: 4b71fc8 
-Initial moveit implementation, still working through full trajectory: 6750ae8
+# Relevant Commit IDs
+- Initial Implementation: 30243fc
+- Added mapping client: f64cc83
+- Implementing moveit for ur3 - demo example: 4b71fc8 
+- Initial moveit implementation, still working through full trajectory: 6750ae8
 
 
 
@@ -28,7 +28,7 @@ Initial moveit implementation, still working through full trajectory: 6750ae8
 
 ##### Progress
 
-![MoveIt Demo](moveit_demo.gif)
+![MoveIt Demo](msc/moveit_demo.gif)
 
 
 TODO List 
