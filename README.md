@@ -13,6 +13,10 @@ During the localization phase, a turtlebot wil execute a trajectory plan to trav
 
 # Commit ID
 Initial Implementation: 30243fc
+Added mapping client: f64cc83
+Implementing moveit for ur3 - demo example: 4b71fc8 
+Initial moveit implementation, still working through full trajectory: 6750ae8
+
 
 
 #### Plan for external tools 
@@ -23,6 +27,8 @@ Initial Implementation: 30243fc
 
 
 ##### Progress
+
+![MoveIt Demo](moveit_demo.gif)
 
 
 TODO List 
