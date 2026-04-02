@@ -1,0 +1,3 @@
+[console_scripts]
+ur3_move_eff = ur3_movement.move_end_eff:main
+ur3_movement_demo = ur3_movement.test_node:main

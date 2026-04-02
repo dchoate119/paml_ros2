@@ -1,0 +1,26 @@
+[0.743s] Invoking command in '/home/daniel-choate/paml_ros2/src/ur3_movement': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel-choate/paml_ros2/build/ur3_movement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel-choate/paml_ros2/install/ur3_movement/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ur3_movement build --build-base /home/daniel-choate/paml_ros2/build/ur3_movement/build install --record /home/daniel-choate/paml_ros2/build/ur3_movement/install.log --single-version-externally-managed install_data
+[0.963s] running egg_info
+[0.980s] writing ../../build/ur3_movement/ur3_movement.egg-info/PKG-INFO
+[0.981s] writing dependency_links to ../../build/ur3_movement/ur3_movement.egg-info/dependency_links.txt
+[0.981s] writing entry points to ../../build/ur3_movement/ur3_movement.egg-info/entry_points.txt
+[0.981s] writing requirements to ../../build/ur3_movement/ur3_movement.egg-info/requires.txt
+[0.981s] writing top-level names to ../../build/ur3_movement/ur3_movement.egg-info/top_level.txt
+[1.016s] reading manifest file '../../build/ur3_movement/ur3_movement.egg-info/SOURCES.txt'
+[1.016s] adding license file 'LICENSE'
+[1.017s] writing manifest file '../../build/ur3_movement/ur3_movement.egg-info/SOURCES.txt'
+[1.017s] running build
+[1.017s] running build_py
+[1.017s] copying ur3_movement/move_end_eff.py -> /home/daniel-choate/paml_ros2/build/ur3_movement/build/lib/ur3_movement
+[1.017s] running install
+[1.022s] running install_lib
+[1.039s] copying /home/daniel-choate/paml_ros2/build/ur3_movement/build/lib/ur3_movement/move_end_eff.py -> /home/daniel-choate/paml_ros2/install/ur3_movement/lib/python3.12/site-packages/ur3_movement
+[1.039s] byte-compiling /home/daniel-choate/paml_ros2/install/ur3_movement/lib/python3.12/site-packages/ur3_movement/move_end_eff.py to move_end_eff.cpython-312.pyc
+[1.040s] running install_data
+[1.040s] running install_egg_info
+[1.059s] removing '/home/daniel-choate/paml_ros2/install/ur3_movement/lib/python3.12/site-packages/ur3_movement-0.0.0-py3.12.egg-info' (and everything under it)
+[1.059s] Copying ../../build/ur3_movement/ur3_movement.egg-info to /home/daniel-choate/paml_ros2/install/ur3_movement/lib/python3.12/site-packages/ur3_movement-0.0.0-py3.12.egg-info
+[1.059s] running install_scripts
+[1.168s] Installing ur3_move_eff script to /home/daniel-choate/paml_ros2/install/ur3_movement/lib/ur3_movement
+[1.168s] Installing ur3_movement_demo script to /home/daniel-choate/paml_ros2/install/ur3_movement/lib/ur3_movement
+[1.169s] writing list of installed files to '/home/daniel-choate/paml_ros2/build/ur3_movement/install.log'
+[1.187s] Invoked command in '/home/daniel-choate/paml_ros2/src/ur3_movement' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel-choate/paml_ros2/build/ur3_movement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel-choate/paml_ros2/install/ur3_movement/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ur3_movement build --build-base /home/daniel-choate/paml_ros2/build/ur3_movement/build install --record /home/daniel-choate/paml_ros2/build/ur3_movement/install.log --single-version-externally-managed install_data

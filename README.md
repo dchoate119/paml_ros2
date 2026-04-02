@@ -16,6 +16,7 @@ During the localization phase, a turtlebot wil execute a trajectory plan to trav
 - Added mapping client: f64cc83
 - Implementing moveit for ur3 - demo example: 4b71fc8 
 - Initial moveit implementation, still working through full trajectory: 6750ae8
+- Updated moveit implementation, have control nodes for joint angles and end effector: TODO ADD ID 
 
 
 
@@ -28,7 +29,7 @@ During the localization phase, a turtlebot wil execute a trajectory plan to trav
 
 ##### Progress
 
-![MoveIt Demo](msc/moveit_demo.gif)
+![MoveIt Demo](msc/movement_sim_test.gif)
 
 
 TODO List 
@@ -36,7 +37,7 @@ TODO List
 	- [x] mapping_planner
 	- [x] mapping_executor
 	- [x] MoveIt
-	- [ ] ur3_driver
+	- [x] ur3_driver
 	- [ ] robot_state_publisher 
 	- [ ] static_tf_publisher 
 	- [ ] realsense_driver 
@@ -61,7 +62,7 @@ TODO List
 	- [x] visualize in rviz
 - [ ] ur3_driver
 	- [x] basic implementation for UR3 movement
-	- [ ] link mapping client to moveit to execute trajectory
+	- [ ] link mapping client to moveit to execute trajectory (NEXT)
 - [ ] robot_state_publisher 
 - [ ] static_tf_publisher 
 - [ ] realsense_driver 
