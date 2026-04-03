@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/rgbd_capture/rgbd_capture.egg-info
+writing ../../build/rgbd_capture/rgbd_capture.egg-info/PKG-INFO
+writing dependency_links to ../../build/rgbd_capture/rgbd_capture.egg-info/dependency_links.txt
+writing entry points to ../../build/rgbd_capture/rgbd_capture.egg-info/entry_points.txt
+writing requirements to ../../build/rgbd_capture/rgbd_capture.egg-info/requires.txt
+writing top-level names to ../../build/rgbd_capture/rgbd_capture.egg-info/top_level.txt
+writing manifest file '../../build/rgbd_capture/rgbd_capture.egg-info/SOURCES.txt'
+reading manifest file '../../build/rgbd_capture/rgbd_capture.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/rgbd_capture/rgbd_capture.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/daniel-choate/paml_ros2/build/rgbd_capture/build
+creating /home/daniel-choate/paml_ros2/build/rgbd_capture/build/lib
+creating /home/daniel-choate/paml_ros2/build/rgbd_capture/build/lib/rgbd_capture
+copying rgbd_capture/__init__.py -> /home/daniel-choate/paml_ros2/build/rgbd_capture/build/lib/rgbd_capture
+copying rgbd_capture/capture_node_test.py -> /home/daniel-choate/paml_ros2/build/rgbd_capture/build/lib/rgbd_capture
+copying rgbd_capture/py.typed -> /home/daniel-choate/paml_ros2/build/rgbd_capture/build/lib/rgbd_capture
+running install
+running install_lib
+creating /home/daniel-choate/paml_ros2/install/rgbd_capture/lib/python3.12/site-packages/rgbd_capture
+copying /home/daniel-choate/paml_ros2/build/rgbd_capture/build/lib/rgbd_capture/__init__.py -> /home/daniel-choate/paml_ros2/install/rgbd_capture/lib/python3.12/site-packages/rgbd_capture
+copying /home/daniel-choate/paml_ros2/build/rgbd_capture/build/lib/rgbd_capture/py.typed -> /home/daniel-choate/paml_ros2/install/rgbd_capture/lib/python3.12/site-packages/rgbd_capture
+copying /home/daniel-choate/paml_ros2/build/rgbd_capture/build/lib/rgbd_capture/capture_node_test.py -> /home/daniel-choate/paml_ros2/install/rgbd_capture/lib/python3.12/site-packages/rgbd_capture
+byte-compiling /home/daniel-choate/paml_ros2/install/rgbd_capture/lib/python3.12/site-packages/rgbd_capture/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/daniel-choate/paml_ros2/install/rgbd_capture/lib/python3.12/site-packages/rgbd_capture/capture_node_test.py to capture_node_test.cpython-312.pyc
+running install_data
+creating /home/daniel-choate/paml_ros2/install/rgbd_capture/share/ament_index
+creating /home/daniel-choate/paml_ros2/install/rgbd_capture/share/ament_index/resource_index
+creating /home/daniel-choate/paml_ros2/install/rgbd_capture/share/ament_index/resource_index/packages
+copying resource/rgbd_capture -> /home/daniel-choate/paml_ros2/install/rgbd_capture/share/ament_index/resource_index/packages
+copying package.xml -> /home/daniel-choate/paml_ros2/install/rgbd_capture/share/rgbd_capture
+running install_egg_info
+Copying ../../build/rgbd_capture/rgbd_capture.egg-info to /home/daniel-choate/paml_ros2/install/rgbd_capture/lib/python3.12/site-packages/rgbd_capture-0.0.0-py3.12.egg-info
+running install_scripts
+Installing rgbd_capture_node script to /home/daniel-choate/paml_ros2/install/rgbd_capture/lib/rgbd_capture
+writing list of installed files to '/home/daniel-choate/paml_ros2/build/rgbd_capture/install.log'

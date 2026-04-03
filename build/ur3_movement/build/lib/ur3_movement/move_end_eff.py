@@ -135,31 +135,6 @@ class RobotMover(Node):
 
 
 
-        # request.workspace_parameters.header.frame_id = "base_link"
-        # request.workspace_parameters.min_corner = Vector3(x=-1.0, y=-1.0, z=-1.0)
-        # request.workspace_parameters.max_corner = Vector3(x= 1.0, y= 1.0, z= 1.0)
-
-        # # Add constraints
-        # constraints = Constraints()
-        # for name_j, angle in zip(JOINT_NAMES, joint_angles):
-        #     jc = JointConstraint()
-        #     jc.joint_name = name_j
-        #     jc.position = angle
-        #     jc.tolerance_below = 0.01 # Potentially adjust, might be tight 
-        #     jc.tolerance_above = 0.01 # ^^same
-        #     jc.weight = 1.0
-        #     constraints.joint_constraints.append(jc)
-
-        # request.goal_constraints.append(constraints)
-
-        # goal.planning_options.replan = True
-        # goal.planning_options.replan_attempts = 5
-        # goal.planning_options.planning_scene_diff.is_diff = True 
-
-
-
-
-
 def main():
     rclpy.init()
     robot = RobotMover()

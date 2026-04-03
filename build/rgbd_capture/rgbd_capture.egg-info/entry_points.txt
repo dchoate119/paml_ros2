@@ -1,0 +1,2 @@
+[console_scripts]
+rgbd_capture_node = rgbd_capture.capture_node_test:main
