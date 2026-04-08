@@ -17,8 +17,8 @@ During the localization phase, a turtlebot wil execute a trajectory plan to trav
 - Implementing moveit for ur3 - demo example: 4b71fc8 
 - Initial moveit implementation, still working through full trajectory: 6750ae8
 - Updated moveit implementation, have control nodes for joint angles and end effector: b5a131a  
-- Initial perception implementation - RGBD from intel Realsense d435i: TODO ADD ID
-- Linked mapping client to moveit to execute custom trajectory: TODO ADD ID
+- Initial perception implementation - RGBD from intel Realsense d435i: 5dccdae
+- Linked mapping client to moveit to execute custom trajectory: 52020e5
 
 
 
@@ -64,7 +64,7 @@ TODO List
 	- [x] visualize in rviz
 - [ ] ur3_driver
 	- [x] basic implementation for UR3 movement
-	- [ ] link mapping client to moveit to execute trajectory (NEXT)
+	- [x] link mapping client to moveit to execute trajectory 
 - [ ] robot_state_publisher 
 - [ ] static_tf_publisher 
 - [x] realsense_driver 
