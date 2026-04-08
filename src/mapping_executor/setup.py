@@ -28,6 +28,7 @@ setup(
         'mapping_executor = mapping_executor.executor_node:main',
         'mapping_client = mapping_executor.mapping_client:main',
         'test_moveit = mapping_executor.test_moveit_node:main',
+        'ur3_executor = mapping_executor.ur3_executor:main',
         ],
     },
 )

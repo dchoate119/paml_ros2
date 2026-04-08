@@ -14,6 +14,7 @@ mapping_executor/executor_node.py
 mapping_executor/mapping_client.py
 mapping_executor/py.typed
 mapping_executor/test_moveit_node.py
+mapping_executor/ur3_executor.py
 resource/mapping_executor
 test/test_copyright.py
 test/test_flake8.py

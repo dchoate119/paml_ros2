@@ -99,8 +99,8 @@ class RGBDCapture(Node):
 		except Exception as e:
 			self.get_logger().error(f"Capture failed: {e}")
 
-		self.latest_rgb = None
-		self.latest_depth = None
+		self.latest_rgb = None # ADDED FOR BASIC TEST
+		self.latest_depth = None # ADDED FOR BASIC TEST
 
 
 # def main(args=None):

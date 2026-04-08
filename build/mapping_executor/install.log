@@ -1,10 +1,12 @@
 /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor/executor_node.py
 /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor/__init__.py
+/home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor/ur3_executor.py
 /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor/mapping_client.py
 /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor/test_moveit_node.py
 /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor/py.typed
 /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor/__pycache__/executor_node.cpython-312.pyc
 /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor/__pycache__/__init__.cpython-312.pyc
+/home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor/__pycache__/ur3_executor.cpython-312.pyc
 /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor/__pycache__/mapping_client.cpython-312.pyc
 /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor/__pycache__/test_moveit_node.cpython-312.pyc
 /home/daniel-choate/paml_ros2/install/mapping_executor/share/ament_index/resource_index/packages/mapping_executor
@@ -19,3 +21,4 @@
 /home/daniel-choate/paml_ros2/install/mapping_executor/lib/mapping_executor/mapping_client
 /home/daniel-choate/paml_ros2/install/mapping_executor/lib/mapping_executor/mapping_executor
 /home/daniel-choate/paml_ros2/install/mapping_executor/lib/mapping_executor/test_moveit
+/home/daniel-choate/paml_ros2/install/mapping_executor/lib/mapping_executor/ur3_executor

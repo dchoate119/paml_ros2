@@ -16,7 +16,7 @@ class MappingPlanner(Node):
 	Class for mapping planner 
 	Current objective: simple scene division into n sections
 	Cover each section with a scan, return poses in a service 
-	Poses are in CAMERA frame (not end effector)
+	Poses are in BASE_LINK frame (not end effector)
 	"""
 
 	def __init__(self):
@@ -80,7 +80,8 @@ class MappingPlanner(Node):
 
 		# Create array of poses 
 		pose_array = PoseArray()
-		pose_array.header.frame_id = request.planning_frame
+		# pose_array.header.frame_id = request.planning_frame
+		pose_array.header.frame_id = "base_link"
 		pose_array.header.stamp = self.get_clock().now().to_msg()
 		pose_array.poses = poses
 

@@ -3,6 +3,7 @@ from rclpy.node import Node
 
 from mapping_interfaces.srv import GenerateMappingPlan
 from mapping_interfaces.srv import ExecuteMappingPlan
+from rclpy.executors import ExternalShutdownException
 
 
 
@@ -26,7 +27,7 @@ class MappingClient(Node):
 		# CALL PLANNER
 		plan_req = GenerateMappingPlan.Request()
 		# Mock parameters for the environment
-		plan_req.planning_frame = "world"
+		plan_req.planning_frame = "base_link"
 		plan_req.radius = 0.5
 		plan_req.start_angle_deg = 0.0
 		plan_req.end_angle_deg = 180.0
@@ -40,8 +41,9 @@ class MappingClient(Node):
 		plan_res = future.result()
 
 		# If not successful 
-		if not plan_res.success:
-			self.get_logger().error(plan_res.message)
+		# if not plan_res.success:
+		if plan_res is None:
+			self.get_logger().error("Planner service call failed")
 			return
 
 		self.get_logger().info('Planning success!')
@@ -60,6 +62,7 @@ class MappingClient(Node):
 
 		# If not successful
 		if exec_res.success:
+		# if exec_res is None:
 			self.get_logger().info(
 				f"Execution done: {exec_res.completed_count} poses")
 

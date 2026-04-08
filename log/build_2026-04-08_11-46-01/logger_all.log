@@ -1,0 +1,449 @@
+[0.140s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.140s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7eb43c4ed700>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7eb43c41a000>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7eb43c41a000>>, mixin_verb=('build',))
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.185s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/daniel-choate/paml_ros2'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['cmake', 'python']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'cmake'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'python'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['python_setup_py']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'python_setup_py'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(msc) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(msc) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(msc) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(msc) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(msc) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(msc) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(msc) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(msc) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(msc) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(msc) by extensions ['cmake', 'python']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(msc) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(msc) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(msc) by extensions ['python_setup_py']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(msc) by extension 'python_setup_py'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_executor) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_executor) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_executor) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_executor) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_executor) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_executor) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_executor) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_executor) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_executor) by extension 'ros'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mapping_executor' with type 'ros.ament_python' and name 'mapping_executor'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_interfaces) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_interfaces) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_interfaces) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_interfaces) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_interfaces) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_interfaces) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_interfaces) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_interfaces) by extension 'ros'
+[0.223s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mapping_interfaces' with type 'ros.ament_cmake' and name 'mapping_interfaces'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_planner) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_planner) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_planner) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_planner) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_planner) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_planner) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_planner) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapping_planner) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mapping_planner' with type 'ros.ament_python' and name 'mapping_planner'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgbd_capture) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgbd_capture) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgbd_capture) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgbd_capture) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgbd_capture) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgbd_capture) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgbd_capture) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgbd_capture) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/rgbd_capture) by extension 'ros'
+[0.225s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rgbd_capture' with type 'ros.ament_python' and name 'rgbd_capture'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3_demo) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3_demo) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3_demo) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3_demo) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3_demo) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3_demo) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3_demo) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3_demo) by extension 'ros'
+[0.226s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur3_demo' with type 'ros.ament_cmake' and name 'ur3_demo'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3_movement) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3_movement) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3_movement) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3_movement) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3_movement) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3_movement) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3_movement) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3_movement) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur3_movement) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur3_movement' with type 'ros.ament_python' and name 'ur3_movement'
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.252s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/daniel-choate/paml_ros2/install
+[0.254s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 457 installed packages in /opt/ros/kilted
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'mapping_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'mapping_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'mapping_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'mapping_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'mapping_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'mapping_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'mapping_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'mapping_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'mapping_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.317s] DEBUG:colcon.colcon_core.verb:Building package 'mapping_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/daniel-choate/paml_ros2/build/mapping_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/daniel-choate/paml_ros2/install/mapping_interfaces', 'merge_install': False, 'path': '/home/daniel-choate/paml_ros2/src/mapping_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'rgbd_capture' build argument 'cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'rgbd_capture' build argument 'cmake_target' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'rgbd_capture' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'rgbd_capture' build argument 'cmake_clean_cache' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'rgbd_capture' build argument 'cmake_clean_first' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'rgbd_capture' build argument 'cmake_force_configure' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'rgbd_capture' build argument 'ament_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'rgbd_capture' build argument 'catkin_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'rgbd_capture' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.318s] DEBUG:colcon.colcon_core.verb:Building package 'rgbd_capture' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/daniel-choate/paml_ros2/build/rgbd_capture', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/daniel-choate/paml_ros2/install/rgbd_capture', 'merge_install': False, 'path': '/home/daniel-choate/paml_ros2/src/rgbd_capture', 'symlink_install': False, 'test_result_base': None}
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'ur3_demo' build argument 'cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'ur3_demo' build argument 'cmake_target' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'ur3_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'ur3_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'ur3_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'ur3_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'ur3_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'ur3_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'ur3_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.318s] DEBUG:colcon.colcon_core.verb:Building package 'ur3_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/daniel-choate/paml_ros2/build/ur3_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/daniel-choate/paml_ros2/install/ur3_demo', 'merge_install': False, 'path': '/home/daniel-choate/paml_ros2/src/ur3_demo', 'symlink_install': False, 'test_result_base': None}
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'ur3_movement' build argument 'cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'ur3_movement' build argument 'cmake_target' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'ur3_movement' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'ur3_movement' build argument 'cmake_clean_cache' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'ur3_movement' build argument 'cmake_clean_first' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'ur3_movement' build argument 'cmake_force_configure' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'ur3_movement' build argument 'ament_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'ur3_movement' build argument 'catkin_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'ur3_movement' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.319s] DEBUG:colcon.colcon_core.verb:Building package 'ur3_movement' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/daniel-choate/paml_ros2/build/ur3_movement', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/daniel-choate/paml_ros2/install/ur3_movement', 'merge_install': False, 'path': '/home/daniel-choate/paml_ros2/src/ur3_movement', 'symlink_install': False, 'test_result_base': None}
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'mapping_executor' build argument 'cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'mapping_executor' build argument 'cmake_target' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'mapping_executor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'mapping_executor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'mapping_executor' build argument 'cmake_clean_first' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'mapping_executor' build argument 'cmake_force_configure' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'mapping_executor' build argument 'ament_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'mapping_executor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'mapping_executor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.319s] DEBUG:colcon.colcon_core.verb:Building package 'mapping_executor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/daniel-choate/paml_ros2/build/mapping_executor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/daniel-choate/paml_ros2/install/mapping_executor', 'merge_install': False, 'path': '/home/daniel-choate/paml_ros2/src/mapping_executor', 'symlink_install': False, 'test_result_base': None}
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'mapping_planner' build argument 'cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'mapping_planner' build argument 'cmake_target' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'mapping_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'mapping_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'mapping_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'mapping_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'mapping_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'mapping_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'mapping_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.319s] DEBUG:colcon.colcon_core.verb:Building package 'mapping_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/daniel-choate/paml_ros2/build/mapping_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/daniel-choate/paml_ros2/install/mapping_planner', 'merge_install': False, 'path': '/home/daniel-choate/paml_ros2/src/mapping_planner', 'symlink_install': False, 'test_result_base': None}
+[0.320s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.321s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.321s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/daniel-choate/paml_ros2/src/mapping_interfaces' with build type 'ament_cmake'
+[0.321s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/daniel-choate/paml_ros2/src/mapping_interfaces'
+[0.323s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.324s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.324s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.328s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/daniel-choate/paml_ros2/src/rgbd_capture' with build type 'ament_python'
+[0.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('rgbd_capture', 'ament_prefix_path')
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/rgbd_capture/share/rgbd_capture/hook/ament_prefix_path.ps1'
+[0.329s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel-choate/paml_ros2/install/rgbd_capture/share/rgbd_capture/hook/ament_prefix_path.dsv'
+[0.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/rgbd_capture/share/rgbd_capture/hook/ament_prefix_path.sh'
+[0.330s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.330s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.334s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/daniel-choate/paml_ros2/src/ur3_demo' with build type 'ament_cmake'
+[0.334s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/daniel-choate/paml_ros2/src/ur3_demo'
+[0.334s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.334s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.340s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/daniel-choate/paml_ros2/src/ur3_movement' with build type 'ament_python'
+[0.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur3_movement', 'ament_prefix_path')
+[0.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/ur3_movement/share/ur3_movement/hook/ament_prefix_path.ps1'
+[0.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel-choate/paml_ros2/install/ur3_movement/share/ur3_movement/hook/ament_prefix_path.dsv'
+[0.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/ur3_movement/share/ur3_movement/hook/ament_prefix_path.sh'
+[0.342s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.342s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniel-choate/paml_ros2/build/mapping_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel-choate/paml_ros2/install/ur3_movement:/home/daniel-choate/paml_ros2/install/rgbd_capture:/home/daniel-choate/paml_ros2/install/mapping_planner:/home/daniel-choate/paml_ros2/install/mapping_executor:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel-choate/paml_ros2/build/mapping_interfaces -- -j20 -l20
+[0.679s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/daniel-choate/paml_ros2/src/rgbd_capture'
+[0.680s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.680s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.687s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniel-choate/paml_ros2/build/ur3_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel-choate/paml_ros2/install/ur3_movement:/home/daniel-choate/paml_ros2/install/rgbd_capture:/home/daniel-choate/paml_ros2/install/mapping_planner:/home/daniel-choate/paml_ros2/install/mapping_executor:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel-choate/paml_ros2/build/ur3_demo -- -j20 -l20
+[0.993s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/daniel-choate/paml_ros2/src/ur3_movement'
+[0.993s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.993s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniel-choate/paml_ros2/build/mapping_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel-choate/paml_ros2/install/ur3_movement:/home/daniel-choate/paml_ros2/install/rgbd_capture:/home/daniel-choate/paml_ros2/install/mapping_planner:/home/daniel-choate/paml_ros2/install/mapping_executor:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel-choate/paml_ros2/build/mapping_interfaces -- -j20 -l20
+[1.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniel-choate/paml_ros2/build/mapping_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel-choate/paml_ros2/install/ur3_movement:/home/daniel-choate/paml_ros2/install/rgbd_capture:/home/daniel-choate/paml_ros2/install/mapping_planner:/home/daniel-choate/paml_ros2/install/mapping_executor:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/daniel-choate/paml_ros2/build/mapping_interfaces
+[1.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniel-choate/paml_ros2/build/ur3_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel-choate/paml_ros2/install/ur3_movement:/home/daniel-choate/paml_ros2/install/rgbd_capture:/home/daniel-choate/paml_ros2/install/mapping_planner:/home/daniel-choate/paml_ros2/install/mapping_executor:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel-choate/paml_ros2/build/ur3_demo -- -j20 -l20
+[1.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniel-choate/paml_ros2/build/ur3_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel-choate/paml_ros2/install/ur3_movement:/home/daniel-choate/paml_ros2/install/rgbd_capture:/home/daniel-choate/paml_ros2/install/mapping_planner:/home/daniel-choate/paml_ros2/install/mapping_executor:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/daniel-choate/paml_ros2/build/ur3_demo
+[1.039s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur3_demo)
+[1.052s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/ur3_demo' for CMake module files
+[1.055s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/ur3_demo' for CMake config files
+[1.057s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur3_demo', 'cmake_prefix_path')
+[1.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/hook/cmake_prefix_path.ps1'
+[1.060s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/hook/cmake_prefix_path.dsv'
+[1.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/hook/cmake_prefix_path.sh'
+[1.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniel-choate/paml_ros2/build/ur3_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel-choate/paml_ros2/install/ur3_movement:/home/daniel-choate/paml_ros2/install/rgbd_capture:/home/daniel-choate/paml_ros2/install/mapping_planner:/home/daniel-choate/paml_ros2/install/mapping_executor:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/daniel-choate/paml_ros2/build/ur3_demo
+[1.064s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/ur3_demo/lib'
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/ur3_demo/bin'
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/ur3_demo/lib/pkgconfig/ur3_demo.pc'
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/ur3_demo/lib/python3.12/site-packages'
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/ur3_demo/bin'
+[1.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/package.ps1'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/package.dsv'
+[1.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/package.sh'
+[1.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/package.bash'
+[1.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/package.zsh'
+[1.075s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniel-choate/paml_ros2/install/ur3_demo/share/colcon-core/packages/ur3_demo)
+[1.077s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur3_demo)
+[1.077s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/ur3_demo' for CMake module files
+[1.078s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/ur3_demo' for CMake config files
+[1.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur3_demo', 'cmake_prefix_path')
+[1.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/hook/cmake_prefix_path.ps1'
+[1.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/hook/cmake_prefix_path.dsv'
+[1.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/hook/cmake_prefix_path.sh'
+[1.080s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/ur3_demo/lib'
+[1.080s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/ur3_demo/bin'
+[1.080s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/ur3_demo/lib/pkgconfig/ur3_demo.pc'
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/ur3_demo/lib/python3.12/site-packages'
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/ur3_demo/bin'
+[1.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/package.ps1'
+[1.083s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/package.dsv'
+[1.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/package.sh'
+[1.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/package.bash'
+[1.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/package.zsh'
+[1.085s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniel-choate/paml_ros2/install/ur3_demo/share/colcon-core/packages/ur3_demo)
+[1.110s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapping_interfaces)
+[1.110s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/mapping_interfaces' for CMake module files
+[1.110s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniel-choate/paml_ros2/build/mapping_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel-choate/paml_ros2/install/ur3_movement:/home/daniel-choate/paml_ros2/install/rgbd_capture:/home/daniel-choate/paml_ros2/install/mapping_planner:/home/daniel-choate/paml_ros2/install/mapping_executor:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/daniel-choate/paml_ros2/build/mapping_interfaces
+[1.111s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/mapping_interfaces' for CMake config files
+[1.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping_interfaces', 'cmake_prefix_path')
+[1.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/hook/cmake_prefix_path.ps1'
+[1.112s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/hook/cmake_prefix_path.dsv'
+[1.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/hook/cmake_prefix_path.sh'
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/mapping_interfaces/lib'
+[1.113s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping_interfaces', 'ld_library_path_lib')
+[1.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/hook/ld_library_path_lib.ps1'
+[1.114s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/hook/ld_library_path_lib.dsv'
+[1.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/hook/ld_library_path_lib.sh'
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/mapping_interfaces/bin'
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/pkgconfig/mapping_interfaces.pc'
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages'
+[1.115s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping_interfaces', 'pythonpath')
+[1.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/hook/pythonpath.ps1'
+[1.116s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/hook/pythonpath.dsv'
+[1.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/hook/pythonpath.sh'
+[1.117s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/mapping_interfaces/bin'
+[1.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/package.ps1'
+[1.118s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/package.dsv'
+[1.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/package.sh'
+[1.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/package.bash'
+[1.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/package.zsh'
+[1.119s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/colcon-core/packages/mapping_interfaces)
+[1.120s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapping_interfaces)
+[1.120s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/mapping_interfaces' for CMake module files
+[1.121s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/mapping_interfaces' for CMake config files
+[1.121s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping_interfaces', 'cmake_prefix_path')
+[1.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/hook/cmake_prefix_path.ps1'
+[1.122s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/hook/cmake_prefix_path.dsv'
+[1.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/hook/cmake_prefix_path.sh'
+[1.123s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/mapping_interfaces/lib'
+[1.123s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping_interfaces', 'ld_library_path_lib')
+[1.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/hook/ld_library_path_lib.ps1'
+[1.124s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/hook/ld_library_path_lib.dsv'
+[1.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/hook/ld_library_path_lib.sh'
+[1.125s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/mapping_interfaces/bin'
+[1.125s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/pkgconfig/mapping_interfaces.pc'
+[1.125s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages'
+[1.125s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping_interfaces', 'pythonpath')
+[1.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/hook/pythonpath.ps1'
+[1.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/hook/pythonpath.dsv'
+[1.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/hook/pythonpath.sh'
+[1.127s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/mapping_interfaces/bin'
+[1.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/package.ps1'
+[1.128s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/package.dsv'
+[1.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/package.sh'
+[1.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/package.bash'
+[1.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/package.zsh'
+[1.130s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniel-choate/paml_ros2/install/mapping_interfaces/share/colcon-core/packages/mapping_interfaces)
+[1.130s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/daniel-choate/paml_ros2/src/mapping_executor' with build type 'ament_python'
+[1.130s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping_executor', 'ament_prefix_path')
+[1.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/mapping_executor/share/mapping_executor/hook/ament_prefix_path.ps1'
+[1.131s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel-choate/paml_ros2/install/mapping_executor/share/mapping_executor/hook/ament_prefix_path.dsv'
+[1.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/mapping_executor/share/mapping_executor/hook/ament_prefix_path.sh'
+[1.132s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.132s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.137s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/daniel-choate/paml_ros2/src/mapping_planner' with build type 'ament_python'
+[1.137s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping_planner', 'ament_prefix_path')
+[1.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/mapping_planner/share/mapping_planner/hook/ament_prefix_path.ps1'
+[1.138s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel-choate/paml_ros2/install/mapping_planner/share/mapping_planner/hook/ament_prefix_path.dsv'
+[1.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/mapping_planner/share/mapping_planner/hook/ament_prefix_path.sh'
+[1.139s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.139s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.425s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/daniel-choate/paml_ros2/src/mapping_executor'
+[1.425s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.425s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.713s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/daniel-choate/paml_ros2/src/mapping_planner'
+[1.714s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.714s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniel-choate/paml_ros2/src/rgbd_capture': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel-choate/paml_ros2/build/rgbd_capture/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel-choate/paml_ros2/install/rgbd_capture/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rgbd_capture build --build-base /home/daniel-choate/paml_ros2/build/rgbd_capture/build install --record /home/daniel-choate/paml_ros2/build/rgbd_capture/install.log --single-version-externally-managed install_data
+[1.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniel-choate/paml_ros2/src/ur3_movement': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel-choate/paml_ros2/build/ur3_movement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel-choate/paml_ros2/install/ur3_movement/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ur3_movement build --build-base /home/daniel-choate/paml_ros2/build/ur3_movement/build install --record /home/daniel-choate/paml_ros2/build/ur3_movement/install.log --single-version-externally-managed install_data
+[2.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniel-choate/paml_ros2/src/mapping_planner': CMAKE_PREFIX_PATH=/home/daniel-choate/paml_ros2/install/mapping_interfaces:/home/daniel-choate/paml_ros2/install/ur3_demo:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/daniel-choate/paml_ros2/install/mapping_interfaces/lib:/opt/ros/kilted/opt/gz_sim_vendor/lib:/opt/ros/kilted/opt/gz_sensors_vendor/lib:/opt/ros/kilted/opt/gz_physics_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_gui_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_rendering_vendor/lib:/opt/ros/kilted/opt/gz_plugin_vendor/lib:/opt/ros/kilted/opt/gz_fuel_tools_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/gz_common_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_ogre_next_vendor/lib:/opt/ros/kilted/opt/gz_dartsim_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib:/usr/local/lib PYTHONPATH=/home/daniel-choate/paml_ros2/build/mapping_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel-choate/paml_ros2/install/mapping_planner/lib/python3.12/site-packages:/home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages:/home/daniel-choate/paml_ros2/install/ur3_movement/lib/python3.12/site-packages:/home/daniel-choate/paml_ros2/install/rgbd_capture/lib/python3.12/site-packages:/home/daniel-choate/paml_ros2/install/mapping_planner/lib/python3.12/site-packages:/home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mapping_planner build --build-base /home/daniel-choate/paml_ros2/build/mapping_planner/build install --record /home/daniel-choate/paml_ros2/build/mapping_planner/install.log --single-version-externally-managed install_data
+[2.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniel-choate/paml_ros2/src/mapping_executor': CMAKE_PREFIX_PATH=/home/daniel-choate/paml_ros2/install/mapping_interfaces:/home/daniel-choate/paml_ros2/install/ur3_demo:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/daniel-choate/paml_ros2/install/mapping_interfaces/lib:/opt/ros/kilted/opt/gz_sim_vendor/lib:/opt/ros/kilted/opt/gz_sensors_vendor/lib:/opt/ros/kilted/opt/gz_physics_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_gui_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_rendering_vendor/lib:/opt/ros/kilted/opt/gz_plugin_vendor/lib:/opt/ros/kilted/opt/gz_fuel_tools_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/gz_common_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_ogre_next_vendor/lib:/opt/ros/kilted/opt/gz_dartsim_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib:/usr/local/lib PYTHONPATH=/home/daniel-choate/paml_ros2/build/mapping_executor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages:/home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages:/home/daniel-choate/paml_ros2/install/ur3_movement/lib/python3.12/site-packages:/home/daniel-choate/paml_ros2/install/rgbd_capture/lib/python3.12/site-packages:/home/daniel-choate/paml_ros2/install/mapping_planner/lib/python3.12/site-packages:/home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mapping_executor build --build-base /home/daniel-choate/paml_ros2/build/mapping_executor/build install --record /home/daniel-choate/paml_ros2/build/mapping_executor/install.log --single-version-externally-managed install_data
+[2.616s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/rgbd_capture' for CMake module files
+[2.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniel-choate/paml_ros2/src/rgbd_capture' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel-choate/paml_ros2/build/rgbd_capture/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel-choate/paml_ros2/install/rgbd_capture/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rgbd_capture build --build-base /home/daniel-choate/paml_ros2/build/rgbd_capture/build install --record /home/daniel-choate/paml_ros2/build/rgbd_capture/install.log --single-version-externally-managed install_data
+[2.617s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/rgbd_capture' for CMake config files
+[2.618s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/rgbd_capture/lib'
+[2.618s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/rgbd_capture/bin'
+[2.618s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/rgbd_capture/lib/pkgconfig/rgbd_capture.pc'
+[2.618s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/rgbd_capture/lib/python3.12/site-packages'
+[2.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('rgbd_capture', 'pythonpath')
+[2.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/rgbd_capture/share/rgbd_capture/hook/pythonpath.ps1'
+[2.619s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel-choate/paml_ros2/install/rgbd_capture/share/rgbd_capture/hook/pythonpath.dsv'
+[2.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/rgbd_capture/share/rgbd_capture/hook/pythonpath.sh'
+[2.620s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/rgbd_capture/bin'
+[2.620s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rgbd_capture)
+[2.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/rgbd_capture/share/rgbd_capture/package.ps1'
+[2.621s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniel-choate/paml_ros2/install/rgbd_capture/share/rgbd_capture/package.dsv'
+[2.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/rgbd_capture/share/rgbd_capture/package.sh'
+[2.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/rgbd_capture/share/rgbd_capture/package.bash'
+[2.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/rgbd_capture/share/rgbd_capture/package.zsh'
+[2.622s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniel-choate/paml_ros2/install/rgbd_capture/share/colcon-core/packages/rgbd_capture)
+[2.627s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/ur3_movement' for CMake module files
+[2.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniel-choate/paml_ros2/src/ur3_movement' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel-choate/paml_ros2/build/ur3_movement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel-choate/paml_ros2/install/ur3_movement/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ur3_movement build --build-base /home/daniel-choate/paml_ros2/build/ur3_movement/build install --record /home/daniel-choate/paml_ros2/build/ur3_movement/install.log --single-version-externally-managed install_data
+[2.628s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/ur3_movement' for CMake config files
+[2.629s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/ur3_movement/lib'
+[2.629s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/ur3_movement/bin'
+[2.629s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/ur3_movement/lib/pkgconfig/ur3_movement.pc'
+[2.629s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/ur3_movement/lib/python3.12/site-packages'
+[2.629s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur3_movement', 'pythonpath')
+[2.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/ur3_movement/share/ur3_movement/hook/pythonpath.ps1'
+[2.630s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel-choate/paml_ros2/install/ur3_movement/share/ur3_movement/hook/pythonpath.dsv'
+[2.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/ur3_movement/share/ur3_movement/hook/pythonpath.sh'
+[2.631s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/ur3_movement/bin'
+[2.631s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur3_movement)
+[2.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/ur3_movement/share/ur3_movement/package.ps1'
+[2.632s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniel-choate/paml_ros2/install/ur3_movement/share/ur3_movement/package.dsv'
+[2.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/ur3_movement/share/ur3_movement/package.sh'
+[2.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/ur3_movement/share/ur3_movement/package.bash'
+[2.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/ur3_movement/share/ur3_movement/package.zsh'
+[2.634s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniel-choate/paml_ros2/install/ur3_movement/share/colcon-core/packages/ur3_movement)
+[3.300s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/mapping_planner' for CMake module files
+[3.300s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniel-choate/paml_ros2/src/mapping_planner' returned '0': CMAKE_PREFIX_PATH=/home/daniel-choate/paml_ros2/install/mapping_interfaces:/home/daniel-choate/paml_ros2/install/ur3_demo:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/daniel-choate/paml_ros2/install/mapping_interfaces/lib:/opt/ros/kilted/opt/gz_sim_vendor/lib:/opt/ros/kilted/opt/gz_sensors_vendor/lib:/opt/ros/kilted/opt/gz_physics_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_gui_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_rendering_vendor/lib:/opt/ros/kilted/opt/gz_plugin_vendor/lib:/opt/ros/kilted/opt/gz_fuel_tools_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/gz_common_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_ogre_next_vendor/lib:/opt/ros/kilted/opt/gz_dartsim_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib:/usr/local/lib PYTHONPATH=/home/daniel-choate/paml_ros2/build/mapping_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel-choate/paml_ros2/install/mapping_planner/lib/python3.12/site-packages:/home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages:/home/daniel-choate/paml_ros2/install/ur3_movement/lib/python3.12/site-packages:/home/daniel-choate/paml_ros2/install/rgbd_capture/lib/python3.12/site-packages:/home/daniel-choate/paml_ros2/install/mapping_planner/lib/python3.12/site-packages:/home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mapping_planner build --build-base /home/daniel-choate/paml_ros2/build/mapping_planner/build install --record /home/daniel-choate/paml_ros2/build/mapping_planner/install.log --single-version-externally-managed install_data
+[3.301s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/mapping_planner' for CMake config files
+[3.301s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/mapping_planner/lib'
+[3.301s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/mapping_planner/bin'
+[3.301s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/mapping_planner/lib/pkgconfig/mapping_planner.pc'
+[3.302s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/mapping_planner/lib/python3.12/site-packages'
+[3.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping_planner', 'pythonpath')
+[3.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/mapping_planner/share/mapping_planner/hook/pythonpath.ps1'
+[3.302s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel-choate/paml_ros2/install/mapping_planner/share/mapping_planner/hook/pythonpath.dsv'
+[3.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/mapping_planner/share/mapping_planner/hook/pythonpath.sh'
+[3.303s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/mapping_planner/bin'
+[3.304s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapping_planner)
+[3.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/mapping_planner/share/mapping_planner/package.ps1'
+[3.306s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniel-choate/paml_ros2/install/mapping_planner/share/mapping_planner/package.dsv'
+[3.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/mapping_planner/share/mapping_planner/package.sh'
+[3.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/mapping_planner/share/mapping_planner/package.bash'
+[3.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/mapping_planner/share/mapping_planner/package.zsh'
+[3.309s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniel-choate/paml_ros2/install/mapping_planner/share/colcon-core/packages/mapping_planner)
+[3.336s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/mapping_executor' for CMake module files
+[3.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniel-choate/paml_ros2/src/mapping_executor' returned '0': CMAKE_PREFIX_PATH=/home/daniel-choate/paml_ros2/install/mapping_interfaces:/home/daniel-choate/paml_ros2/install/ur3_demo:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/daniel-choate/paml_ros2/install/mapping_interfaces/lib:/opt/ros/kilted/opt/gz_sim_vendor/lib:/opt/ros/kilted/opt/gz_sensors_vendor/lib:/opt/ros/kilted/opt/gz_physics_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_gui_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_rendering_vendor/lib:/opt/ros/kilted/opt/gz_plugin_vendor/lib:/opt/ros/kilted/opt/gz_fuel_tools_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/gz_common_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_ogre_next_vendor/lib:/opt/ros/kilted/opt/gz_dartsim_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib:/usr/local/lib PYTHONPATH=/home/daniel-choate/paml_ros2/build/mapping_executor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages:/home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages:/home/daniel-choate/paml_ros2/install/ur3_movement/lib/python3.12/site-packages:/home/daniel-choate/paml_ros2/install/rgbd_capture/lib/python3.12/site-packages:/home/daniel-choate/paml_ros2/install/mapping_planner/lib/python3.12/site-packages:/home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mapping_executor build --build-base /home/daniel-choate/paml_ros2/build/mapping_executor/build install --record /home/daniel-choate/paml_ros2/build/mapping_executor/install.log --single-version-externally-managed install_data
+[3.337s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/mapping_executor' for CMake config files
+[3.338s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/mapping_executor/lib'
+[3.338s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/mapping_executor/bin'
+[3.338s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/mapping_executor/lib/pkgconfig/mapping_executor.pc'
+[3.338s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages'
+[3.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping_executor', 'pythonpath')
+[3.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/mapping_executor/share/mapping_executor/hook/pythonpath.ps1'
+[3.339s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniel-choate/paml_ros2/install/mapping_executor/share/mapping_executor/hook/pythonpath.dsv'
+[3.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniel-choate/paml_ros2/install/mapping_executor/share/mapping_executor/hook/pythonpath.sh'
+[3.340s] Level 1:colcon.colcon_core.environment:checking '/home/daniel-choate/paml_ros2/install/mapping_executor/bin'
+[3.340s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapping_executor)
+[3.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/mapping_executor/share/mapping_executor/package.ps1'
+[3.341s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniel-choate/paml_ros2/install/mapping_executor/share/mapping_executor/package.dsv'
+[3.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/mapping_executor/share/mapping_executor/package.sh'
+[3.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/mapping_executor/share/mapping_executor/package.bash'
+[3.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniel-choate/paml_ros2/install/mapping_executor/share/mapping_executor/package.zsh'
+[3.343s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniel-choate/paml_ros2/install/mapping_executor/share/colcon-core/packages/mapping_executor)
+[3.343s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.343s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.343s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.344s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.351s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.352s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.352s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.368s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.368s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/daniel-choate/paml_ros2/install/local_setup.ps1'
+[3.369s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/daniel-choate/paml_ros2/install/_local_setup_util_ps1.py'
+[3.370s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/daniel-choate/paml_ros2/install/setup.ps1'
+[3.372s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/daniel-choate/paml_ros2/install/local_setup.sh'
+[3.372s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/daniel-choate/paml_ros2/install/_local_setup_util_sh.py'
+[3.373s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/daniel-choate/paml_ros2/install/setup.sh'
+[3.374s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/daniel-choate/paml_ros2/install/local_setup.bash'
+[3.374s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/daniel-choate/paml_ros2/install/setup.bash'
+[3.375s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/daniel-choate/paml_ros2/install/local_setup.zsh'
+[3.376s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/daniel-choate/paml_ros2/install/setup.zsh'
