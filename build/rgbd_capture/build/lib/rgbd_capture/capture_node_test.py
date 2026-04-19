@@ -103,42 +103,25 @@ class RGBDCapture(Node):
 		self.latest_depth = None # ADDED FOR BASIC TEST
 
 
-# def main(args=None):
-
-# 	rclpy.init(args=args)
-# 	rcap = RGBDCapture()
-
-# 	try:
-# 		while rclpy.ok():
-# 			rclpy.spin_once(rcap)
-# 			# TEMPORARY ********
-# 			if input("Press 'enter' to capture frame...") == "":
-# 				rcap.capture()
-
-# 	except KeyboardInterrupt:
-# 		pass
-
-# 	rcap.destroy_node()
-# 	rclpy.shutdown()
 
 def main(args=None):
     rclpy.init(args=args)
-    node = RGBDCapture()
+    rcap = RGBDCapture()
 
-    target_frames = 2
+    target_frames = 5
 
     try:
-        while rclpy.ok() and node.frame_id < target_frames:
-            rclpy.spin_once(node)
+        while rclpy.ok() and rcap.frame_id < target_frames:
+            rclpy.spin_once(rcap)
 
-            if node.latest_rgb is not None and node.latest_depth is not None:
-                node.capture()
+            if rcap.latest_rgb is not None and rcap.latest_depth is not None:
+                rcap.capture()
                 time.sleep(1.0)
 
     except KeyboardInterrupt:
         pass
 
-    node.destroy_node()
+    rcap.destroy_node()
     rclpy.shutdown()
 
 
