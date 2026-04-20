@@ -19,6 +19,7 @@ During the localization phase, a turtlebot wil execute a trajectory plan to trav
 - Updated moveit implementation, have control nodes for joint angles and end effector: b5a131a  
 - Initial perception implementation - RGBD from intel Realsense d435i: 5dccdae
 - Linked mapping client to moveit to execute custom trajectory: 52020e5
+- Map builder custom node and Nav2 implementation: TODO 
 
 
 
@@ -32,6 +33,8 @@ During the localization phase, a turtlebot wil execute a trajectory plan to trav
 ##### Progress
 
 ![MoveIt Demo](msc/movement_sim_test.gif)
+![Custom map builder (not pose-aware)] (msc/mapping_demo.gif)
+
 
 
 TODO List 
@@ -40,12 +43,11 @@ TODO List
 	- [x] mapping_executor
 	- [x] MoveIt
 	- [x] ur3_driver
-	- [ ] robot_state_publisher 
-	- [ ] static_tf_publisher 
 	- [x] realsense_driver 
 	- [x] RGBD_capture 
-	- [ ] map_builder 
-	- [ ] map_server
+	- [x] map_builder 
+	- [x] map_server
+	- [ ] robot_state_publisher 
 - [ ] Package setup for phase 2
 
 
@@ -65,13 +67,19 @@ TODO List
 - [ ] ur3_driver
 	- [x] basic implementation for UR3 movement
 	- [x] link mapping client to moveit to execute trajectory 
-- [ ] robot_state_publisher 
-- [ ] static_tf_publisher 
 - [x] realsense_driver 
 - [ ] RGBD_capture 
 	- [x] initial setup - basic data subscriber
 	- [ ] link to tf tree
-- [ ] map_builder 
-- [ ] map_server
+- [x] map_builder 
+- [x] map_server
+- [ ] robot_state_publisher 
+	- [ ] link tf poses 
 
 *Phase 2 progress*
+- [ ] localization bringup 
+	- [x] initial package setup
+	- [x] link to turtlebot
+	- [ ] state machine for localization pipeline
+- [ ] map server bridge
+	- [ ] link phase1 map to nav2

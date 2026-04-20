@@ -1,0 +1,1 @@
+[0.379s] Invoking command in '/home/daniel-choate/paml_ros2/build/ur3_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel-choate/paml_ros2/build/ur3_demo -- -j20 -l20

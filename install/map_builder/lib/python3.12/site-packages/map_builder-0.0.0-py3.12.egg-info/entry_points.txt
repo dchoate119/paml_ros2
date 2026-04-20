@@ -1,0 +1,2 @@
+[console_scripts]
+map_builder_node = map_builder.map_builder_node:main

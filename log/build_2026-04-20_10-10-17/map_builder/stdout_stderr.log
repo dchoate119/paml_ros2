@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/map_builder/map_builder.egg-info
+writing ../../build/map_builder/map_builder.egg-info/PKG-INFO
+writing dependency_links to ../../build/map_builder/map_builder.egg-info/dependency_links.txt
+writing entry points to ../../build/map_builder/map_builder.egg-info/entry_points.txt
+writing requirements to ../../build/map_builder/map_builder.egg-info/requires.txt
+writing top-level names to ../../build/map_builder/map_builder.egg-info/top_level.txt
+writing manifest file '../../build/map_builder/map_builder.egg-info/SOURCES.txt'
+reading manifest file '../../build/map_builder/map_builder.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/map_builder/map_builder.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/daniel-choate/paml_ros2/build/map_builder/build
+creating /home/daniel-choate/paml_ros2/build/map_builder/build/lib
+creating /home/daniel-choate/paml_ros2/build/map_builder/build/lib/map_builder
+copying map_builder/__init__.py -> /home/daniel-choate/paml_ros2/build/map_builder/build/lib/map_builder
+copying map_builder/map_builder_node.py -> /home/daniel-choate/paml_ros2/build/map_builder/build/lib/map_builder
+copying map_builder/py.typed -> /home/daniel-choate/paml_ros2/build/map_builder/build/lib/map_builder
+running install
+running install_lib
+creating /home/daniel-choate/paml_ros2/install/map_builder/lib/python3.12/site-packages/map_builder
+copying /home/daniel-choate/paml_ros2/build/map_builder/build/lib/map_builder/__init__.py -> /home/daniel-choate/paml_ros2/install/map_builder/lib/python3.12/site-packages/map_builder
+copying /home/daniel-choate/paml_ros2/build/map_builder/build/lib/map_builder/py.typed -> /home/daniel-choate/paml_ros2/install/map_builder/lib/python3.12/site-packages/map_builder
+copying /home/daniel-choate/paml_ros2/build/map_builder/build/lib/map_builder/map_builder_node.py -> /home/daniel-choate/paml_ros2/install/map_builder/lib/python3.12/site-packages/map_builder
+byte-compiling /home/daniel-choate/paml_ros2/install/map_builder/lib/python3.12/site-packages/map_builder/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/daniel-choate/paml_ros2/install/map_builder/lib/python3.12/site-packages/map_builder/map_builder_node.py to map_builder_node.cpython-312.pyc
+running install_data
+creating /home/daniel-choate/paml_ros2/install/map_builder/share/ament_index
+creating /home/daniel-choate/paml_ros2/install/map_builder/share/ament_index/resource_index
+creating /home/daniel-choate/paml_ros2/install/map_builder/share/ament_index/resource_index/packages
+copying resource/map_builder -> /home/daniel-choate/paml_ros2/install/map_builder/share/ament_index/resource_index/packages
+copying package.xml -> /home/daniel-choate/paml_ros2/install/map_builder/share/map_builder
+running install_egg_info
+Copying ../../build/map_builder/map_builder.egg-info to /home/daniel-choate/paml_ros2/install/map_builder/lib/python3.12/site-packages/map_builder-0.0.0-py3.12.egg-info
+running install_scripts
+Installing map_builder_node script to /home/daniel-choate/paml_ros2/install/map_builder/lib/map_builder
+writing list of installed files to '/home/daniel-choate/paml_ros2/build/map_builder/install.log'

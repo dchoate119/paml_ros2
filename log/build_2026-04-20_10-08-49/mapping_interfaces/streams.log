@@ -1,0 +1,25 @@
+[0.020s] Invoking command in '/home/daniel-choate/paml_ros2/build/mapping_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel-choate/paml_ros2/build/mapping_interfaces -- -j20 -l20
+[0.392s] [  2%] Built target mapping_interfaces__rosidl_generator_type_description
+[0.392s] [  4%] Built target mapping_interfaces__rs
+[0.392s] [  4%] Built target ament_cmake_python_copy_mapping_interfaces
+[0.392s] [  6%] Built target mapping_interfaces__cpp
+[0.392s] [ 24%] Built target mapping_interfaces__rosidl_generator_c
+[0.393s] [ 33%] Built target mapping_interfaces__rosidl_typesupport_introspection_c
+[0.393s] [ 42%] Built target mapping_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.393s] [ 51%] Built target mapping_interfaces__rosidl_typesupport_cpp
+[0.393s] [ 64%] Built target mapping_interfaces__rosidl_typesupport_fastrtps_c
+[0.393s] [ 68%] Built target mapping_interfaces__rosidl_typesupport_c
+[0.393s] [ 77%] Built target mapping_interfaces__rosidl_typesupport_introspection_cpp
+[0.393s] [ 77%] Built target mapping_interfaces
+[0.393s] [ 80%] Built target mapping_interfaces__py
+[0.393s] [ 86%] Built target mapping_interfaces__rosidl_generator_py
+[0.393s] [ 91%] Built target mapping_interfaces_s__rosidl_typesupport_fastrtps_c
+[0.393s] [ 95%] Built target mapping_interfaces_s__rosidl_typesupport_c
+[0.393s] [100%] Built target mapping_interfaces_s__rosidl_typesupport_introspection_c
+[0.393s] running egg_info
+[0.393s] writing mapping_interfaces.egg-info/PKG-INFO
+[0.393s] writing dependency_links to mapping_interfaces.egg-info/dependency_links.txt
+[0.393s] writing top-level names to mapping_interfaces.egg-info/top_level.txt
+[0.393s] reading manifest file 'mapping_interfaces.egg-info/SOURCES.txt'
+[0.393s] writing manifest file 'mapping_interfaces.egg-info/SOURCES.txt'
+[0.393s] [100%] Built target ament_cmake_python_build_mapping_interfaces_egg

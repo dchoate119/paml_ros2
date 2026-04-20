@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/localization_bringup/localization_bringup.egg-info
+writing ../../build/localization_bringup/localization_bringup.egg-info/PKG-INFO
+writing dependency_links to ../../build/localization_bringup/localization_bringup.egg-info/dependency_links.txt
+writing requirements to ../../build/localization_bringup/localization_bringup.egg-info/requires.txt
+writing top-level names to ../../build/localization_bringup/localization_bringup.egg-info/top_level.txt
+writing manifest file '../../build/localization_bringup/localization_bringup.egg-info/SOURCES.txt'
+reading manifest file '../../build/localization_bringup/localization_bringup.egg-info/SOURCES.txt'
+writing manifest file '../../build/localization_bringup/localization_bringup.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/daniel-choate/paml_ros2/build/localization_bringup/build
+creating /home/daniel-choate/paml_ros2/build/localization_bringup/build/lib
+creating /home/daniel-choate/paml_ros2/build/localization_bringup/build/lib/localization_bringup
+copying localization_bringup/__init__.py -> /home/daniel-choate/paml_ros2/build/localization_bringup/build/lib/localization_bringup
+copying localization_bringup/slam_localization.launch.py -> /home/daniel-choate/paml_ros2/build/localization_bringup/build/lib/localization_bringup
+copying localization_bringup/py.typed -> /home/daniel-choate/paml_ros2/build/localization_bringup/build/lib/localization_bringup
+running install
+running install_lib
+creating /home/daniel-choate/paml_ros2/install/localization_bringup/lib/python3.12/site-packages/localization_bringup
+copying /home/daniel-choate/paml_ros2/build/localization_bringup/build/lib/localization_bringup/__init__.py -> /home/daniel-choate/paml_ros2/install/localization_bringup/lib/python3.12/site-packages/localization_bringup
+copying /home/daniel-choate/paml_ros2/build/localization_bringup/build/lib/localization_bringup/py.typed -> /home/daniel-choate/paml_ros2/install/localization_bringup/lib/python3.12/site-packages/localization_bringup
+copying /home/daniel-choate/paml_ros2/build/localization_bringup/build/lib/localization_bringup/slam_localization.launch.py -> /home/daniel-choate/paml_ros2/install/localization_bringup/lib/python3.12/site-packages/localization_bringup
+byte-compiling /home/daniel-choate/paml_ros2/install/localization_bringup/lib/python3.12/site-packages/localization_bringup/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/daniel-choate/paml_ros2/install/localization_bringup/lib/python3.12/site-packages/localization_bringup/slam_localization.launch.py to slam_localization.launch.cpython-312.pyc
+running install_data
+creating /home/daniel-choate/paml_ros2/install/localization_bringup/share/ament_index
+creating /home/daniel-choate/paml_ros2/install/localization_bringup/share/ament_index/resource_index
+creating /home/daniel-choate/paml_ros2/install/localization_bringup/share/ament_index/resource_index/packages
+copying resource/localization_bringup -> /home/daniel-choate/paml_ros2/install/localization_bringup/share/ament_index/resource_index/packages
+copying package.xml -> /home/daniel-choate/paml_ros2/install/localization_bringup/share/localization_bringup
+running install_egg_info
+Copying ../../build/localization_bringup/localization_bringup.egg-info to /home/daniel-choate/paml_ros2/install/localization_bringup/lib/python3.12/site-packages/localization_bringup-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/daniel-choate/paml_ros2/build/localization_bringup/install.log'
