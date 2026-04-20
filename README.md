@@ -19,7 +19,8 @@ During the localization phase, a turtlebot wil execute a trajectory plan to trav
 - Updated moveit implementation, have control nodes for joint angles and end effector: b5a131a  
 - Initial perception implementation - RGBD from intel Realsense d435i: 5dccdae
 - Linked mapping client to moveit to execute custom trajectory: 52020e5
-- Map builder custom node and Nav2 implementation: TODO 
+- Updated rgb data, starting map builder node: f4eeb04
+- Map builder custom node and Nav2 implementation: 47266ff
 
 
 
@@ -33,7 +34,7 @@ During the localization phase, a turtlebot wil execute a trajectory plan to trav
 ##### Progress
 
 ![MoveIt Demo](msc/movement_sim_test.gif)
-![Custom map builder (not pose-aware)] (msc/mapping_demo.gif)
+![Custom map builder (not pose-aware)](msc/mapping_demo.gif)
 
 
 
