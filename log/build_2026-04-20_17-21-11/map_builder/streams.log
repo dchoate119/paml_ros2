@@ -1,0 +1,22 @@
+[1.282s] Invoking command in '/home/daniel-choate/paml_ros2/src/map_builder': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel-choate/paml_ros2/build/map_builder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel-choate/paml_ros2/install/map_builder/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/map_builder build --build-base /home/daniel-choate/paml_ros2/build/map_builder/build install --record /home/daniel-choate/paml_ros2/build/map_builder/install.log --single-version-externally-managed install_data
+[1.546s] running egg_info
+[1.568s] writing ../../build/map_builder/map_builder.egg-info/PKG-INFO
+[1.568s] writing dependency_links to ../../build/map_builder/map_builder.egg-info/dependency_links.txt
+[1.568s] writing entry points to ../../build/map_builder/map_builder.egg-info/entry_points.txt
+[1.568s] writing requirements to ../../build/map_builder/map_builder.egg-info/requires.txt
+[1.568s] writing top-level names to ../../build/map_builder/map_builder.egg-info/top_level.txt
+[1.613s] reading manifest file '../../build/map_builder/map_builder.egg-info/SOURCES.txt'
+[1.613s] adding license file 'LICENSE'
+[1.613s] writing manifest file '../../build/map_builder/map_builder.egg-info/SOURCES.txt'
+[1.614s] running build
+[1.614s] running build_py
+[1.614s] running install
+[1.619s] running install_lib
+[1.642s] running install_data
+[1.642s] running install_egg_info
+[1.665s] removing '/home/daniel-choate/paml_ros2/install/map_builder/lib/python3.12/site-packages/map_builder-0.0.0-py3.12.egg-info' (and everything under it)
+[1.665s] Copying ../../build/map_builder/map_builder.egg-info to /home/daniel-choate/paml_ros2/install/map_builder/lib/python3.12/site-packages/map_builder-0.0.0-py3.12.egg-info
+[1.666s] running install_scripts
+[1.798s] Installing map_builder_node script to /home/daniel-choate/paml_ros2/install/map_builder/lib/map_builder
+[1.798s] writing list of installed files to '/home/daniel-choate/paml_ros2/build/map_builder/install.log'
+[1.827s] Invoked command in '/home/daniel-choate/paml_ros2/src/map_builder' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel-choate/paml_ros2/build/map_builder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel-choate/paml_ros2/install/map_builder/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/map_builder build --build-base /home/daniel-choate/paml_ros2/build/map_builder/build install --record /home/daniel-choate/paml_ros2/build/map_builder/install.log --single-version-externally-managed install_data

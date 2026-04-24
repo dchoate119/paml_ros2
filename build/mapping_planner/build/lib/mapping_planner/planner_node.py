@@ -65,12 +65,15 @@ class MappingPlanner(Node):
 			pose.position.z = height
 
 			# Orientation 
-			if outward:
-				yaw = theta
-			else:
-				yaw = theta + np.pi
+			yaw = theta
+			# if outward:
+			# 	yaw = theta + np.pi
+			# else:
+			# 	yaw = theta 
 
-			q = quaternion_from_euler(0,0,yaw)
+			pitch = 3*np.pi/4
+
+			q = quaternion_from_euler(0,pitch,yaw)
 			pose.orientation.x = q[0]
 			pose.orientation.y = q[1]
 			pose.orientation.z = q[2]

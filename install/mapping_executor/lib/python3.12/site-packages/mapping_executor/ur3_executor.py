@@ -1,11 +1,12 @@
 import time 
 import rclpy
+import numpy as np
 from rclpy.node import Node
 from rclpy.action import ActionClient
 from rclpy.callback_groups import ReentrantCallbackGroup
 from rclpy.executors import MultiThreadedExecutor
 
-from geometry_msgs.msg import PoseStamped
+from geometry_msgs.msg import PoseStamped, Pose
 from mapping_interfaces.srv import ExecuteMappingPlan
 from moveit_msgs.action import MoveGroup 
 from moveit_msgs.msg import (
@@ -14,6 +15,10 @@ from moveit_msgs.msg import (
 	MoveItErrorCodes,
 	PositionConstraint,
 	OrientationConstraint,
+	JointConstraint,
+	PlanningScene,
+	CollisionObject,
+	RobotState,
 )
 from shape_msgs.msg import SolidPrimitive
 
@@ -42,6 +47,9 @@ class UR3Executor(Node):
 			callback_group = self.service_cb_group,
 		)
 
+		# Import planning scene 
+		self.scene_pub = self.create_publisher(PlanningScene, '/planning_scene', 10)
+
 		self.get_logger().info("UR3 Executor Ready !")
 
 
@@ -52,6 +60,19 @@ class UR3Executor(Node):
 		total = len(poses)
 
 		self.get_logger().info(f"Executing {total} poses ...")
+
+		# ADD TABLE COLLISION ****
+		self.add_table_collision()
+		time.sleep(1.0)
+
+		# # ENFORCE STARTING POSITION 
+		# success = self.move_to_start_joint_config()
+		# if not success:
+		# 	response.success = False
+		# 	response.failed_index = -1
+		# 	response.completed_count = 0
+		# 	response.message = "Failed to reach start position"
+		# 	return response
 
 		# Loop through each pose 
 		for i, pose in enumerate(poses):
@@ -71,6 +92,8 @@ class UR3Executor(Node):
 				self.get_logger().info(f"[{i}] Capturing data (**PLACEHOLDER**)")
 				time.sleep(1.0) # placeholder for now
 
+			# break # ONLY DO FIRST POSE FOR NOW 
+
 		# return response
 		response.success = True
 		response.completed_count = total
@@ -79,6 +102,121 @@ class UR3Executor(Node):
 
 		return response
 
+	def add_table_collision(self):
+
+		self.get_logger().info("Adding table collision object")
+
+		table = CollisionObject()
+		table.id = "table"
+		table.header.frame_id = "base_link"
+
+		# Define table shape
+		primitive = SolidPrimitive()
+		primitive.type = SolidPrimitive.BOX
+
+		# ---- SET THESE TO MATCH YOUR TABLE ----
+		primitive.dimensions = [1.0, 1.0, 0.1]  # x, y, thickness
+
+		pose = Pose()
+		pose.position.x = 0.0   # where table is
+		pose.position.y = -0.25
+		pose.position.z = -0.05  # half thickness BELOW z=0
+
+		
+		pose.orientation.w = 1.0
+		# pose.orientation.x = 0.0
+		# pose.orientation.y = 0.0
+		# pose.orientation.z = -0.7071
+		# pose.orientation.w = 0.7071
+
+
+		table.primitives.append(primitive)
+		table.primitive_poses.append(pose)
+		table.operation = CollisionObject.ADD
+
+		# Wrap in planning scene
+		scene = PlanningScene()
+		scene.world.collision_objects.append(table)
+		scene.is_diff = True
+
+		self.scene_pub.publish(scene)
+
+
+	def move_to_start_joint_config(self):
+		"""
+		Move robot to a known starting joint configuration
+		"""
+		self.get_logger().info("Moving to start joint configuration...")
+
+		# request.start_state = RobotState()
+		# request.start_state.is_diff = True
+
+		request = MotionPlanRequest()
+
+		request.start_state.is_diff = True # We'll troubleshoot this
+
+		request.group_name = "ur_manipulator"
+		request.num_planning_attempts = 10
+		request.allowed_planning_time = 5.0
+		request.max_velocity_scaling_factor = 0.1
+		request.max_acceleration_scaling_factor = 0.1
+
+		# ---- DEFINE YOUR START JOINTS HERE ----	
+		t0 = np.pi * 3/2
+		start_joints = [0.0, -1.57, 0.0, t0, 0.0, -1.29154]
+
+
+
+		constraints = Constraints()
+
+		joint_names = [
+			"shoulder_pan_joint",
+			"shoulder_lift_joint",
+			"elbow_joint",
+			"wrist_1_joint",
+			"wrist_2_joint",
+			"wrist_3_joint",
+		]
+
+		for name, val in zip(joint_names, start_joints):
+			jc = JointConstraint()
+			jc.joint_name = name
+			jc.position = val
+			jc.tolerance_above = 0.01
+			jc.tolerance_below = 0.01
+			jc.weight = 1.0
+			constraints.joint_constraints.append(jc)
+
+		request.goal_constraints.append(constraints)
+
+		goal = MoveGroup.Goal()
+		goal.request = request
+		goal.planning_options.plan_only = False
+
+		future = self.action_client.send_goal_async(goal)
+		while not future.done():
+			time.sleep(0.05)
+
+		goal_handle = future.result()
+		if goal_handle is None or not goal_handle.accepted:
+			self.get_logger().error("Start pose goal rejected")
+			return False
+
+		result_future = goal_handle.get_result_async()
+		while not result_future.done():
+			time.sleep(0.05)
+
+		result = result_future.result()
+		if result is None:
+			self.get_logger().error("No result from MoveIt (start pose)")
+			return False
+
+		if result.result.error_code.val == MoveItErrorCodes.SUCCESS:
+			self.get_logger().info("Start position reached")
+			return True
+		else:
+			self.get_logger().error("Failed to reach start position")
+			return False
 
 	# MOVE FUNCTION 
 	def move_to_pose(self, pose_msg):
@@ -86,10 +224,10 @@ class UR3Executor(Node):
 		# Create request
 		request = MotionPlanRequest()
 		request.group_name = "ur_manipulator"
-		request.num_planning_attempts = 10
+		request.num_planning_attempts = 100
 		request.allowed_planning_time = 5.0
-		request.max_velocity_scaling_factor = 0.3
-		request.max_acceleration_scaling_factor = 0.3
+		request.max_velocity_scaling_factor = 0.1
+		request.max_acceleration_scaling_factor = 0.1
 
 		# Convert to posestamped 
 		pose = PoseStamped()
@@ -106,7 +244,7 @@ class UR3Executor(Node):
 
 		primitive = SolidPrimitive()
 		primitive.type = SolidPrimitive.SPHERE
-		primitive.dimensions = [0.01]
+		primitive.dimensions = [0.1]
 
 		pc.constraint_region.primitives.append(primitive)
 		pc.constraint_region.primitive_poses.append(pose.pose)
@@ -117,9 +255,9 @@ class UR3Executor(Node):
 		oc.header.frame_id = "base_link"
 		oc.link_name = "tool0"
 		oc.orientation = pose.pose.orientation
-		oc.absolute_x_axis_tolerance = 0.5
-		oc.absolute_y_axis_tolerance = 0.5
-		oc.absolute_z_axis_tolerance = 0.5
+		oc.absolute_x_axis_tolerance = 0.05
+		oc.absolute_y_axis_tolerance = 0.05
+		oc.absolute_z_axis_tolerance = 0.05
 		oc.weight = 0.5
 
 		constraints.position_constraints.append(pc)

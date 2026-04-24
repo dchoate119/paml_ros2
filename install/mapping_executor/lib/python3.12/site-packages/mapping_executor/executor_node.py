@@ -124,24 +124,6 @@ class MappingExecutor(Node):
 		pos_constraint.weight = 1.0
 
 
-		# # Orientation constraint 
-		# ori_constraint = OrientationConstraint()
-		# ori_constraint.header.frame_id = "base_link"
-		# ori_constraint.link_name = "tool0"
-
-		# # ori_constraint.orientation = pose_stamped.pose.orientation
-		# ori_constraint.orientation.x = pose_stamped.pose.orientation.x
-		# ori_constraint.orientation.y = pose_stamped.pose.orientation.y
-		# ori_constraint.orientation.z = pose_stamped.pose.orientation.z
-		# ori_constraint.orientation.w = pose_stamped.pose.orientation.w
-
-		# ori_constraint.absolute_x_axis_tolerance = 0.01
-		# ori_constraint.absolute_y_axis_tolerance = 0.01
-		# ori_constraint.absolute_z_axis_tolerance = 0.01
-
-		# ori_constraint.weight = 1.0
-
-
 		# ADD TO GOAL
 		constraints.position_constraints.append(pos_constraint)
 		# constraints.orientation_constraints.append(ori_constraint)

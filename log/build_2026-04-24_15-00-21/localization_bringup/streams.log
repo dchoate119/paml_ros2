@@ -1,0 +1,19 @@
+[1.289s] Invoking command in '/home/daniel-choate/paml_ros2/src/localization_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel-choate/paml_ros2/build/localization_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel-choate/paml_ros2/install/localization_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/localization_bringup build --build-base /home/daniel-choate/paml_ros2/build/localization_bringup/build install --record /home/daniel-choate/paml_ros2/build/localization_bringup/install.log --single-version-externally-managed install_data
+[1.556s] running egg_info
+[1.578s] writing ../../build/localization_bringup/localization_bringup.egg-info/PKG-INFO
+[1.578s] writing dependency_links to ../../build/localization_bringup/localization_bringup.egg-info/dependency_links.txt
+[1.578s] writing requirements to ../../build/localization_bringup/localization_bringup.egg-info/requires.txt
+[1.578s] writing top-level names to ../../build/localization_bringup/localization_bringup.egg-info/top_level.txt
+[1.623s] reading manifest file '../../build/localization_bringup/localization_bringup.egg-info/SOURCES.txt'
+[1.624s] writing manifest file '../../build/localization_bringup/localization_bringup.egg-info/SOURCES.txt'
+[1.624s] running build
+[1.624s] running build_py
+[1.624s] running install
+[1.630s] running install_lib
+[1.653s] running install_data
+[1.653s] running install_egg_info
+[1.677s] removing '/home/daniel-choate/paml_ros2/install/localization_bringup/lib/python3.12/site-packages/localization_bringup-0.0.0-py3.12.egg-info' (and everything under it)
+[1.677s] Copying ../../build/localization_bringup/localization_bringup.egg-info to /home/daniel-choate/paml_ros2/install/localization_bringup/lib/python3.12/site-packages/localization_bringup-0.0.0-py3.12.egg-info
+[1.677s] running install_scripts
+[1.887s] writing list of installed files to '/home/daniel-choate/paml_ros2/build/localization_bringup/install.log'
+[1.907s] Invoked command in '/home/daniel-choate/paml_ros2/src/localization_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel-choate/paml_ros2/build/localization_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel-choate/paml_ros2/install/localization_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/localization_bringup build --build-base /home/daniel-choate/paml_ros2/build/localization_bringup/build install --record /home/daniel-choate/paml_ros2/build/localization_bringup/install.log --single-version-externally-managed install_data
