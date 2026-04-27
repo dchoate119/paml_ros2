@@ -1,0 +1,4 @@
+source;share/ur3_custom_description/local_setup.bash
+source;share/ur3_custom_description/local_setup.dsv
+source;share/ur3_custom_description/local_setup.sh
+source;share/ur3_custom_description/local_setup.zsh

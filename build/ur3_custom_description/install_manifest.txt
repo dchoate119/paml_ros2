@@ -1,0 +1,16 @@
+/home/daniel-choate/paml_ros2/install/ur3_custom_description/share/ur3_custom_description/urdf/ur3e_with_camera.xacro
+/home/daniel-choate/paml_ros2/install/ur3_custom_description/share/ament_index/resource_index/package_run_dependencies/ur3_custom_description
+/home/daniel-choate/paml_ros2/install/ur3_custom_description/share/ament_index/resource_index/parent_prefix_path/ur3_custom_description
+/home/daniel-choate/paml_ros2/install/ur3_custom_description/share/ur3_custom_description/environment/ament_prefix_path.sh
+/home/daniel-choate/paml_ros2/install/ur3_custom_description/share/ur3_custom_description/environment/ament_prefix_path.dsv
+/home/daniel-choate/paml_ros2/install/ur3_custom_description/share/ur3_custom_description/environment/path.sh
+/home/daniel-choate/paml_ros2/install/ur3_custom_description/share/ur3_custom_description/environment/path.dsv
+/home/daniel-choate/paml_ros2/install/ur3_custom_description/share/ur3_custom_description/local_setup.bash
+/home/daniel-choate/paml_ros2/install/ur3_custom_description/share/ur3_custom_description/local_setup.sh
+/home/daniel-choate/paml_ros2/install/ur3_custom_description/share/ur3_custom_description/local_setup.zsh
+/home/daniel-choate/paml_ros2/install/ur3_custom_description/share/ur3_custom_description/local_setup.dsv
+/home/daniel-choate/paml_ros2/install/ur3_custom_description/share/ur3_custom_description/package.dsv
+/home/daniel-choate/paml_ros2/install/ur3_custom_description/share/ament_index/resource_index/packages/ur3_custom_description
+/home/daniel-choate/paml_ros2/install/ur3_custom_description/share/ur3_custom_description/cmake/ur3_custom_descriptionConfig.cmake
+/home/daniel-choate/paml_ros2/install/ur3_custom_description/share/ur3_custom_description/cmake/ur3_custom_descriptionConfig-version.cmake
+/home/daniel-choate/paml_ros2/install/ur3_custom_description/share/ur3_custom_description/package.xml
