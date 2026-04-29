@@ -7,7 +7,7 @@ from rclpy.callback_groups import ReentrantCallbackGroup
 from rclpy.executors import MultiThreadedExecutor
 
 from geometry_msgs.msg import PoseStamped, Pose
-from mapping_interfaces.srv import ExecuteMappingPlan
+from mapping_interfaces.srv import ExecuteMappingPlan, CaptureFrame
 from moveit_msgs.action import MoveGroup 
 from moveit_msgs.msg import (
 	MotionPlanRequest,
@@ -21,6 +21,9 @@ from moveit_msgs.msg import (
 	RobotState,
 )
 from shape_msgs.msg import SolidPrimitive
+
+from cv_bridge import CvBridge
+import cv2
 
 
 
@@ -38,6 +41,13 @@ class UR3Executor(Node):
 		self.get_logger().info("Waiting for MoveIt action server...")
 		self.action_client.wait_for_server()
 		self.get_logger().info("Connected to MoveIt!")
+
+		# Rgbd capture service
+		self.capture_client = self.create_client(CaptureFrame, 'capture_frame')
+		self.get_logger().info("Waiting for capture service ...")
+		while not self.capture_client.wait_for_service(timeout_sec=1.0):
+			self.get_logger().info("Waiting for capture (still) ...")
+		self.get_logger().info("Connceted to capture service :)")
 
 		# Service 
 		self.srv = self.create_service(
@@ -87,10 +97,9 @@ class UR3Executor(Node):
 				response.message = "Motion failed"
 				return response
 
-			# Capture trigger 
+			# Capture trigger =================
 			if request.capture_data:
-				self.get_logger().info(f"[{i}] Capturing data (**PLACEHOLDER**)")
-				time.sleep(1.0) # placeholder for now
+				self.capture_trigger(i)
 
 			# break # ONLY DO FIRST POSE FOR NOW 
 
@@ -300,6 +309,40 @@ class UR3Executor(Node):
 			)
 			return False
 
+	def capture_trigger(self, i):
+		"""
+		Once rgbd capture is triggers 
+		"""
+		self.get_logger().info(f"[{i}] Capturing data")
+		# Let robot settle
+		time.sleep(0.5) # placeholder for now
+		req = CaptureFrame.Request()
+		future = self.capture_client.call_async(req)
+
+		while not future.done():
+			time.sleep(0.05)
+
+		result = future.result()
+
+		if result is None or not result.success:
+			self.get_logger().error(f"Capture failed: {result.message if result else 'No response'}")
+			response.success = False
+			response.failed_index = i
+			response.completed_count = i
+			response.message = "Capture failed"
+			return response
+
+		self.get_logger().info(f"[{i}] Capture successful")
+		bridge = CvBridge()
+
+		rgb_img = bridge.imgmsg_to_cv2(result.rgb, desired_encoding='bgr8')
+		depth_img = bridge.imgmsg_to_cv2(result.depth, desired_encoding='passthrough')
+
+		cv2.imwrite(f"data/rgb_{i}.png", rgb_img)
+		cv2.imwrite(f"data/depth_{i}.png", depth_img)
+
+
+
 
 # MAIN 
 def main(args=None):
@@ -320,7 +363,6 @@ def main(args=None):
 		executor.shutdown()
 		ur3e.destroy_node()
 		rclpy.shutdown()
-
 
 if __name__ == "__main__":
 	main()

@@ -1,0 +1,7 @@
+geometry_msgs/PoseArray planned_poses
+bool capture_data
+---
+bool success
+string message
+int32 completed_count
+int32 failed_index

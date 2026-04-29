@@ -1,0 +1,31 @@
+-- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)
+-- Found std_msgs: 5.5.2 (/opt/ros/kilted/share/std_msgs/cmake)
+-- Found rosidl_generator_c: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 5.5.2 (/opt/ros/kilted/share/geometry_msgs/cmake)
+-- Found rosidl_default_generators: 1.7.2 (/opt/ros/kilted/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.9.6 (/opt/ros/kilted/share/rosidl_adapter/cmake)
+-- Found sensor_msgs: 5.5.2 (/opt/ros/kilted/share/sensor_msgs/cmake)
+-- Found ament_cmake_ros_core: 0.14.7 (/opt/ros/kilted/share/ament_cmake_ros_core/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/daniel-choate/paml_ros2/build/mapping_interfaces
+[  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  3%] Built target mapping_interfaces__rs
+[  3%] Built target ament_cmake_python_copy_mapping_interfaces
+running egg_info
+writing mapping_interfaces.egg-info/PKG-INFO
+writing dependency_links to mapping_interfaces.egg-info/dependency_links.txt
+writing top-level names to mapping_interfaces.egg-info/top_level.txt
+reading manifest file 'mapping_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'mapping_interfaces.egg-info/SOURCES.txt'
+[  3%] Built target ament_cmake_python_build_mapping_interfaces_egg

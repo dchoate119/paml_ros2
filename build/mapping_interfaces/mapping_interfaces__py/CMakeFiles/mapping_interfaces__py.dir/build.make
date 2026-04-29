@@ -71,9 +71,11 @@ include /home/daniel-choate/paml_ros2/build/mapping_interfaces/mapping_interface
 /home/daniel-choate/paml_ros2/build/mapping_interfaces/mapping_interfaces__py/CMakeFiles/mapping_interfaces__py: rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_c.c
 /home/daniel-choate/paml_ros2/build/mapping_interfaces/mapping_interfaces__py/CMakeFiles/mapping_interfaces__py: rosidl_generator_py/mapping_interfaces/srv/_generate_mapping_plan.py
 /home/daniel-choate/paml_ros2/build/mapping_interfaces/mapping_interfaces__py/CMakeFiles/mapping_interfaces__py: rosidl_generator_py/mapping_interfaces/srv/_execute_mapping_plan.py
+/home/daniel-choate/paml_ros2/build/mapping_interfaces/mapping_interfaces__py/CMakeFiles/mapping_interfaces__py: rosidl_generator_py/mapping_interfaces/srv/_capture_frame.py
 /home/daniel-choate/paml_ros2/build/mapping_interfaces/mapping_interfaces__py/CMakeFiles/mapping_interfaces__py: rosidl_generator_py/mapping_interfaces/srv/__init__.py
 /home/daniel-choate/paml_ros2/build/mapping_interfaces/mapping_interfaces__py/CMakeFiles/mapping_interfaces__py: rosidl_generator_py/mapping_interfaces/srv/_generate_mapping_plan_s.c
 /home/daniel-choate/paml_ros2/build/mapping_interfaces/mapping_interfaces__py/CMakeFiles/mapping_interfaces__py: rosidl_generator_py/mapping_interfaces/srv/_execute_mapping_plan_s.c
+/home/daniel-choate/paml_ros2/build/mapping_interfaces/mapping_interfaces__py/CMakeFiles/mapping_interfaces__py: rosidl_generator_py/mapping_interfaces/srv/_capture_frame_s.c
 
 rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -90,6 +92,7 @@ rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesuppo
 rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/mapping_interfaces/srv/GenerateMappingPlan.idl
 rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/mapping_interfaces/srv/ExecuteMappingPlan.idl
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/mapping_interfaces/srv/CaptureFrame.idl
 rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -154,6 +157,34 @@ rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesuppo
 rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/std_msgs/msg/UInt8MultiArray.idl
 rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/sensor_msgs/msg/BatteryState.idl
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/sensor_msgs/msg/CameraInfo.idl
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/sensor_msgs/msg/ChannelFloat32.idl
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/sensor_msgs/msg/CompressedImage.idl
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/sensor_msgs/msg/FluidPressure.idl
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/sensor_msgs/msg/Illuminance.idl
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/sensor_msgs/msg/Image.idl
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/sensor_msgs/msg/Imu.idl
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/sensor_msgs/msg/JointState.idl
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/sensor_msgs/msg/Joy.idl
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/sensor_msgs/msg/JoyFeedback.idl
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/sensor_msgs/msg/JoyFeedbackArray.idl
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/sensor_msgs/msg/LaserEcho.idl
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/sensor_msgs/msg/LaserScan.idl
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/sensor_msgs/msg/MagneticField.idl
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/sensor_msgs/msg/MultiDOFJointState.idl
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/sensor_msgs/msg/MultiEchoLaserScan.idl
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/sensor_msgs/msg/NavSatFix.idl
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/sensor_msgs/msg/NavSatStatus.idl
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/sensor_msgs/msg/PointCloud.idl
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/sensor_msgs/msg/PointCloud2.idl
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/sensor_msgs/msg/PointField.idl
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/sensor_msgs/msg/Range.idl
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/sensor_msgs/msg/RegionOfInterest.idl
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/sensor_msgs/msg/RelativeHumidity.idl
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/sensor_msgs/msg/Temperature.idl
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/sensor_msgs/msg/TimeReference.idl
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/sensor_msgs/srv/SetCameraInfo.idl
 rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/kilted/share/service_msgs/msg/ServiceEventInfo.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/daniel-choate/paml_ros2/build/mapping_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/daniel-choate/paml_ros2/build/mapping_interfaces/mapping_interfaces__py && /usr/bin/python3 /opt/ros/kilted/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
@@ -170,6 +201,9 @@ rosidl_generator_py/mapping_interfaces/srv/_generate_mapping_plan.py: rosidl_gen
 rosidl_generator_py/mapping_interfaces/srv/_execute_mapping_plan.py: rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/mapping_interfaces/srv/_execute_mapping_plan.py
 
+rosidl_generator_py/mapping_interfaces/srv/_capture_frame.py: rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/mapping_interfaces/srv/_capture_frame.py
+
 rosidl_generator_py/mapping_interfaces/srv/__init__.py: rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/mapping_interfaces/srv/__init__.py
 
@@ -179,11 +213,16 @@ rosidl_generator_py/mapping_interfaces/srv/_generate_mapping_plan_s.c: rosidl_ge
 rosidl_generator_py/mapping_interfaces/srv/_execute_mapping_plan_s.c: rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/mapping_interfaces/srv/_execute_mapping_plan_s.c
 
+rosidl_generator_py/mapping_interfaces/srv/_capture_frame_s.c: rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/mapping_interfaces/srv/_capture_frame_s.c
+
 mapping_interfaces__py: /home/daniel-choate/paml_ros2/build/mapping_interfaces/mapping_interfaces__py/CMakeFiles/mapping_interfaces__py
 mapping_interfaces__py: rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_c.c
 mapping_interfaces__py: rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 mapping_interfaces__py: rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 mapping_interfaces__py: rosidl_generator_py/mapping_interfaces/srv/__init__.py
+mapping_interfaces__py: rosidl_generator_py/mapping_interfaces/srv/_capture_frame.py
+mapping_interfaces__py: rosidl_generator_py/mapping_interfaces/srv/_capture_frame_s.c
 mapping_interfaces__py: rosidl_generator_py/mapping_interfaces/srv/_execute_mapping_plan.py
 mapping_interfaces__py: rosidl_generator_py/mapping_interfaces/srv/_execute_mapping_plan_s.c
 mapping_interfaces__py: rosidl_generator_py/mapping_interfaces/srv/_generate_mapping_plan.py

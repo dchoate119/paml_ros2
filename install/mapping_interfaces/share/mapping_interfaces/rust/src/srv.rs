@@ -284,6 +284,130 @@ impl rosidl_runtime_rs::Message for ExecuteMappingPlan_Response {
 }
 
 
+// Corresponds to mapping_interfaces__srv__CaptureFrame_Request
+
+// This struct is not documented.
+#[allow(missing_docs)]
+
+#[allow(non_camel_case_types)]
+#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))]
+#[derive(Clone, Debug, PartialEq, PartialOrd)]
+pub struct CaptureFrame_Request {
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub structure_needs_at_least_one_member: u8,
+
+}
+
+
+
+impl Default for CaptureFrame_Request {
+  fn default() -> Self {
+    <Self as rosidl_runtime_rs::Message>::from_rmw_message(super::srv::rmw::CaptureFrame_Request::default())
+  }
+}
+
+impl rosidl_runtime_rs::Message for CaptureFrame_Request {
+  type RmwMsg = super::srv::rmw::CaptureFrame_Request;
+
+  fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> {
+    match msg_cow {
+      std::borrow::Cow::Owned(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
+        structure_needs_at_least_one_member: msg.structure_needs_at_least_one_member,
+      }),
+      std::borrow::Cow::Borrowed(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
+      structure_needs_at_least_one_member: msg.structure_needs_at_least_one_member,
+      })
+    }
+  }
+
+  fn from_rmw_message(msg: Self::RmwMsg) -> Self {
+    Self {
+      structure_needs_at_least_one_member: msg.structure_needs_at_least_one_member,
+    }
+  }
+}
+
+
+// Corresponds to mapping_interfaces__srv__CaptureFrame_Response
+
+// This struct is not documented.
+#[allow(missing_docs)]
+
+#[allow(non_camel_case_types)]
+#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))]
+#[derive(Clone, Debug, PartialEq, PartialOrd)]
+pub struct CaptureFrame_Response {
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub rgb: sensor_msgs::msg::Image,
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub depth: sensor_msgs::msg::Image,
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub camera_pose: geometry_msgs::msg::TransformStamped,
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub success: bool,
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub message: std::string::String,
+
+}
+
+
+
+impl Default for CaptureFrame_Response {
+  fn default() -> Self {
+    <Self as rosidl_runtime_rs::Message>::from_rmw_message(super::srv::rmw::CaptureFrame_Response::default())
+  }
+}
+
+impl rosidl_runtime_rs::Message for CaptureFrame_Response {
+  type RmwMsg = super::srv::rmw::CaptureFrame_Response;
+
+  fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> {
+    match msg_cow {
+      std::borrow::Cow::Owned(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
+        rgb: sensor_msgs::msg::Image::into_rmw_message(std::borrow::Cow::Owned(msg.rgb)).into_owned(),
+        depth: sensor_msgs::msg::Image::into_rmw_message(std::borrow::Cow::Owned(msg.depth)).into_owned(),
+        camera_pose: geometry_msgs::msg::TransformStamped::into_rmw_message(std::borrow::Cow::Owned(msg.camera_pose)).into_owned(),
+        success: msg.success,
+        message: msg.message.as_str().into(),
+      }),
+      std::borrow::Cow::Borrowed(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
+        rgb: sensor_msgs::msg::Image::into_rmw_message(std::borrow::Cow::Borrowed(&msg.rgb)).into_owned(),
+        depth: sensor_msgs::msg::Image::into_rmw_message(std::borrow::Cow::Borrowed(&msg.depth)).into_owned(),
+        camera_pose: geometry_msgs::msg::TransformStamped::into_rmw_message(std::borrow::Cow::Borrowed(&msg.camera_pose)).into_owned(),
+      success: msg.success,
+        message: msg.message.as_str().into(),
+      })
+    }
+  }
+
+  fn from_rmw_message(msg: Self::RmwMsg) -> Self {
+    Self {
+      rgb: sensor_msgs::msg::Image::from_rmw_message(msg.rgb),
+      depth: sensor_msgs::msg::Image::from_rmw_message(msg.depth),
+      camera_pose: geometry_msgs::msg::TransformStamped::from_rmw_message(msg.camera_pose),
+      success: msg.success,
+      message: msg.message.to_string(),
+    }
+  }
+}
+
+
 
 
 
@@ -326,6 +450,28 @@ impl rosidl_runtime_rs::Service for ExecuteMappingPlan {
     fn get_type_support() -> *const std::ffi::c_void {
         // SAFETY: No preconditions for this function.
         unsafe { rosidl_typesupport_c__get_service_type_support_handle__mapping_interfaces__srv__ExecuteMappingPlan() }
+    }
+}
+
+
+
+
+#[link(name = "mapping_interfaces__rosidl_typesupport_c")]
+extern "C" {
+    fn rosidl_typesupport_c__get_service_type_support_handle__mapping_interfaces__srv__CaptureFrame() -> *const std::ffi::c_void;
+}
+
+// Corresponds to mapping_interfaces__srv__CaptureFrame
+#[allow(missing_docs, non_camel_case_types)]
+pub struct CaptureFrame;
+
+impl rosidl_runtime_rs::Service for CaptureFrame {
+    type Request = CaptureFrame_Request;
+    type Response = CaptureFrame_Response;
+
+    fn get_type_support() -> *const std::ffi::c_void {
+        // SAFETY: No preconditions for this function.
+        unsafe { rosidl_typesupport_c__get_service_type_support_handle__mapping_interfaces__srv__CaptureFrame() }
     }
 }
 

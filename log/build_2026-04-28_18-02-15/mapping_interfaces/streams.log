@@ -1,0 +1,25 @@
+[0.013s] Invoking command in '/home/daniel-choate/paml_ros2/build/mapping_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel-choate/paml_ros2/build/mapping_interfaces -- -j20 -l20
+[0.101s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[0.102s] [  3%] Built target mapping_interfaces__rs
+[0.115s] [  3%] Built target ament_cmake_python_copy_mapping_interfaces
+[0.466s] running egg_info
+[0.499s] writing mapping_interfaces.egg-info/PKG-INFO
+[0.499s] writing dependency_links to mapping_interfaces.egg-info/dependency_links.txt
+[0.499s] writing top-level names to mapping_interfaces.egg-info/top_level.txt
+[0.594s] reading manifest file 'mapping_interfaces.egg-info/SOURCES.txt'
+[0.595s] writing manifest file 'mapping_interfaces.egg-info/SOURCES.txt'
+[0.632s] [  3%] Built target ament_cmake_python_build_mapping_interfaces_egg
+[4.572s] Traceback (most recent call last):
+[4.573s]   File "/opt/ros/kilted/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 50, in <module>
+[4.573s]     sys.exit(main())
+[4.573s]              ^^^^^^
+[4.573s]   File "/opt/ros/kilted/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 46, in main
+[4.573s]     generate_type_hash(args.generator_arguments_file)
+[4.573s]   File "/opt/ros/kilted/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py", line 160, in generate_type_hash
+[4.574s]     pkg_dir = include_map[pkg]
+[4.574s]               ~~~~~~~~~~~^^^^^
+[4.574s] KeyError: 'sensor_msgs'
+[4.622s] gmake[2]: *** [CMakeFiles/mapping_interfaces__rosidl_generator_type_description.dir/build.make:79: rosidl_generator_type_description/mapping_interfaces/srv/GenerateMappingPlan.json] Error 1
+[4.622s] gmake[1]: *** [CMakeFiles/Makefile2:234: CMakeFiles/mapping_interfaces__rosidl_generator_type_description.dir/all] Error 2
+[4.622s] gmake: *** [Makefile:146: all] Error 2
+[4.625s] Invoked command in '/home/daniel-choate/paml_ros2/build/mapping_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel-choate/paml_ros2/build/mapping_interfaces -- -j20 -l20

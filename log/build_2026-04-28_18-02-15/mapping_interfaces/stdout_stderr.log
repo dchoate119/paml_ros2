@@ -1,0 +1,23 @@
+[  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  3%] Built target mapping_interfaces__rs
+[  3%] Built target ament_cmake_python_copy_mapping_interfaces
+running egg_info
+writing mapping_interfaces.egg-info/PKG-INFO
+writing dependency_links to mapping_interfaces.egg-info/dependency_links.txt
+writing top-level names to mapping_interfaces.egg-info/top_level.txt
+reading manifest file 'mapping_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'mapping_interfaces.egg-info/SOURCES.txt'
+[  3%] Built target ament_cmake_python_build_mapping_interfaces_egg
+Traceback (most recent call last):
+  File "/opt/ros/kilted/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 50, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/opt/ros/kilted/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 46, in main
+    generate_type_hash(args.generator_arguments_file)
+  File "/opt/ros/kilted/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py", line 160, in generate_type_hash
+    pkg_dir = include_map[pkg]
+              ~~~~~~~~~~~^^^^^
+KeyError: 'sensor_msgs'
+gmake[2]: *** [CMakeFiles/mapping_interfaces__rosidl_generator_type_description.dir/build.make:79: rosidl_generator_type_description/mapping_interfaces/srv/GenerateMappingPlan.json] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:234: CMakeFiles/mapping_interfaces__rosidl_generator_type_description.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

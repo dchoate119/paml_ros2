@@ -76,6 +76,11 @@ CMakeFiles/mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/
 CMakeFiles/mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/detail/execute_mapping_plan__struct.hpp
 CMakeFiles/mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/detail/execute_mapping_plan__traits.hpp
 CMakeFiles/mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/detail/execute_mapping_plan__type_support.hpp
+CMakeFiles/mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/capture_frame.hpp
+CMakeFiles/mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/detail/capture_frame__builder.hpp
+CMakeFiles/mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/detail/capture_frame__struct.hpp
+CMakeFiles/mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/detail/capture_frame__traits.hpp
+CMakeFiles/mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/detail/capture_frame__type_support.hpp
 CMakeFiles/mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -99,6 +104,7 @@ rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/
 rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
 rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: rosidl_adapter/mapping_interfaces/srv/GenerateMappingPlan.idl
 rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: rosidl_adapter/mapping_interfaces/srv/ExecuteMappingPlan.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: rosidl_adapter/mapping_interfaces/srv/CaptureFrame.idl
 rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -163,6 +169,34 @@ rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/
 rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/std_msgs/msg/UInt8MultiArray.idl
 rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/sensor_msgs/msg/BatteryState.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/sensor_msgs/msg/CameraInfo.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/sensor_msgs/msg/ChannelFloat32.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/sensor_msgs/msg/CompressedImage.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/sensor_msgs/msg/FluidPressure.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/sensor_msgs/msg/Illuminance.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/sensor_msgs/msg/Image.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/sensor_msgs/msg/Imu.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/sensor_msgs/msg/JointState.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/sensor_msgs/msg/Joy.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/sensor_msgs/msg/JoyFeedback.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/sensor_msgs/msg/JoyFeedbackArray.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/sensor_msgs/msg/LaserEcho.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/sensor_msgs/msg/LaserScan.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/sensor_msgs/msg/MagneticField.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/sensor_msgs/msg/MultiDOFJointState.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/sensor_msgs/msg/MultiEchoLaserScan.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/sensor_msgs/msg/NavSatFix.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/sensor_msgs/msg/NavSatStatus.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/sensor_msgs/msg/PointCloud.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/sensor_msgs/msg/PointCloud2.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/sensor_msgs/msg/PointField.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/sensor_msgs/msg/Range.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/sensor_msgs/msg/RegionOfInterest.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/sensor_msgs/msg/RelativeHumidity.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/sensor_msgs/msg/Temperature.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/sensor_msgs/msg/TimeReference.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/sensor_msgs/srv/SetCameraInfo.idl
 rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/service_msgs/msg/ServiceEventInfo.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/daniel-choate/paml_ros2/build/mapping_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/kilted/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_cpp__arguments.json
@@ -194,11 +228,31 @@ rosidl_generator_cpp/mapping_interfaces/srv/detail/execute_mapping_plan__traits.
 rosidl_generator_cpp/mapping_interfaces/srv/detail/execute_mapping_plan__type_support.hpp: rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mapping_interfaces/srv/detail/execute_mapping_plan__type_support.hpp
 
+rosidl_generator_cpp/mapping_interfaces/srv/capture_frame.hpp: rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mapping_interfaces/srv/capture_frame.hpp
+
+rosidl_generator_cpp/mapping_interfaces/srv/detail/capture_frame__builder.hpp: rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mapping_interfaces/srv/detail/capture_frame__builder.hpp
+
+rosidl_generator_cpp/mapping_interfaces/srv/detail/capture_frame__struct.hpp: rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mapping_interfaces/srv/detail/capture_frame__struct.hpp
+
+rosidl_generator_cpp/mapping_interfaces/srv/detail/capture_frame__traits.hpp: rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mapping_interfaces/srv/detail/capture_frame__traits.hpp
+
+rosidl_generator_cpp/mapping_interfaces/srv/detail/capture_frame__type_support.hpp: rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mapping_interfaces/srv/detail/capture_frame__type_support.hpp
+
 rosidl_generator_cpp/mapping_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp: rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mapping_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 mapping_interfaces__cpp: CMakeFiles/mapping_interfaces__cpp
 mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/capture_frame.hpp
+mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/detail/capture_frame__builder.hpp
+mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/detail/capture_frame__struct.hpp
+mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/detail/capture_frame__traits.hpp
+mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/detail/capture_frame__type_support.hpp
 mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/detail/execute_mapping_plan__builder.hpp
 mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/detail/execute_mapping_plan__struct.hpp
 mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/detail/execute_mapping_plan__traits.hpp

@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mapping_interfaces/srv/CaptureFrame.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/TransformStamped.idl"
+#include "sensor_msgs/msg/Image.idl"
+
+module mapping_interfaces {
+  module srv {
+    struct CaptureFrame_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct CaptureFrame_Response {
+      sensor_msgs::msg::Image rgb;
+
+      sensor_msgs::msg::Image depth;
+
+      geometry_msgs::msg::TransformStamped camera_pose;
+
+      boolean success;
+
+      string message;
+    };
+  };
+};

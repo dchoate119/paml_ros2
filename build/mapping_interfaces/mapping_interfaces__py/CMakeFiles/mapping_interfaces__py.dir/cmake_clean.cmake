@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_introspection_c.c"
   "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_py/mapping_interfaces/srv/__init__.py"
+  "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_py/mapping_interfaces/srv/_capture_frame.py"
+  "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_py/mapping_interfaces/srv/_capture_frame_s.c"
   "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_py/mapping_interfaces/srv/_execute_mapping_plan.py"
   "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_py/mapping_interfaces/srv/_execute_mapping_plan_s.c"
   "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_py/mapping_interfaces/srv/_generate_mapping_plan.py"

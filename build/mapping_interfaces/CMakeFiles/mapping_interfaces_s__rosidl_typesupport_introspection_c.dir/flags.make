@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DROS_PACKAGE_NAME=\"mapping_interfaces\" -Dmapping_interfaces_s__rosidl_typesupport_introspection_c_EXPORTS
 
-C_INCLUDES = -I/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c -I/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_py -I/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_typesupport_introspection_c -isystem /usr/include/python3.12 -isystem /opt/ros/kilted/include/geometry_msgs -isystem /opt/ros/kilted/include/std_msgs -isystem /opt/ros/kilted/include/builtin_interfaces -isystem /opt/ros/kilted/include/rosidl_runtime_c -isystem /opt/ros/kilted/include/rcutils -isystem /opt/ros/kilted/include/rosidl_typesupport_interface -isystem /opt/ros/kilted/include/service_msgs -isystem /opt/ros/kilted/include/rosidl_typesupport_introspection_c -isystem /opt/ros/kilted/include/rosidl_typesupport_c
+C_INCLUDES = -I/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c -I/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_py -I/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_typesupport_introspection_c -isystem /usr/include/python3.12 -isystem /opt/ros/kilted/include/geometry_msgs -isystem /opt/ros/kilted/include/std_msgs -isystem /opt/ros/kilted/include/builtin_interfaces -isystem /opt/ros/kilted/include/rosidl_runtime_c -isystem /opt/ros/kilted/include/rcutils -isystem /opt/ros/kilted/include/rosidl_typesupport_interface -isystem /opt/ros/kilted/include/sensor_msgs -isystem /opt/ros/kilted/include/service_msgs -isystem /opt/ros/kilted/include/rosidl_typesupport_introspection_c -isystem /opt/ros/kilted/include/rosidl_typesupport_c
 
 C_FLAGS = -fPIC -Wall -Wextra
 

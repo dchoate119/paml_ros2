@@ -11,6 +11,7 @@ setup.py
 ../../build/rgbd_capture/rgbd_capture.egg-info/zip-safe
 resource/rgbd_capture
 rgbd_capture/__init__.py
+rgbd_capture/capture_node.py
 rgbd_capture/capture_node_test.py
 rgbd_capture/py.typed
 test/test_copyright.py

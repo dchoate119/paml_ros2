@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DROSIDL_TYPESUPPORT_INTROSPECTION_C_BUILDING_DLL_mapping_interfaces -DROS_PACKAGE_NAME=\"mapping_interfaces\"
 
-C_INCLUDES = -I/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_typesupport_introspection_c -I/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c -isystem /opt/ros/kilted/include/geometry_msgs -isystem /opt/ros/kilted/include/std_msgs -isystem /opt/ros/kilted/include/builtin_interfaces -isystem /opt/ros/kilted/include/rosidl_runtime_c -isystem /opt/ros/kilted/include/rcutils -isystem /opt/ros/kilted/include/rosidl_typesupport_interface -isystem /opt/ros/kilted/include/service_msgs -isystem /opt/ros/kilted/include/rosidl_typesupport_introspection_c
+C_INCLUDES = -I/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_typesupport_introspection_c -I/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c -isystem /opt/ros/kilted/include/geometry_msgs -isystem /opt/ros/kilted/include/std_msgs -isystem /opt/ros/kilted/include/builtin_interfaces -isystem /opt/ros/kilted/include/rosidl_runtime_c -isystem /opt/ros/kilted/include/rcutils -isystem /opt/ros/kilted/include/rosidl_typesupport_interface -isystem /opt/ros/kilted/include/sensor_msgs -isystem /opt/ros/kilted/include/service_msgs -isystem /opt/ros/kilted/include/rosidl_typesupport_introspection_c
 
 C_FLAGS = -std=gnu11 -fPIC -Wall
 

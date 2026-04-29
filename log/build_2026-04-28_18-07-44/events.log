@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.000276] (-) JobUnselected: {'identifier': 'localization_bringup'}
+[0.000349] (-) JobUnselected: {'identifier': 'map_builder'}
+[0.000385] (-) JobUnselected: {'identifier': 'mapping_executor'}
+[0.000443] (-) JobUnselected: {'identifier': 'mapping_planner'}
+[0.000533] (-) JobUnselected: {'identifier': 'rgbd_capture'}
+[0.000574] (-) JobUnselected: {'identifier': 'ur3_custom_description'}
+[0.000669] (-) JobUnselected: {'identifier': 'ur3_demo'}
+[0.000697] (-) JobUnselected: {'identifier': 'ur3_movement'}
+[0.000729] (mapping_interfaces) JobQueued: {'identifier': 'mapping_interfaces', 'dependencies': OrderedDict()}
+[0.000762] (mapping_interfaces) JobStarted: {'identifier': 'mapping_interfaces'}
+[0.010691] (mapping_interfaces) JobProgress: {'identifier': 'mapping_interfaces', 'progress': 'cmake'}
+[0.011511] (mapping_interfaces) JobProgress: {'identifier': 'mapping_interfaces', 'progress': 'build'}
+[0.011855] (mapping_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/daniel-choate/paml_ros2/build/mapping_interfaces', '--', '-j20', '-l20'], 'cwd': '/home/daniel-choate/paml_ros2/build/mapping_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/kilted/share:/opt/ros/kilted/share/', 'USER': 'daniel-choate', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/gz_sim_vendor/share/gz:/opt/ros/kilted/opt/sdformat_vendor/share/gz:/opt/ros/kilted/opt/gz_gui_vendor/share/gz:/opt/ros/kilted/opt/gz_transport_vendor/share/gz:/opt/ros/kilted/opt/gz_rendering_vendor/share/gz:/opt/ros/kilted/opt/gz_plugin_vendor/share/gz:/opt/ros/kilted/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/kilted/opt/gz_msgs_vendor/share/gz:/opt/ros/kilted/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'LIBGL_DEBUG': 'verbose', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/gz_sim_vendor/lib:/opt/ros/kilted/opt/gz_sensors_vendor/lib:/opt/ros/kilted/opt/gz_physics_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_gui_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_rendering_vendor/lib:/opt/ros/kilted/opt/gz_plugin_vendor/lib:/opt/ros/kilted/opt/gz_fuel_tools_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/gz_common_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_ogre_next_vendor/lib:/opt/ros/kilted/opt/gz_dartsim_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib:/usr/local/lib:', 'HOME': '/home/daniel-choate', 'CONDA_SHLVL': '0', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'NIX_PROFILES': '/nix/var/nix/profiles/default /home/daniel-choate/.nix-profile', 'SYSTEMD_EXEC_PID': '3276', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', '_colcon_cd_root': '/opt/ros/kilted/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'daniel-choate', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'daniel-choate', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/opt/ros/kilted/opt/gz_msgs_vendor/bin:/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/opt/gz_ogre_next_vendor/bin:/opt/ros/kilted/bin:/usr/local/MATLAB/R2024a:/usr/local/MATLAB/R2024a/bin:/home/daniel-choate/miniconda3/condabin:/home/daniel-choate/.nix-profile/bin:/home/daniel-choate/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/daniel-choate:@/tmp/.ICE-unix/3245,unix/daniel-choate:/tmp/.ICE-unix/3245', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/14beffd8_aefc_4e28_b0a2_6448b63a07cb', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.102', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/kilted', 'CONDA_PYTHON_EXE': '/home/daniel-choate/miniconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'NIX_SSL_CERT_FILE': '/etc/ssl/certs/ca-certificates.crt', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/daniel-choate/paml_ros2/build/mapping_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/daniel-choate/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/daniel-choate/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/home/daniel-choate/.nix-profile/share:/nix/var/nix/profiles/default/share', 'PYTHONPATH': '/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted', 'LIBGL_DRIVERS_PATH': '/usr/lib/x86_64-linux-gnu/dri'}), 'shell': False}
+[0.052778] (mapping_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)\n'}
+[0.098894] (-) TimerEvent: {}
+[0.189382] (mapping_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 5.5.2 (/opt/ros/kilted/share/std_msgs/cmake)\n'}
+[0.199032] (-) TimerEvent: {}
+[0.214327] (mapping_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_c/cmake)\n'}
+[0.226472] (mapping_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)\n'}
+[0.241138] (mapping_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.259487] (mapping_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.295040] (mapping_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 5.5.2 (/opt/ros/kilted/share/geometry_msgs/cmake)\n'}
+[0.299299] (-) TimerEvent: {}
+[0.312892] (mapping_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.7.2 (/opt/ros/kilted/share/rosidl_default_generators/cmake)\n'}
+[0.325458] (mapping_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.9.6 (/opt/ros/kilted/share/rosidl_adapter/cmake)\n'}
+[0.346554] (mapping_interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 5.5.2 (/opt/ros/kilted/share/sensor_msgs/cmake)\n'}
+[0.399567] (-) TimerEvent: {}
+[0.500047] (-) TimerEvent: {}
+[0.600538] (-) TimerEvent: {}
+[0.700992] (-) TimerEvent: {}
+[0.796403] (mapping_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros_core: 0.14.7 (/opt/ros/kilted/share/ament_cmake_ros_core/cmake)\n'}
+[0.801242] (-) TimerEvent: {}
+[0.901601] (-) TimerEvent: {}
+[1.002042] (-) TimerEvent: {}
+[1.102485] (-) TimerEvent: {}
+[1.160509] (mapping_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.202600] (-) TimerEvent: {}
+[1.303081] (-) TimerEvent: {}
+[1.315246] (mapping_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.403341] (-) TimerEvent: {}
+[1.503729] (-) TimerEvent: {}
+[1.604212] (-) TimerEvent: {}
+[1.631444] (mapping_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[1.704358] (-) TimerEvent: {}
+[1.741849] (mapping_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.743869] (mapping_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)\n'}
+[1.754502] (mapping_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.755503] (mapping_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.757566] (mapping_interfaces) StdoutLine: {'line': b'-- Configuring done (1.7s)\n'}
+[1.804521] (-) TimerEvent: {}
+[1.807676] (mapping_interfaces) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.823473] (mapping_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/daniel-choate/paml_ros2/build/mapping_interfaces\n'}
+[1.880586] (mapping_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[1.884740] (mapping_interfaces) StdoutLine: {'line': b'[  3%] Built target mapping_interfaces__rs\n'}
+[1.899527] (mapping_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_mapping_interfaces\n'}
+[1.904759] (-) TimerEvent: {}
+[2.005217] (-) TimerEvent: {}
+[2.105669] (-) TimerEvent: {}
+[2.206088] (-) TimerEvent: {}
+[2.212624] (mapping_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.245176] (mapping_interfaces) StdoutLine: {'line': b'writing mapping_interfaces.egg-info/PKG-INFO\n'}
+[2.245362] (mapping_interfaces) StdoutLine: {'line': b'writing dependency_links to mapping_interfaces.egg-info/dependency_links.txt\n'}
+[2.245621] (mapping_interfaces) StdoutLine: {'line': b'writing top-level names to mapping_interfaces.egg-info/top_level.txt\n'}
+[2.306296] (-) TimerEvent: {}
+[2.343849] (mapping_interfaces) StdoutLine: {'line': b"reading manifest file 'mapping_interfaces.egg-info/SOURCES.txt'\n"}
+[2.345030] (mapping_interfaces) StdoutLine: {'line': b"writing manifest file 'mapping_interfaces.egg-info/SOURCES.txt'\n"}
+[2.394521] (mapping_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_mapping_interfaces_egg\n'}
+[2.406655] (-) TimerEvent: {}
+[2.507071] (-) TimerEvent: {}
+[2.607381] (-) TimerEvent: {}
+[2.707691] (-) TimerEvent: {}
+[2.808154] (-) TimerEvent: {}
+[2.908627] (-) TimerEvent: {}
+[3.009048] (-) TimerEvent: {}
+[3.109505] (-) TimerEvent: {}
+[3.209916] (-) TimerEvent: {}
+[3.310359] (-) TimerEvent: {}
+[3.410698] (-) TimerEvent: {}
+[3.511079] (-) TimerEvent: {}
+[3.611360] (-) TimerEvent: {}
+[3.711754] (-) TimerEvent: {}
+[3.812153] (-) TimerEvent: {}
+[3.912609] (-) TimerEvent: {}
+[4.013003] (-) TimerEvent: {}
+[4.113390] (-) TimerEvent: {}
+[4.213704] (-) TimerEvent: {}
+[4.314093] (-) TimerEvent: {}
+[4.414495] (-) TimerEvent: {}
+[4.514872] (-) TimerEvent: {}
+[4.615233] (-) TimerEvent: {}
+[4.715510] (-) TimerEvent: {}
+[4.815850] (-) TimerEvent: {}
+[4.916205] (-) TimerEvent: {}
+[5.016618] (-) TimerEvent: {}
+[5.116976] (-) TimerEvent: {}
+[5.217351] (-) TimerEvent: {}
+[5.317729] (-) TimerEvent: {}
+[5.418111] (-) TimerEvent: {}
+[5.518562] (-) TimerEvent: {}
+[5.618986] (-) TimerEvent: {}
+[5.719382] (-) TimerEvent: {}
+[5.819662] (-) TimerEvent: {}
+[5.920055] (-) TimerEvent: {}
+[6.020464] (-) TimerEvent: {}
+[6.120844] (-) TimerEvent: {}
+[6.133121] (mapping_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[6.133376] (mapping_interfaces) StderrLine: {'line': b'  File "/opt/ros/kilted/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 50, in <module>\n'}
+[6.133464] (mapping_interfaces) StderrLine: {'line': b'    sys.exit(main())\n'}
+[6.133532] (mapping_interfaces) StderrLine: {'line': b'             ^^^^^^\n'}
+[6.133597] (mapping_interfaces) StderrLine: {'line': b'  File "/opt/ros/kilted/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 46, in main\n'}
+[6.133662] (mapping_interfaces) StderrLine: {'line': b'    generate_type_hash(args.generator_arguments_file)\n'}
+[6.133725] (mapping_interfaces) StderrLine: {'line': b'  File "/opt/ros/kilted/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py", line 160, in generate_type_hash\n'}
+[6.133787] (mapping_interfaces) StderrLine: {'line': b'    pkg_dir = include_map[pkg]\n'}
+[6.133860] (mapping_interfaces) StderrLine: {'line': b'              ~~~~~~~~~~~^^^^^\n'}
+[6.133918] (mapping_interfaces) StderrLine: {'line': b"KeyError: 'sensor_msgs'\n"}
+[6.179863] (mapping_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mapping_interfaces__rosidl_generator_type_description.dir/build.make:79: rosidl_generator_type_description/mapping_interfaces/srv/GenerateMappingPlan.json] Error 1\n'}
+[6.180247] (mapping_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:234: CMakeFiles/mapping_interfaces__rosidl_generator_type_description.dir/all] Error 2\n'}
+[6.180562] (mapping_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.183526] (mapping_interfaces) CommandEnded: {'returncode': 2}
+[6.200001] (mapping_interfaces) JobEnded: {'identifier': 'mapping_interfaces', 'rc': 2}
+[6.210849] (-) EventReactorShutdown: {}

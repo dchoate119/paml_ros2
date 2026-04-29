@@ -68,6 +68,7 @@ include CMakeFiles/mapping_interfaces.dir/progress.make
 
 CMakeFiles/mapping_interfaces: /home/daniel-choate/paml_ros2/src/mapping_interfaces/srv/GenerateMappingPlan.srv
 CMakeFiles/mapping_interfaces: /home/daniel-choate/paml_ros2/src/mapping_interfaces/srv/ExecuteMappingPlan.srv
+CMakeFiles/mapping_interfaces: /home/daniel-choate/paml_ros2/src/mapping_interfaces/srv/CaptureFrame.srv
 CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/geometry_msgs/msg/Accel.idl
 CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/geometry_msgs/msg/AccelStamped.idl
 CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -130,6 +131,34 @@ CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/std_msgs/msg/UInt64.idl
 CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/std_msgs/msg/UInt64MultiArray.idl
 CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/std_msgs/msg/UInt8.idl
 CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/std_msgs/msg/UInt8MultiArray.idl
+CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/sensor_msgs/msg/BatteryState.idl
+CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/sensor_msgs/msg/CameraInfo.idl
+CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/sensor_msgs/msg/ChannelFloat32.idl
+CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/sensor_msgs/msg/CompressedImage.idl
+CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/sensor_msgs/msg/FluidPressure.idl
+CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/sensor_msgs/msg/Illuminance.idl
+CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/sensor_msgs/msg/Image.idl
+CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/sensor_msgs/msg/Imu.idl
+CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/sensor_msgs/msg/JointState.idl
+CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/sensor_msgs/msg/Joy.idl
+CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/sensor_msgs/msg/JoyFeedback.idl
+CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/sensor_msgs/msg/JoyFeedbackArray.idl
+CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/sensor_msgs/msg/LaserEcho.idl
+CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/sensor_msgs/msg/LaserScan.idl
+CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/sensor_msgs/msg/MagneticField.idl
+CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/sensor_msgs/msg/MultiDOFJointState.idl
+CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/sensor_msgs/msg/MultiEchoLaserScan.idl
+CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/sensor_msgs/msg/NavSatFix.idl
+CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/sensor_msgs/msg/NavSatStatus.idl
+CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/sensor_msgs/msg/PointCloud.idl
+CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/sensor_msgs/msg/PointCloud2.idl
+CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/sensor_msgs/msg/PointField.idl
+CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/sensor_msgs/msg/Range.idl
+CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/sensor_msgs/msg/RegionOfInterest.idl
+CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/sensor_msgs/msg/RelativeHumidity.idl
+CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/sensor_msgs/msg/Temperature.idl
+CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/sensor_msgs/msg/TimeReference.idl
+CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/sensor_msgs/srv/SetCameraInfo.idl
 CMakeFiles/mapping_interfaces: /opt/ros/kilted/share/service_msgs/msg/ServiceEventInfo.idl
 
 mapping_interfaces: CMakeFiles/mapping_interfaces

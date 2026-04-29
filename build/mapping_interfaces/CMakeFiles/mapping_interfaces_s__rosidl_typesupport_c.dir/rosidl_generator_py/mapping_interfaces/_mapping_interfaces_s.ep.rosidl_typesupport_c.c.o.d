@@ -242,4 +242,11 @@ CMakeFiles/mapping_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/ma
  /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__functions.h \
  /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c/mapping_interfaces/srv/detail/execute_mapping_plan__type_support.h \
  /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c/mapping_interfaces/srv/detail/execute_mapping_plan__struct.h \
- /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c/mapping_interfaces/srv/detail/execute_mapping_plan__functions.h
+ /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c/mapping_interfaces/srv/detail/execute_mapping_plan__functions.h \
+ /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c/mapping_interfaces/srv/detail/capture_frame__type_support.h \
+ /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c/mapping_interfaces/srv/detail/capture_frame__struct.h \
+ /opt/ros/kilted/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.h \
+ /opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.h \
+ /opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.h \
+ /opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.h \
+ /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c/mapping_interfaces/srv/detail/capture_frame__functions.h

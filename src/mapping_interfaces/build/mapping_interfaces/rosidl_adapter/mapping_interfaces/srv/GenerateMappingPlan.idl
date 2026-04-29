@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mapping_interfaces/srv/GenerateMappingPlan.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseArray.idl"
+
+module mapping_interfaces {
+  module srv {
+    struct GenerateMappingPlan_Request {
+      string planning_frame;
+
+      float radius;
+
+      float start_angle_deg;
+
+      float end_angle_deg;
+
+      int32 num_views;
+
+      float height;
+
+      boolean face_outward;
+    };
+    struct GenerateMappingPlan_Response {
+      boolean success;
+
+      string message;
+
+      geometry_msgs::msg::PoseArray planned_poses;
+    };
+  };
+};

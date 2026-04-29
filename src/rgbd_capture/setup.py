@@ -1,4 +1,5 @@
 from setuptools import find_packages, setup
+from glob import glob
 
 package_name = 'rgbd_capture'
 
@@ -25,7 +26,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-        'rgbd_capture_node = rgbd_capture.capture_node_test:main',
+        'rgbd_capture_node_test = rgbd_capture.capture_node_test:main',
+        'rgbd_capture_node = rgbd_capture.capture_node:main',
         ],
     },
 )

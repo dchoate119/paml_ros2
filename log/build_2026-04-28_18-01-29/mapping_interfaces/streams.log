@@ -1,0 +1,25 @@
+[0.016s] Invoking command in '/home/daniel-choate/paml_ros2/build/mapping_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel-choate/paml_ros2/install/ur3_movement:/home/daniel-choate/paml_ros2/install/rgbd_capture:/home/daniel-choate/paml_ros2/install/mapping_planner:/home/daniel-choate/paml_ros2/install/mapping_executor:/home/daniel-choate/paml_ros2/install/map_builder:/home/daniel-choate/paml_ros2/install/localization_bringup:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel-choate/paml_ros2/build/mapping_interfaces -- -j20 -l20
+[0.106s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[0.106s] [  3%] Built target mapping_interfaces__rs
+[0.123s] [  3%] Built target ament_cmake_python_copy_mapping_interfaces
+[0.460s] running egg_info
+[0.494s] writing mapping_interfaces.egg-info/PKG-INFO
+[0.494s] writing dependency_links to mapping_interfaces.egg-info/dependency_links.txt
+[0.494s] writing top-level names to mapping_interfaces.egg-info/top_level.txt
+[0.592s] reading manifest file 'mapping_interfaces.egg-info/SOURCES.txt'
+[0.592s] writing manifest file 'mapping_interfaces.egg-info/SOURCES.txt'
+[0.628s] [  3%] Built target ament_cmake_python_build_mapping_interfaces_egg
+[4.464s] Traceback (most recent call last):
+[4.464s]   File "/opt/ros/kilted/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 50, in <module>
+[4.464s]     sys.exit(main())
+[4.464s]              ^^^^^^
+[4.464s]   File "/opt/ros/kilted/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 46, in main
+[4.464s]     generate_type_hash(args.generator_arguments_file)
+[4.464s]   File "/opt/ros/kilted/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py", line 160, in generate_type_hash
+[4.464s]     pkg_dir = include_map[pkg]
+[4.464s]               ~~~~~~~~~~~^^^^^
+[4.464s] KeyError: 'sensor_msgs'
+[4.511s] gmake[2]: *** [CMakeFiles/mapping_interfaces__rosidl_generator_type_description.dir/build.make:79: rosidl_generator_type_description/mapping_interfaces/srv/GenerateMappingPlan.json] Error 1
+[4.511s] gmake[1]: *** [CMakeFiles/Makefile2:234: CMakeFiles/mapping_interfaces__rosidl_generator_type_description.dir/all] Error 2
+[4.512s] gmake: *** [Makefile:146: all] Error 2
+[4.515s] Invoked command in '/home/daniel-choate/paml_ros2/build/mapping_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel-choate/paml_ros2/install/ur3_movement:/home/daniel-choate/paml_ros2/install/rgbd_capture:/home/daniel-choate/paml_ros2/install/mapping_planner:/home/daniel-choate/paml_ros2/install/mapping_executor:/home/daniel-choate/paml_ros2/install/map_builder:/home/daniel-choate/paml_ros2/install/localization_bringup:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel-choate/paml_ros2/build/mapping_interfaces -- -j20 -l20

@@ -1,0 +1,85 @@
+[0.000000] (-) TimerEvent: {}
+[0.000425] (-) JobUnselected: {'identifier': 'localization_bringup'}
+[0.000499] (-) JobUnselected: {'identifier': 'map_builder'}
+[0.000524] (-) JobUnselected: {'identifier': 'mapping_executor'}
+[0.000539] (-) JobUnselected: {'identifier': 'mapping_planner'}
+[0.000552] (-) JobUnselected: {'identifier': 'rgbd_capture'}
+[0.000563] (-) JobUnselected: {'identifier': 'ur3_custom_description'}
+[0.000575] (-) JobUnselected: {'identifier': 'ur3_demo'}
+[0.000586] (-) JobUnselected: {'identifier': 'ur3_movement'}
+[0.000601] (mapping_interfaces) JobQueued: {'identifier': 'mapping_interfaces', 'dependencies': OrderedDict()}
+[0.001322] (mapping_interfaces) JobStarted: {'identifier': 'mapping_interfaces'}
+[0.013861] (mapping_interfaces) JobProgress: {'identifier': 'mapping_interfaces', 'progress': 'cmake'}
+[0.014275] (mapping_interfaces) JobProgress: {'identifier': 'mapping_interfaces', 'progress': 'build'}
+[0.015048] (mapping_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/daniel-choate/paml_ros2/build/mapping_interfaces', '--', '-j20', '-l20'], 'cwd': '/home/daniel-choate/paml_ros2/build/mapping_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/kilted/share:/opt/ros/kilted/share/', 'USER': 'daniel-choate', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/gz_sim_vendor/share/gz:/opt/ros/kilted/opt/sdformat_vendor/share/gz:/opt/ros/kilted/opt/gz_gui_vendor/share/gz:/opt/ros/kilted/opt/gz_transport_vendor/share/gz:/opt/ros/kilted/opt/gz_rendering_vendor/share/gz:/opt/ros/kilted/opt/gz_plugin_vendor/share/gz:/opt/ros/kilted/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/kilted/opt/gz_msgs_vendor/share/gz:/opt/ros/kilted/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'LIBGL_DEBUG': 'verbose', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/daniel-choate/paml_ros2/install/mapping_interfaces/lib:/opt/ros/kilted/opt/gz_sim_vendor/lib:/opt/ros/kilted/opt/gz_sensors_vendor/lib:/opt/ros/kilted/opt/gz_physics_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_gui_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_rendering_vendor/lib:/opt/ros/kilted/opt/gz_plugin_vendor/lib:/opt/ros/kilted/opt/gz_fuel_tools_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/gz_common_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_ogre_next_vendor/lib:/opt/ros/kilted/opt/gz_dartsim_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib:/usr/local/lib:', 'HOME': '/home/daniel-choate', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/daniel-choate/paml_ros2/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'NIX_PROFILES': '/nix/var/nix/profiles/default /home/daniel-choate/.nix-profile', 'SYSTEMD_EXEC_PID': '3276', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', '_colcon_cd_root': '/opt/ros/kilted/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/daniel-choate/paml_ros2/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'daniel-choate', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'daniel-choate', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/opt/ros/kilted/opt/gz_msgs_vendor/bin:/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/opt/gz_ogre_next_vendor/bin:/opt/ros/kilted/bin:/usr/local/MATLAB/R2024a:/usr/local/MATLAB/R2024a/bin:/home/daniel-choate/miniconda3/condabin:/home/daniel-choate/.nix-profile/bin:/home/daniel-choate/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/daniel-choate:@/tmp/.ICE-unix/3245,unix/daniel-choate:/tmp/.ICE-unix/3245', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/51ddd7b3_9b78_4240_aa17_a8f84aa7cf5a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.102', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/daniel-choate/paml_ros2/install/ur3_movement:/home/daniel-choate/paml_ros2/install/ur3_demo:/home/daniel-choate/paml_ros2/install/ur3_custom_description:/home/daniel-choate/paml_ros2/install/rgbd_capture:/home/daniel-choate/paml_ros2/install/mapping_planner:/home/daniel-choate/paml_ros2/install/mapping_executor:/home/daniel-choate/paml_ros2/install/mapping_interfaces:/home/daniel-choate/paml_ros2/install/map_builder:/home/daniel-choate/paml_ros2/install/localization_bringup:/opt/ros/kilted', 'CONDA_PYTHON_EXE': '/home/daniel-choate/miniconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'NIX_SSL_CERT_FILE': '/etc/ssl/certs/ca-certificates.crt', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/daniel-choate/paml_ros2/build/mapping_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/daniel-choate/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/daniel-choate/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/home/daniel-choate/.nix-profile/share:/nix/var/nix/profiles/default/share', 'PYTHONPATH': '/home/daniel-choate/paml_ros2/install/ur3_movement/lib/python3.12/site-packages:/home/daniel-choate/paml_ros2/install/rgbd_capture/lib/python3.12/site-packages:/home/daniel-choate/paml_ros2/install/mapping_planner/lib/python3.12/site-packages:/home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages:/home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages:/home/daniel-choate/paml_ros2/install/map_builder/lib/python3.12/site-packages:/home/daniel-choate/paml_ros2/install/localization_bringup/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/daniel-choate/paml_ros2/install/ur3_demo:/home/daniel-choate/paml_ros2/install/ur3_custom_description:/home/daniel-choate/paml_ros2/install/mapping_interfaces:/opt/ros/kilted/opt/gz_sim_vendor:/opt/ros/kilted/opt/gz_sensors_vendor:/opt/ros/kilted/opt/gz_physics_vendor:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_gui_vendor:/opt/ros/kilted/opt/gz_transport_vendor:/opt/ros/kilted/opt/gz_rendering_vendor:/opt/ros/kilted/opt/gz_plugin_vendor:/opt/ros/kilted/opt/gz_fuel_tools_vendor:/opt/ros/kilted/opt/gz_msgs_vendor:/opt/ros/kilted/opt/gz_common_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_ogre_next_vendor:/opt/ros/kilted/opt/gz_dartsim_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/daniel-choate/paml_ros2/install/ur3_movement:/home/daniel-choate/paml_ros2/install/rgbd_capture:/home/daniel-choate/paml_ros2/install/mapping_planner:/home/daniel-choate/paml_ros2/install/mapping_executor:/home/daniel-choate/paml_ros2/install/map_builder:/home/daniel-choate/paml_ros2/install/localization_bringup:/opt/ros/kilted', 'LIBGL_DRIVERS_PATH': '/usr/lib/x86_64-linux-gnu/dri'}), 'shell': False}
+[0.100029] (-) TimerEvent: {}
+[0.106826] (mapping_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[0.107306] (mapping_interfaces) StdoutLine: {'line': b'[  3%] Built target mapping_interfaces__rs\n'}
+[0.124109] (mapping_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_mapping_interfaces\n'}
+[0.200247] (-) TimerEvent: {}
+[0.300762] (-) TimerEvent: {}
+[0.401198] (-) TimerEvent: {}
+[0.461531] (mapping_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.494687] (mapping_interfaces) StdoutLine: {'line': b'writing mapping_interfaces.egg-info/PKG-INFO\n'}
+[0.495175] (mapping_interfaces) StdoutLine: {'line': b'writing dependency_links to mapping_interfaces.egg-info/dependency_links.txt\n'}
+[0.495384] (mapping_interfaces) StdoutLine: {'line': b'writing top-level names to mapping_interfaces.egg-info/top_level.txt\n'}
+[0.501372] (-) TimerEvent: {}
+[0.592746] (mapping_interfaces) StdoutLine: {'line': b"reading manifest file 'mapping_interfaces.egg-info/SOURCES.txt'\n"}
+[0.593283] (mapping_interfaces) StdoutLine: {'line': b"writing manifest file 'mapping_interfaces.egg-info/SOURCES.txt'\n"}
+[0.601563] (-) TimerEvent: {}
+[0.629226] (mapping_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_mapping_interfaces_egg\n'}
+[0.701729] (-) TimerEvent: {}
+[0.802231] (-) TimerEvent: {}
+[0.902718] (-) TimerEvent: {}
+[1.003171] (-) TimerEvent: {}
+[1.103686] (-) TimerEvent: {}
+[1.204319] (-) TimerEvent: {}
+[1.304943] (-) TimerEvent: {}
+[1.405487] (-) TimerEvent: {}
+[1.505941] (-) TimerEvent: {}
+[1.606376] (-) TimerEvent: {}
+[1.706710] (-) TimerEvent: {}
+[1.807067] (-) TimerEvent: {}
+[1.907606] (-) TimerEvent: {}
+[2.007977] (-) TimerEvent: {}
+[2.108418] (-) TimerEvent: {}
+[2.208830] (-) TimerEvent: {}
+[2.309209] (-) TimerEvent: {}
+[2.409690] (-) TimerEvent: {}
+[2.510063] (-) TimerEvent: {}
+[2.610514] (-) TimerEvent: {}
+[2.710825] (-) TimerEvent: {}
+[2.811231] (-) TimerEvent: {}
+[2.911628] (-) TimerEvent: {}
+[3.012035] (-) TimerEvent: {}
+[3.112435] (-) TimerEvent: {}
+[3.212718] (-) TimerEvent: {}
+[3.313027] (-) TimerEvent: {}
+[3.413324] (-) TimerEvent: {}
+[3.513738] (-) TimerEvent: {}
+[3.614073] (-) TimerEvent: {}
+[3.714340] (-) TimerEvent: {}
+[3.814770] (-) TimerEvent: {}
+[3.915075] (-) TimerEvent: {}
+[4.015415] (-) TimerEvent: {}
+[4.115686] (-) TimerEvent: {}
+[4.215948] (-) TimerEvent: {}
+[4.316317] (-) TimerEvent: {}
+[4.416719] (-) TimerEvent: {}
+[4.464474] (mapping_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[4.464960] (mapping_interfaces) StderrLine: {'line': b'  File "/opt/ros/kilted/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 50, in <module>\n'}
+[4.465075] (mapping_interfaces) StderrLine: {'line': b'    sys.exit(main())\n'}
+[4.465156] (mapping_interfaces) StderrLine: {'line': b'             ^^^^^^\n'}
+[4.465226] (mapping_interfaces) StderrLine: {'line': b'  File "/opt/ros/kilted/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 46, in main\n'}
+[4.465296] (mapping_interfaces) StderrLine: {'line': b'    generate_type_hash(args.generator_arguments_file)\n'}
+[4.465361] (mapping_interfaces) StderrLine: {'line': b'  File "/opt/ros/kilted/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py", line 160, in generate_type_hash\n'}
+[4.465444] (mapping_interfaces) StderrLine: {'line': b'    pkg_dir = include_map[pkg]\n'}
+[4.465532] (mapping_interfaces) StderrLine: {'line': b'              ~~~~~~~~~~~^^^^^\n'}
+[4.465613] (mapping_interfaces) StderrLine: {'line': b"KeyError: 'sensor_msgs'\n"}
+[4.512152] (mapping_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mapping_interfaces__rosidl_generator_type_description.dir/build.make:79: rosidl_generator_type_description/mapping_interfaces/srv/GenerateMappingPlan.json] Error 1\n'}
+[4.512514] (mapping_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:234: CMakeFiles/mapping_interfaces__rosidl_generator_type_description.dir/all] Error 2\n'}
+[4.513244] (mapping_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.516641] (mapping_interfaces) CommandEnded: {'returncode': 2}
+[4.517030] (-) TimerEvent: {}
+[4.540175] (mapping_interfaces) JobEnded: {'identifier': 'mapping_interfaces', 'rc': 2}
+[4.550723] (-) EventReactorShutdown: {}

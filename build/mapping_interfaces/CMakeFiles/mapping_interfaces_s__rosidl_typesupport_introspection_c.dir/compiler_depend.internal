@@ -4,6 +4,9 @@
 CMakeFiles/mapping_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o
  /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_introspection_c.c
  /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c/mapping_interfaces/msg/rosidl_generator_c__visibility_control.h
+ /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c/mapping_interfaces/srv/detail/capture_frame__functions.h
+ /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c/mapping_interfaces/srv/detail/capture_frame__struct.h
+ /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c/mapping_interfaces/srv/detail/capture_frame__type_support.h
  /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c/mapping_interfaces/srv/detail/execute_mapping_plan__functions.h
  /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c/mapping_interfaces/srv/detail/execute_mapping_plan__struct.h
  /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c/mapping_interfaces/srv/detail/execute_mapping_plan__type_support.h
@@ -15,6 +18,9 @@ CMakeFiles/mapping_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_g
  /opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.h
  /opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__struct.h
  /opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.h
+ /opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.h
+ /opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.h
+ /opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.h
  /opt/ros/kilted/include/rcutils/rcutils/allocator.h
  /opt/ros/kilted/include/rcutils/rcutils/macros.h
  /opt/ros/kilted/include/rcutils/rcutils/sha256.h
@@ -34,6 +40,7 @@ CMakeFiles/mapping_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_g
  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h
  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
  /opt/ros/kilted/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h
+ /opt/ros/kilted/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.h
  /opt/ros/kilted/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h
  /opt/ros/kilted/include/std_msgs/std_msgs/msg/detail/header__struct.h
  /usr/include/alloca.h

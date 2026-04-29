@@ -1,3 +1,7 @@
+from mapping_interfaces.srv._capture_frame import CaptureFrame  # noqa: F401
+from mapping_interfaces.srv._capture_frame import CaptureFrame_Event  # noqa: F401
+from mapping_interfaces.srv._capture_frame import CaptureFrame_Request  # noqa: F401
+from mapping_interfaces.srv._capture_frame import CaptureFrame_Response  # noqa: F401
 from mapping_interfaces.srv._execute_mapping_plan import ExecuteMappingPlan  # noqa: F401
 from mapping_interfaces.srv._execute_mapping_plan import ExecuteMappingPlan_Event  # noqa: F401
 from mapping_interfaces.srv._execute_mapping_plan import ExecuteMappingPlan_Request  # noqa: F401
