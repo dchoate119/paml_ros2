@@ -1,0 +1,24 @@
+[0.622s] Invoking command in '/home/daniel-choate/paml_ros2/build/ur3_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel-choate/paml_ros2/install/ur3_movement:/home/daniel-choate/paml_ros2/install/rgbd_capture:/home/daniel-choate/paml_ros2/install/mapping_planner:/home/daniel-choate/paml_ros2/install/mapping_executor:/home/daniel-choate/paml_ros2/install/map_builder:/home/daniel-choate/paml_ros2/install/localization_bringup:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel-choate/paml_ros2/build/ur3_demo -- -j20 -l20
+[0.695s] [100%] Built target move_demo
+[0.828s] Invoked command in '/home/daniel-choate/paml_ros2/build/ur3_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel-choate/paml_ros2/install/ur3_movement:/home/daniel-choate/paml_ros2/install/rgbd_capture:/home/daniel-choate/paml_ros2/install/mapping_planner:/home/daniel-choate/paml_ros2/install/mapping_executor:/home/daniel-choate/paml_ros2/install/map_builder:/home/daniel-choate/paml_ros2/install/localization_bringup:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel-choate/paml_ros2/build/ur3_demo -- -j20 -l20
+[0.829s] Invoking command in '/home/daniel-choate/paml_ros2/build/ur3_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel-choate/paml_ros2/install/ur3_movement:/home/daniel-choate/paml_ros2/install/rgbd_capture:/home/daniel-choate/paml_ros2/install/mapping_planner:/home/daniel-choate/paml_ros2/install/mapping_executor:/home/daniel-choate/paml_ros2/install/map_builder:/home/daniel-choate/paml_ros2/install/localization_bringup:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/daniel-choate/paml_ros2/build/ur3_demo
+[0.836s] -- Install configuration: ""
+[0.837s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/ur3_demo/lib/ur3_demo/move_demo
+[0.837s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/launch
+[0.837s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/launch/launch.py
+[0.837s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ament_index/resource_index/package_run_dependencies/ur3_demo
+[0.837s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ament_index/resource_index/parent_prefix_path/ur3_demo
+[0.837s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/environment/ament_prefix_path.sh
+[0.837s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/environment/ament_prefix_path.dsv
+[0.837s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/environment/path.sh
+[0.837s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/environment/path.dsv
+[0.837s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/local_setup.bash
+[0.838s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/local_setup.sh
+[0.838s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/local_setup.zsh
+[0.838s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/local_setup.dsv
+[0.838s] -- Installing: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/package.dsv
+[0.838s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ament_index/resource_index/packages/ur3_demo
+[0.838s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/cmake/ur3_demoConfig.cmake
+[0.838s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/cmake/ur3_demoConfig-version.cmake
+[0.838s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/package.xml
+[0.840s] Invoked command in '/home/daniel-choate/paml_ros2/build/ur3_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel-choate/paml_ros2/install/ur3_movement:/home/daniel-choate/paml_ros2/install/rgbd_capture:/home/daniel-choate/paml_ros2/install/mapping_planner:/home/daniel-choate/paml_ros2/install/mapping_executor:/home/daniel-choate/paml_ros2/install/map_builder:/home/daniel-choate/paml_ros2/install/localization_bringup:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/daniel-choate/paml_ros2/build/ur3_demo

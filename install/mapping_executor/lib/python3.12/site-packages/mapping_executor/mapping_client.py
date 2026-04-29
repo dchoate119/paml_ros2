@@ -54,6 +54,7 @@ class MappingClient(Node):
 		# Planned poses from planning result
 		exec_req.planned_poses = plan_res.planned_poses
 		exec_req.capture_data = True
+		exec_req.capture_data = False
 
 		self.get_logger().info("Calling executor ...")
 		future = self.exec_client.call_async(exec_req)

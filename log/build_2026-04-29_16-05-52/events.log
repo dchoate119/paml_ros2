@@ -1,0 +1,11 @@
+[0.000000] (-) TimerEvent: {}
+[0.000283] (-) JobUnselected: {'identifier': 'localization_bringup'}
+[0.000320] (-) JobUnselected: {'identifier': 'map_builder'}
+[0.000343] (-) JobUnselected: {'identifier': 'mapping_executor'}
+[0.000362] (-) JobUnselected: {'identifier': 'mapping_interfaces'}
+[0.000380] (-) JobUnselected: {'identifier': 'mapping_planner'}
+[0.000396] (-) JobUnselected: {'identifier': 'rgbd_capture'}
+[0.000412] (-) JobUnselected: {'identifier': 'ur3_custom_description'}
+[0.000427] (-) JobUnselected: {'identifier': 'ur3_demo'}
+[0.000442] (-) JobUnselected: {'identifier': 'ur3_movement'}
+[0.000457] (-) EventReactorShutdown: {}

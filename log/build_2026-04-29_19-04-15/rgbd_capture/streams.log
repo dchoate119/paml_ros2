@@ -1,0 +1,23 @@
+[2.381s] Invoking command in '/home/daniel-choate/paml_ros2/src/rgbd_capture': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel-choate/paml_ros2/build/rgbd_capture/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel-choate/paml_ros2/install/rgbd_capture/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rgbd_capture build --build-base /home/daniel-choate/paml_ros2/build/rgbd_capture/build install --record /home/daniel-choate/paml_ros2/build/rgbd_capture/install.log --single-version-externally-managed install_data
+[2.837s] running egg_info
+[2.871s] writing ../../build/rgbd_capture/rgbd_capture.egg-info/PKG-INFO
+[2.871s] writing dependency_links to ../../build/rgbd_capture/rgbd_capture.egg-info/dependency_links.txt
+[2.872s] writing entry points to ../../build/rgbd_capture/rgbd_capture.egg-info/entry_points.txt
+[2.872s] writing requirements to ../../build/rgbd_capture/rgbd_capture.egg-info/requires.txt
+[2.872s] writing top-level names to ../../build/rgbd_capture/rgbd_capture.egg-info/top_level.txt
+[2.938s] reading manifest file '../../build/rgbd_capture/rgbd_capture.egg-info/SOURCES.txt'
+[2.938s] adding license file 'LICENSE'
+[2.939s] writing manifest file '../../build/rgbd_capture/rgbd_capture.egg-info/SOURCES.txt'
+[2.939s] running build
+[2.939s] running build_py
+[2.940s] running install
+[2.948s] running install_lib
+[2.992s] running install_data
+[2.992s] running install_egg_info
+[3.027s] removing '/home/daniel-choate/paml_ros2/install/rgbd_capture/lib/python3.12/site-packages/rgbd_capture-0.0.0-py3.12.egg-info' (and everything under it)
+[3.027s] Copying ../../build/rgbd_capture/rgbd_capture.egg-info to /home/daniel-choate/paml_ros2/install/rgbd_capture/lib/python3.12/site-packages/rgbd_capture-0.0.0-py3.12.egg-info
+[3.028s] running install_scripts
+[3.260s] Installing rgbd_capture_node script to /home/daniel-choate/paml_ros2/install/rgbd_capture/lib/rgbd_capture
+[3.261s] Installing rgbd_capture_node_test script to /home/daniel-choate/paml_ros2/install/rgbd_capture/lib/rgbd_capture
+[3.261s] writing list of installed files to '/home/daniel-choate/paml_ros2/build/rgbd_capture/install.log'
+[3.299s] Invoked command in '/home/daniel-choate/paml_ros2/src/rgbd_capture' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel-choate/paml_ros2/build/rgbd_capture/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel-choate/paml_ros2/install/rgbd_capture/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rgbd_capture build --build-base /home/daniel-choate/paml_ros2/build/rgbd_capture/build install --record /home/daniel-choate/paml_ros2/build/rgbd_capture/install.log --single-version-externally-managed install_data

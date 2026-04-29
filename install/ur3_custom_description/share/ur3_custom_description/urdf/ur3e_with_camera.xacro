@@ -10,35 +10,32 @@
   <!-- <xacro:include filename="$(find ur_description)/urdf/ur.urdf.xacro"/> -->
   <xacro:include filename="$(find ur_robot_driver)/urdf/ur.urdf.xacro"/>
 
-  <!-- <xacro:ur_robot
-    name="$(arg name)"
-    ur_type="$(arg ur_type)"
-    tf_prefix="$(arg tf_prefix)"
-  /> -->
 
   <!-- Simple collision/visual geometry for RGBD camera or mount -->
-  <link name="rgbd_camera_link">
+  <link name="camera_link">
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <box size="0.08 0.06 0.05"/>
+        <box size="0.11 0.1 0.095"/>
       </geometry>
     </visual>
 
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <box size="0.08 0.06 0.05"/>
+        <box size="0.11 0.1 0.095"/>
       </geometry>
     </collision>
   </link>
 
-  <joint name="rgbd_camera_joint" type="fixed">
+  <joint name="camera_mount_joint" type="fixed">
     <parent link="tool0"/>
-    <child link="rgbd_camera_link"/>
+    <child link="camera_link"/>
 
     <!-- Placeholder: adjust this to match the actual mount -->
-    <origin xyz="0 0 0.10" rpy="0 0 0"/>
+    <!-- <origin xyz="-0.015 0 0.0476" rpy="0 0 0"/> -->
+    <origin xyz="-0.055 0 0.085" rpy="0 -1.5708 0"/>
+
   </joint>
 
 </robot>

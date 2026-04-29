@@ -24,6 +24,7 @@ from shape_msgs.msg import SolidPrimitive
 
 from cv_bridge import CvBridge
 import cv2
+import tf2_ros
 
 
 
@@ -48,6 +49,10 @@ class UR3Executor(Node):
 		while not self.capture_client.wait_for_service(timeout_sec=1.0):
 			self.get_logger().info("Waiting for capture (still) ...")
 		self.get_logger().info("Connceted to capture service :)")
+
+		# Tf buffer
+		self.tf_buffer = tf2_ros.Buffer()
+		self.tf_listener = tf2_ros.TransformListener(self.tf_buffer, self)
 
 		# Service 
 		self.srv = self.create_service(
@@ -129,7 +134,7 @@ class UR3Executor(Node):
 		pose = Pose()
 		pose.position.x = 0.0   # where table is
 		pose.position.y = -0.25
-		pose.position.z = -0.05  # half thickness BELOW z=0
+		pose.position.z = -0.06  # half thickness BELOW z=0
 
 		
 		pose.orientation.w = 1.0
@@ -340,6 +345,28 @@ class UR3Executor(Node):
 
 		cv2.imwrite(f"data/rgb_{i}.png", rgb_img)
 		cv2.imwrite(f"data/depth_{i}.png", depth_img)
+
+		# Get transform
+		try:
+			t = self.tf_buffer.lookup_transform(
+				"base_link",
+				"camera_depth_optical_frame",
+				rclpy.time.Time()
+			)
+
+			trans = t.transform.translation
+			rot = t.transform.rotation
+
+			# Save as numpy array
+			tform = np.array([
+				trans.x, trans.y, trans.z,
+				rot.x, rot.y, rot.z, rot.w
+			])
+
+			np.save(f"data/tform_{i}.npy", tform)
+
+		except Exception as e:
+			self.get_logger().error(f"TF lookup failed: {e}")
 
 
 
