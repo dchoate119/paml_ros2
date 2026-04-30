@@ -30,8 +30,8 @@ class MappingClient(Node):
 		plan_req.planning_frame = "base_link"
 		plan_req.radius = 0.4
 		plan_req.start_angle_deg = 0.0
-		plan_req.end_angle_deg = 180.0
-		plan_req.num_views = 5
+		plan_req.end_angle_deg = 160.0
+		plan_req.num_views = 6
 		plan_req.height = 0.4
 		plan_req.face_outward = True
 		# Gather planner results
@@ -54,7 +54,7 @@ class MappingClient(Node):
 		# Planned poses from planning result
 		exec_req.planned_poses = plan_res.planned_poses
 		exec_req.capture_data = True
-		exec_req.capture_data = False
+		# exec_req.capture_data = False
 
 		self.get_logger().info("Calling executor ...")
 		future = self.exec_client.call_async(exec_req)

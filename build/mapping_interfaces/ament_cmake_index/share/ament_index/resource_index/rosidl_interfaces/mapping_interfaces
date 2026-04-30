@@ -4,3 +4,5 @@ srv/ExecuteMappingPlan.idl
 srv/ExecuteMappingPlan.srv
 srv/GenerateMappingPlan.idl
 srv/GenerateMappingPlan.srv
+srv/IntegrateFrame.idl
+srv/IntegrateFrame.srv

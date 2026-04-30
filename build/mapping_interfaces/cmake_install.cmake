@@ -59,6 +59,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mapping_interfaces/srv" TYPE FILE FILES "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_type_description/mapping_interfaces/srv/IntegrateFrame.json")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/mapping_interfaces/mapping_interfaces" TYPE DIRECTORY FILES "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c/mapping_interfaces/" REGEX "/[^/]*\\.h$")
 endif()
 
@@ -401,6 +405,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mapping_interfaces/srv" TYPE FILE FILES "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_adapter/mapping_interfaces/srv/IntegrateFrame.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mapping_interfaces/srv" TYPE FILE FILES "/home/daniel-choate/paml_ros2/src/mapping_interfaces/srv/GenerateMappingPlan.srv")
 endif()
 
@@ -410,6 +418,10 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mapping_interfaces/srv" TYPE FILE FILES "/home/daniel-choate/paml_ros2/src/mapping_interfaces/srv/CaptureFrame.srv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mapping_interfaces/srv" TYPE FILE FILES "/home/daniel-choate/paml_ros2/src/mapping_interfaces/srv/IntegrateFrame.srv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

@@ -26,6 +26,7 @@ setup(
     entry_points={
         'console_scripts': [
             'map_builder_node = map_builder.map_builder_node:main',
+            'map_builder_live = map_builder.map_builder_live:main',
         ],
     },
 )

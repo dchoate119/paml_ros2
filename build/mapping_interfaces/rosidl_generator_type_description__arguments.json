@@ -4,7 +4,8 @@
   "idl_tuples": [
     "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_adapter/mapping_interfaces:srv/GenerateMappingPlan.idl",
     "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_adapter/mapping_interfaces:srv/ExecuteMappingPlan.idl",
-    "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_adapter/mapping_interfaces:srv/CaptureFrame.idl"
+    "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_adapter/mapping_interfaces:srv/CaptureFrame.idl",
+    "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_adapter/mapping_interfaces:srv/IntegrateFrame.idl"
   ],
   "include_paths": [
     "geometry_msgs:/opt/ros/kilted/share/geometry_msgs",

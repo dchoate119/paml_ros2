@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_py/mapping_interfaces/srv/_execute_mapping_plan_s.c"
   "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_py/mapping_interfaces/srv/_generate_mapping_plan.py"
   "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_py/mapping_interfaces/srv/_generate_mapping_plan_s.c"
+  "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_py/mapping_interfaces/srv/_integrate_frame.py"
+  "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_py/mapping_interfaces/srv/_integrate_frame_s.c"
   "CMakeFiles/mapping_interfaces__py"
 )
 

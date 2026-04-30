@@ -87,9 +87,11 @@ rosidl_generator_rs/mapping_interfaces/rust/src/lib.rs: /opt/ros/kilted/share/ro
 rosidl_generator_rs/mapping_interfaces/rust/src/lib.rs: rosidl_adapter/mapping_interfaces/srv/GenerateMappingPlan.idl
 rosidl_generator_rs/mapping_interfaces/rust/src/lib.rs: rosidl_adapter/mapping_interfaces/srv/ExecuteMappingPlan.idl
 rosidl_generator_rs/mapping_interfaces/rust/src/lib.rs: rosidl_adapter/mapping_interfaces/srv/CaptureFrame.idl
+rosidl_generator_rs/mapping_interfaces/rust/src/lib.rs: rosidl_adapter/mapping_interfaces/srv/IntegrateFrame.idl
 rosidl_generator_rs/mapping_interfaces/rust/src/lib.rs: rosidl_adapter/mapping_interfaces/srv/GenerateMappingPlan.idl
 rosidl_generator_rs/mapping_interfaces/rust/src/lib.rs: rosidl_adapter/mapping_interfaces/srv/ExecuteMappingPlan.idl
 rosidl_generator_rs/mapping_interfaces/rust/src/lib.rs: rosidl_adapter/mapping_interfaces/srv/CaptureFrame.idl
+rosidl_generator_rs/mapping_interfaces/rust/src/lib.rs: rosidl_adapter/mapping_interfaces/srv/IntegrateFrame.idl
 rosidl_generator_rs/mapping_interfaces/rust/src/lib.rs: /opt/ros/kilted/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_rs/mapping_interfaces/rust/src/lib.rs: /opt/ros/kilted/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_rs/mapping_interfaces/rust/src/lib.rs: /opt/ros/kilted/share/geometry_msgs/msg/AccelWithCovariance.idl

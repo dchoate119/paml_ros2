@@ -14,8 +14,13 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/mapping_interfaces/srv/detail/generate_mapping_plan__struct.hpp"
   "rosidl_generator_cpp/mapping_interfaces/srv/detail/generate_mapping_plan__traits.hpp"
   "rosidl_generator_cpp/mapping_interfaces/srv/detail/generate_mapping_plan__type_support.hpp"
+  "rosidl_generator_cpp/mapping_interfaces/srv/detail/integrate_frame__builder.hpp"
+  "rosidl_generator_cpp/mapping_interfaces/srv/detail/integrate_frame__struct.hpp"
+  "rosidl_generator_cpp/mapping_interfaces/srv/detail/integrate_frame__traits.hpp"
+  "rosidl_generator_cpp/mapping_interfaces/srv/detail/integrate_frame__type_support.hpp"
   "rosidl_generator_cpp/mapping_interfaces/srv/execute_mapping_plan.hpp"
   "rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp"
+  "rosidl_generator_cpp/mapping_interfaces/srv/integrate_frame.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/mapping_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mapping_interfaces/srv/detail/execute_mapping_plan__type_support.cpp.o.d"
   "CMakeFiles/mapping_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mapping_interfaces/srv/detail/generate_mapping_plan__type_support.cpp.o"
   "CMakeFiles/mapping_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mapping_interfaces/srv/detail/generate_mapping_plan__type_support.cpp.o.d"
+  "CMakeFiles/mapping_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mapping_interfaces/srv/detail/integrate_frame__type_support.cpp.o"
+  "CMakeFiles/mapping_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mapping_interfaces/srv/detail/integrate_frame__type_support.cpp.o.d"
   "libmapping_interfaces__rosidl_typesupport_introspection_cpp.pdb"
   "libmapping_interfaces__rosidl_typesupport_introspection_cpp.so"
   "rosidl_typesupport_introspection_cpp/mapping_interfaces/srv/detail/capture_frame__rosidl_typesupport_introspection_cpp.hpp"
@@ -13,6 +15,8 @@ file(REMOVE_RECURSE
   "rosidl_typesupport_introspection_cpp/mapping_interfaces/srv/detail/execute_mapping_plan__type_support.cpp"
   "rosidl_typesupport_introspection_cpp/mapping_interfaces/srv/detail/generate_mapping_plan__rosidl_typesupport_introspection_cpp.hpp"
   "rosidl_typesupport_introspection_cpp/mapping_interfaces/srv/detail/generate_mapping_plan__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/mapping_interfaces/srv/detail/integrate_frame__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/mapping_interfaces/srv/detail/integrate_frame__type_support.cpp"
 )
 
 # Per-language clean rules from dependency scanning.

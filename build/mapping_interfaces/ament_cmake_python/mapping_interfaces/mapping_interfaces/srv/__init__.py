@@ -10,3 +10,7 @@ from mapping_interfaces.srv._generate_mapping_plan import GenerateMappingPlan  #
 from mapping_interfaces.srv._generate_mapping_plan import GenerateMappingPlan_Event  # noqa: F401
 from mapping_interfaces.srv._generate_mapping_plan import GenerateMappingPlan_Request  # noqa: F401
 from mapping_interfaces.srv._generate_mapping_plan import GenerateMappingPlan_Response  # noqa: F401
+from mapping_interfaces.srv._integrate_frame import IntegrateFrame  # noqa: F401
+from mapping_interfaces.srv._integrate_frame import IntegrateFrame_Event  # noqa: F401
+from mapping_interfaces.srv._integrate_frame import IntegrateFrame_Request  # noqa: F401
+from mapping_interfaces.srv._integrate_frame import IntegrateFrame_Response  # noqa: F401

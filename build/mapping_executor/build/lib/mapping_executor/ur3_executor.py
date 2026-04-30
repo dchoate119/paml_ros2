@@ -7,7 +7,7 @@ from rclpy.callback_groups import ReentrantCallbackGroup
 from rclpy.executors import MultiThreadedExecutor
 
 from geometry_msgs.msg import PoseStamped, Pose
-from mapping_interfaces.srv import ExecuteMappingPlan, CaptureFrame
+from mapping_interfaces.srv import ExecuteMappingPlan, CaptureFrame, IntegrateFrame
 from moveit_msgs.action import MoveGroup 
 from moveit_msgs.msg import (
 	MotionPlanRequest,
@@ -62,6 +62,14 @@ class UR3Executor(Node):
 			callback_group = self.service_cb_group,
 		)
 
+		# MAP BUILDER SERVICE
+		self.map_builder_client = self.create_client(IntegrateFrame, 'integrate_frame')
+		self.get_logger().info("Waiting for map builder service ...")
+		while not self.map_builder_client.wait_for_service(timeout_sec=1.0):
+			self.get_logger().info("Waiting map builder (still) ...")
+		self.get_logger().info("Connected to MAP BUILDER")
+
+
 		# Import planning scene 
 		self.scene_pub = self.create_publisher(PlanningScene, '/planning_scene', 10)
 
@@ -104,7 +112,21 @@ class UR3Executor(Node):
 
 			# Capture trigger =================
 			if request.capture_data:
-				self.capture_trigger(i)
+				success = self.capture_trigger(i)
+				if not success:
+					response.success = False
+					response.failed_index = i
+					response.completed_count = i
+					response.message = "CAPTURE failed"
+					return response
+
+				success = self.integrate_trigger(i)
+				if not success:
+					response.success = False
+					response.failed_index = i
+					response.completed_count = i
+					response.message = "Integration failed"
+					return response
 
 			# break # ONLY DO FIRST POSE FOR NOW 
 
@@ -331,11 +353,12 @@ class UR3Executor(Node):
 
 		if result is None or not result.success:
 			self.get_logger().error(f"Capture failed: {result.message if result else 'No response'}")
-			response.success = False
-			response.failed_index = i
-			response.completed_count = i
-			response.message = "Capture failed"
-			return response
+			# response.success = False
+			# response.failed_index = i
+			# response.completed_count = i
+			# response.message = "Capture failed"
+			# return response
+			return False
 
 		self.get_logger().info(f"[{i}] Capture successful")
 		bridge = CvBridge()
@@ -367,6 +390,29 @@ class UR3Executor(Node):
 
 		except Exception as e:
 			self.get_logger().error(f"TF lookup failed: {e}")
+
+		return True
+
+
+	def integrate_trigger(self, i):
+		self.get_logger().info(f"[{i}] Integrating frame into map")
+
+		req = IntegrateFrame.Request()
+		req.waypoint_id = i
+
+		future = self.map_builder_client.call_async(req)
+
+		while not future.done():
+			time.sleep(0.05)
+
+		result = future.result()
+
+		if result is None or not result.success:
+			self.get_logger().error(f"Integration failed: {result.message if result else 'No response'}")
+			return False
+
+		self.get_logger().info(f"[{i}] Integration successful")
+		return True
 
 
 

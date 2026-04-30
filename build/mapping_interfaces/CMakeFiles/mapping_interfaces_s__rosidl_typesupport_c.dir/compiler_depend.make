@@ -12,6 +12,9 @@ CMakeFiles/mapping_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/ma
   rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__functions.h \
   rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__struct.h \
   rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__type_support.h \
+  rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__functions.h \
+  rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__struct.h \
+  rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__type_support.h \
   /opt/ros/kilted/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
   /opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
   /opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.h \
@@ -333,10 +336,6 @@ CMakeFiles/mapping_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/ma
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
-/usr/include/python3.12/ceval.h:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
 /usr/include/python3.12/cpython/weakrefobject.h:
 
 /usr/include/python3.12/bytesobject.h:
@@ -385,10 +384,6 @@ rosidl_generator_c/mapping_interfaces/srv/detail/capture_frame__struct.h:
 
 /usr/include/python3.12/cpython/compile.h:
 
-/usr/include/python3.12/enumobject.h:
-
-/usr/include/python3.12/cpython/classobject.h:
-
 /usr/include/python3.12/compile.h:
 
 /usr/include/python3.12/cpython/ceval.h:
@@ -396,6 +391,14 @@ rosidl_generator_c/mapping_interfaces/srv/detail/capture_frame__struct.h:
 /usr/include/python3.12/cpython/bytesobject.h:
 
 /usr/include/python3.12/boolobject.h:
+
+/usr/include/python3.12/ceval.h:
+
+/usr/include/python3.12/cpython/classobject.h:
+
+/usr/include/python3.12/enumobject.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/python3.12/cpython/pydebug.h:
 
@@ -409,17 +412,11 @@ rosidl_generator_c/mapping_interfaces/srv/detail/capture_frame__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/statx-generic.h:
 
-/usr/include/python3.12/cpython/object.h:
-
 /usr/include/python3.12/cpython/picklebufobject.h:
 
 /usr/include/python3.12/complexobject.h:
 
 /usr/include/linux/stddef.h:
-
-/usr/include/python3.12/pyframe.h:
-
-/usr/include/linux/stat.h:
 
 /usr/include/linux/posix_types.h:
 
@@ -427,23 +424,17 @@ rosidl_generator_c/mapping_interfaces/srv/detail/capture_frame__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
-/usr/include/math.h:
+/usr/include/linux/limits.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
-/opt/ros/kilted/include/rcutils/rcutils/types/rcutils_ret.h:
+/usr/include/linux/errno.h:
 
-/usr/include/python3.12/intrcheck.h:
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
+/usr/include/linux/close_range.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/usr/include/python3.12/pytypedefs.h:
-
-/usr/include/ctype.h:
-
-/usr/include/errno.h:
+/usr/include/python3.12/cpython/funcobject.h:
 
 /opt/ros/kilted/include/rcutils/rcutils/macros.h:
 
@@ -453,15 +444,11 @@ rosidl_generator_c/mapping_interfaces/srv/detail/capture_frame__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
-/usr/include/python3.12/pymath.h:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
 /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
 /opt/ros/kilted/include/rcutils/rcutils/visibility_control_macros.h:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
 rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__type_support.h:
 
@@ -471,11 +458,33 @@ rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__type_sup
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
+/usr/include/python3.12/codecs.h:
 
-/usr/include/python3.12/cpython/unicodeobject.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_statx.h:
 
-rosidl_generator_c/mapping_interfaces/msg/rosidl_generator_c__visibility_control.h:
+/usr/include/python3.12/pybuffer.h:
+
+/opt/ros/kilted/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
+
+/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h:
+
+/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h:
+
+/usr/include/python3.12/cpython/object.h:
+
+/usr/include/python3.12/bytearrayobject.h:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__struct.h:
+
+/usr/include/python3.12/rangeobject.h:
+
+/usr/include/linux/stat.h:
+
+/usr/include/python3.12/pyframe.h:
+
+/usr/include/python3.12/cpython/odictobject.h:
+
+/usr/include/alloca.h:
 
 /usr/include/stdlib.h:
 
@@ -487,27 +496,17 @@ rosidl_generator_c/mapping_interfaces/srv/detail/capture_frame__functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
-/usr/include/python3.12/cpython/funcobject.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
 
-/usr/include/linux/close_range.h:
+/usr/include/python3.12/cpython/unicodeobject.h:
+
+rosidl_generator_c/mapping_interfaces/msg/rosidl_generator_c__visibility_control.h:
+
+/usr/include/python3.12/pymath.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
 
 rosidl_generator_c/mapping_interfaces/srv/detail/execute_mapping_plan__type_support.h:
-
-/usr/include/python3.12/codecs.h:
-
-/usr/include/python3.12/bytearrayobject.h:
-
-/usr/include/python3.12/rangeobject.h:
-
-rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__struct.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_statx.h:
-
-/usr/include/python3.12/pybuffer.h:
-
-/opt/ros/kilted/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
-
-/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h:
 
 /usr/include/python3.12/cpython/code.h:
 
@@ -529,29 +528,31 @@ rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__struct.h
 
 /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h:
 
-/usr/include/python3.12/dictobject.h:
+/usr/include/asm-generic/errno-base.h:
 
-/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
+/opt/ros/kilted/include/rcutils/rcutils/types/rcutils_ret.h:
 
-/usr/include/python3.12/Python.h:
-
-/usr/include/python3.12/traceback.h:
+/usr/include/python3.12/intrcheck.h:
 
 rosidl_generator_c/mapping_interfaces/srv/detail/execute_mapping_plan__struct.h:
 
-/usr/include/asm-generic/errno-base.h:
+/usr/include/python3.12/traceback.h:
 
-/usr/include/python3.12/pystats.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
 
-/usr/include/stdc-predef.h:
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/python3.12/cpython/listobject.h:
+
+/usr/include/stdint.h:
+
+/usr/include/endian.h:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.h:
-
-/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
-
-/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.h:
 
 /usr/include/x86_64-linux-gnu/asm/types.h:
 
@@ -565,15 +566,21 @@ rosidl_generator_c/mapping_interfaces/srv/detail/capture_frame__type_support.h:
 
 /usr/include/python3.12/cpython/complexobject.h:
 
-/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h:
+/usr/include/math.h:
 
-/usr/include/linux/types.h:
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
-rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_c.c:
+/usr/include/python3.12/dictobject.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+/usr/include/python3.12/Python.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
+
+/usr/include/python3.12/pytypedefs.h:
+
+/usr/include/ctype.h:
+
+/usr/include/errno.h:
 
 /usr/include/python3.12/cpython/longobject.h:
 
@@ -585,7 +592,23 @@ rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesuppo
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
-/usr/include/python3.12/fileobject.h:
+/usr/include/linux/types.h:
+
+rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_c.c:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__functions.h:
+
+/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.h:
+
+/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
+
+/usr/include/python3.12/pystats.h:
+
+/usr/include/stdc-predef.h:
 
 /usr/include/asm-generic/posix_types.h:
 
@@ -595,15 +618,17 @@ rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesuppo
 
 /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__type_support.h:
+
 /opt/ros/kilted/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
 
 /usr/include/assert.h:
 
 /usr/include/python3.12/genericaliasobject.h:
-
-/usr/include/python3.12/cpython/odictobject.h:
-
-/usr/include/alloca.h:
 
 /usr/include/inttypes.h:
 
@@ -637,19 +662,7 @@ rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__function
 
 /usr/include/limits.h:
 
-/usr/include/linux/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
-/usr/include/linux/limits.h:
-
-/usr/include/python3.12/cpython/listobject.h:
-
-/usr/include/endian.h:
-
-/usr/include/stdint.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+/usr/include/python3.12/fileobject.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
@@ -676,6 +689,14 @@ rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__function
 /usr/include/python3.12/listobject.h:
 
 /usr/include/python3.12/pystrtod.h:
+
+/usr/include/python3.12/cpython/tupleobject.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/python3.12/tupleobject.h:
+
+/usr/include/python3.12/longobject.h:
 
 /usr/include/python3.12/methodobject.h:
 
@@ -731,6 +752,10 @@ rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__function
 
 /usr/include/python3.12/pythread.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/python3.12/sliceobject.h:
+
 /usr/include/python3.12/structseq.h:
 
 /usr/include/python3.12/sysmodule.h:
@@ -744,14 +769,6 @@ rosidl_generator_c/mapping_interfaces/srv/detail/execute_mapping_plan__functions
 /usr/include/asm-generic/errno.h:
 
 /usr/include/python3.12/tracemalloc.h:
-
-/usr/include/python3.12/cpython/tupleobject.h:
-
-/usr/include/x86_64-linux-gnu/asm/errno.h:
-
-/usr/include/python3.12/longobject.h:
-
-/usr/include/python3.12/tupleobject.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h:
 
@@ -790,10 +807,6 @@ rosidl_generator_c/mapping_interfaces/srv/detail/execute_mapping_plan__functions
 /usr/include/x86_64-linux-gnu/bits/environments.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
-
-/usr/include/python3.12/sliceobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
@@ -862,7 +875,3 @@ rosidl_generator_c/mapping_interfaces/srv/detail/execute_mapping_plan__functions
 /usr/include/asm-generic/bitsperlong.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:

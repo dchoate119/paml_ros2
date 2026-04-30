@@ -71,7 +71,7 @@ class MappingPlanner(Node):
 			# else:
 			# 	yaw = theta 
 
-			pitch = 3*np.pi/4
+			pitch = 13*np.pi/20
 
 			q = quaternion_from_euler(0,pitch,yaw)
 			pose.orientation.x = q[0]
