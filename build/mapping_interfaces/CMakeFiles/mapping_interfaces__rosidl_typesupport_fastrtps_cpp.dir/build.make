@@ -81,6 +81,7 @@ rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/gener
 rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/generate_mapping_plan__type_support.cpp: rosidl_adapter/mapping_interfaces/srv/ExecuteMappingPlan.idl
 rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/generate_mapping_plan__type_support.cpp: rosidl_adapter/mapping_interfaces/srv/CaptureFrame.idl
 rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/generate_mapping_plan__type_support.cpp: rosidl_adapter/mapping_interfaces/srv/IntegrateFrame.idl
+rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/generate_mapping_plan__type_support.cpp: rosidl_adapter/mapping_interfaces/srv/ResetMap.idl
 rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/generate_mapping_plan__type_support.cpp: /opt/ros/kilted/share/geometry_msgs/msg/Accel.idl
 rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/generate_mapping_plan__type_support.cpp: /opt/ros/kilted/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/generate_mapping_plan__type_support.cpp: /opt/ros/kilted/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -198,6 +199,12 @@ rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/integ
 rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/integrate_frame__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/generate_mapping_plan__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/integrate_frame__rosidl_typesupport_fastrtps_cpp.hpp
 
+rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/reset_map__type_support.cpp: rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/generate_mapping_plan__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/reset_map__type_support.cpp
+
+rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/reset_map__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/generate_mapping_plan__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/reset_map__rosidl_typesupport_fastrtps_cpp.hpp
+
 CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/generate_mapping_plan__type_support.cpp.o: CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/flags.make
 CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/generate_mapping_plan__type_support.cpp.o: rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/generate_mapping_plan__type_support.cpp
 CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/generate_mapping_plan__type_support.cpp.o: CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/compiler_depend.ts
@@ -254,12 +261,27 @@ CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesu
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/integrate_frame__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/integrate_frame__type_support.cpp -o CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/integrate_frame__type_support.cpp.s
 
+CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/reset_map__type_support.cpp.o: CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/flags.make
+CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/reset_map__type_support.cpp.o: rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/reset_map__type_support.cpp
+CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/reset_map__type_support.cpp.o: CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/daniel-choate/paml_ros2/build/mapping_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/reset_map__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/reset_map__type_support.cpp.o -MF CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/reset_map__type_support.cpp.o.d -o CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/reset_map__type_support.cpp.o -c /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/reset_map__type_support.cpp
+
+CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/reset_map__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/reset_map__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/reset_map__type_support.cpp > CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/reset_map__type_support.cpp.i
+
+CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/reset_map__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/reset_map__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/reset_map__type_support.cpp -o CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/reset_map__type_support.cpp.s
+
 # Object files for target mapping_interfaces__rosidl_typesupport_fastrtps_cpp
 mapping_interfaces__rosidl_typesupport_fastrtps_cpp_OBJECTS = \
 "CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/generate_mapping_plan__type_support.cpp.o" \
 "CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/execute_mapping_plan__type_support.cpp.o" \
 "CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/capture_frame__type_support.cpp.o" \
-"CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/integrate_frame__type_support.cpp.o"
+"CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/integrate_frame__type_support.cpp.o" \
+"CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/reset_map__type_support.cpp.o"
 
 # External object files for target mapping_interfaces__rosidl_typesupport_fastrtps_cpp
 mapping_interfaces__rosidl_typesupport_fastrtps_cpp_EXTERNAL_OBJECTS =
@@ -268,6 +290,7 @@ libmapping_interfaces__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/mapping_in
 libmapping_interfaces__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/execute_mapping_plan__type_support.cpp.o
 libmapping_interfaces__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/capture_frame__type_support.cpp.o
 libmapping_interfaces__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/integrate_frame__type_support.cpp.o
+libmapping_interfaces__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/reset_map__type_support.cpp.o
 libmapping_interfaces__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make
 libmapping_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/kilted/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
 libmapping_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/kilted/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -287,7 +310,7 @@ libmapping_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/kilted/lib/l
 libmapping_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/kilted/lib/librosidl_runtime_c.so
 libmapping_interfaces__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/kilted/lib/librcutils.so
 libmapping_interfaces__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/daniel-choate/paml_ros2/build/mapping_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library libmapping_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/daniel-choate/paml_ros2/build/mapping_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library libmapping_interfaces__rosidl_typesupport_fastrtps_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -303,9 +326,11 @@ CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: rosid
 CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/execute_mapping_plan__type_support.cpp
 CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/generate_mapping_plan__type_support.cpp
 CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/integrate_frame__type_support.cpp
+CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/dds_fastrtps/reset_map__type_support.cpp
 CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/execute_mapping_plan__rosidl_typesupport_fastrtps_cpp.hpp
 CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/generate_mapping_plan__rosidl_typesupport_fastrtps_cpp.hpp
 CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/integrate_frame__rosidl_typesupport_fastrtps_cpp.hpp
+CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/mapping_interfaces/srv/detail/reset_map__rosidl_typesupport_fastrtps_cpp.hpp
 	cd /home/daniel-choate/paml_ros2/build/mapping_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daniel-choate/paml_ros2/src/mapping_interfaces /home/daniel-choate/paml_ros2/src/mapping_interfaces /home/daniel-choate/paml_ros2/build/mapping_interfaces /home/daniel-choate/paml_ros2/build/mapping_interfaces /home/daniel-choate/paml_ros2/build/mapping_interfaces/CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/mapping_interfaces__rosidl_typesupport_fastrtps_cpp.dir/depend
 

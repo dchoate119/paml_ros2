@@ -6,3 +6,5 @@ srv/GenerateMappingPlan.idl
 srv/GenerateMappingPlan.srv
 srv/IntegrateFrame.idl
 srv/IntegrateFrame.srv
+srv/ResetMap.idl
+srv/ResetMap.srv

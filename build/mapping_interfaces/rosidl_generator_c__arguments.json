@@ -6,13 +6,15 @@
     "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_adapter/mapping_interfaces:srv/GenerateMappingPlan.idl",
     "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_adapter/mapping_interfaces:srv/ExecuteMappingPlan.idl",
     "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_adapter/mapping_interfaces:srv/CaptureFrame.idl",
-    "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_adapter/mapping_interfaces:srv/IntegrateFrame.idl"
+    "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_adapter/mapping_interfaces:srv/IntegrateFrame.idl",
+    "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_adapter/mapping_interfaces:srv/ResetMap.idl"
   ],
   "ros_interface_files": [
     "/home/daniel-choate/paml_ros2/src/mapping_interfaces/srv/GenerateMappingPlan.srv",
     "/home/daniel-choate/paml_ros2/src/mapping_interfaces/srv/ExecuteMappingPlan.srv",
     "/home/daniel-choate/paml_ros2/src/mapping_interfaces/srv/CaptureFrame.srv",
-    "/home/daniel-choate/paml_ros2/src/mapping_interfaces/srv/IntegrateFrame.srv"
+    "/home/daniel-choate/paml_ros2/src/mapping_interfaces/srv/IntegrateFrame.srv",
+    "/home/daniel-choate/paml_ros2/src/mapping_interfaces/srv/ResetMap.srv"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/kilted/share/geometry_msgs/msg/Accel.idl",
@@ -133,6 +135,7 @@
     "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_adapter/mapping_interfaces/srv/ExecuteMappingPlan.idl",
     "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_adapter/mapping_interfaces/srv/CaptureFrame.idl",
     "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_adapter/mapping_interfaces/srv/IntegrateFrame.idl",
+    "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_adapter/mapping_interfaces/srv/ResetMap.idl",
     "/opt/ros/kilted/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/kilted/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/kilted/share/geometry_msgs/msg/AccelWithCovariance.idl",
@@ -231,6 +234,7 @@
     "srv/GenerateMappingPlan.idl:/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_type_description/mapping_interfaces/srv/GenerateMappingPlan.json",
     "srv/ExecuteMappingPlan.idl:/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_type_description/mapping_interfaces/srv/ExecuteMappingPlan.json",
     "srv/CaptureFrame.idl:/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_type_description/mapping_interfaces/srv/CaptureFrame.json",
-    "srv/IntegrateFrame.idl:/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_type_description/mapping_interfaces/srv/IntegrateFrame.json"
+    "srv/IntegrateFrame.idl:/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_type_description/mapping_interfaces/srv/IntegrateFrame.json",
+    "srv/ResetMap.idl:/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_type_description/mapping_interfaces/srv/ResetMap.json"
   ]
 }

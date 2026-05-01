@@ -1,0 +1,19 @@
+[2.669s] Invoking command in '/home/daniel-choate/paml_ros2/src/mapping_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel-choate/paml_ros2/build/mapping_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel-choate/paml_ros2/install/mapping_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mapping_bringup build --build-base /home/daniel-choate/paml_ros2/build/mapping_bringup/build install --record /home/daniel-choate/paml_ros2/build/mapping_bringup/install.log --single-version-externally-managed install_data
+[3.072s] running egg_info
+[3.104s] writing ../../build/mapping_bringup/mapping_bringup.egg-info/PKG-INFO
+[3.104s] writing dependency_links to ../../build/mapping_bringup/mapping_bringup.egg-info/dependency_links.txt
+[3.105s] writing requirements to ../../build/mapping_bringup/mapping_bringup.egg-info/requires.txt
+[3.105s] writing top-level names to ../../build/mapping_bringup/mapping_bringup.egg-info/top_level.txt
+[3.170s] reading manifest file '../../build/mapping_bringup/mapping_bringup.egg-info/SOURCES.txt'
+[3.171s] writing manifest file '../../build/mapping_bringup/mapping_bringup.egg-info/SOURCES.txt'
+[3.171s] running build
+[3.171s] running build_py
+[3.172s] running install
+[3.179s] running install_lib
+[3.212s] running install_data
+[3.212s] running install_egg_info
+[3.246s] removing '/home/daniel-choate/paml_ros2/install/mapping_bringup/lib/python3.12/site-packages/mapping_bringup-0.0.0-py3.12.egg-info' (and everything under it)
+[3.247s] Copying ../../build/mapping_bringup/mapping_bringup.egg-info to /home/daniel-choate/paml_ros2/install/mapping_bringup/lib/python3.12/site-packages/mapping_bringup-0.0.0-py3.12.egg-info
+[3.247s] running install_scripts
+[3.454s] writing list of installed files to '/home/daniel-choate/paml_ros2/build/mapping_bringup/install.log'
+[3.490s] Invoked command in '/home/daniel-choate/paml_ros2/src/mapping_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel-choate/paml_ros2/build/mapping_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel-choate/paml_ros2/install/mapping_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mapping_bringup build --build-base /home/daniel-choate/paml_ros2/build/mapping_bringup/build install --record /home/daniel-choate/paml_ros2/build/mapping_bringup/install.log --single-version-externally-managed install_data

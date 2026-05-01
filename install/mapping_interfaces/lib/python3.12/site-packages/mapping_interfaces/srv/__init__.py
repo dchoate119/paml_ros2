@@ -14,3 +14,7 @@ from mapping_interfaces.srv._integrate_frame import IntegrateFrame  # noqa: F401
 from mapping_interfaces.srv._integrate_frame import IntegrateFrame_Event  # noqa: F401
 from mapping_interfaces.srv._integrate_frame import IntegrateFrame_Request  # noqa: F401
 from mapping_interfaces.srv._integrate_frame import IntegrateFrame_Response  # noqa: F401
+from mapping_interfaces.srv._reset_map import ResetMap  # noqa: F401
+from mapping_interfaces.srv._reset_map import ResetMap_Event  # noqa: F401
+from mapping_interfaces.srv._reset_map import ResetMap_Request  # noqa: F401
+from mapping_interfaces.srv._reset_map import ResetMap_Response  # noqa: F401

@@ -92,6 +92,7 @@ rosidl_generator_c/mapping_interfaces/srv/generate_mapping_plan.h: rosidl_adapte
 rosidl_generator_c/mapping_interfaces/srv/generate_mapping_plan.h: rosidl_adapter/mapping_interfaces/srv/ExecuteMappingPlan.idl
 rosidl_generator_c/mapping_interfaces/srv/generate_mapping_plan.h: rosidl_adapter/mapping_interfaces/srv/CaptureFrame.idl
 rosidl_generator_c/mapping_interfaces/srv/generate_mapping_plan.h: rosidl_adapter/mapping_interfaces/srv/IntegrateFrame.idl
+rosidl_generator_c/mapping_interfaces/srv/generate_mapping_plan.h: rosidl_adapter/mapping_interfaces/srv/ResetMap.idl
 rosidl_generator_c/mapping_interfaces/srv/generate_mapping_plan.h: /opt/ros/kilted/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_c/mapping_interfaces/srv/generate_mapping_plan.h: /opt/ros/kilted/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_c/mapping_interfaces/srv/generate_mapping_plan.h: /opt/ros/kilted/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -233,6 +234,18 @@ rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__struct.h: rosi
 rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__type_support.h: rosidl_generator_c/mapping_interfaces/srv/generate_mapping_plan.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__type_support.h
 
+rosidl_generator_c/mapping_interfaces/srv/reset_map.h: rosidl_generator_c/mapping_interfaces/srv/generate_mapping_plan.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mapping_interfaces/srv/reset_map.h
+
+rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.h: rosidl_generator_c/mapping_interfaces/srv/generate_mapping_plan.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.h
+
+rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__struct.h: rosidl_generator_c/mapping_interfaces/srv/generate_mapping_plan.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__struct.h
+
+rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.h: rosidl_generator_c/mapping_interfaces/srv/generate_mapping_plan.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.h
+
 rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__description.c: rosidl_generator_c/mapping_interfaces/srv/generate_mapping_plan.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__description.c
 
@@ -268,6 +281,15 @@ rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__functions.c: r
 
 rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__type_support.c: rosidl_generator_c/mapping_interfaces/srv/generate_mapping_plan.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__type_support.c
+
+rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__description.c: rosidl_generator_c/mapping_interfaces/srv/generate_mapping_plan.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__description.c
+
+rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.c: rosidl_generator_c/mapping_interfaces/srv/generate_mapping_plan.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.c
+
+rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.c: rosidl_generator_c/mapping_interfaces/srv/generate_mapping_plan.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.c
 
 CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__description.c.o: CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__description.c.o: rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__description.c
@@ -437,6 +459,48 @@ CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__type_support.c -o CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__type_support.c.s
 
+CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__description.c.o: CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__description.c.o: rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__description.c
+CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__description.c.o: CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/daniel-choate/paml_ros2/build/mapping_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__description.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__description.c.o -MF CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__description.c.o.d -o CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__description.c.o -c /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__description.c
+
+CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__description.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__description.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__description.c > CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__description.c.i
+
+CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__description.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__description.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__description.c -o CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__description.c.s
+
+CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.c.o: CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.c.o: rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.c
+CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.c.o: CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/daniel-choate/paml_ros2/build/mapping_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.c.o -MF CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.c.o.d -o CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.c.o -c /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.c
+
+CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.c > CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.c.i
+
+CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.c -o CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.c.s
+
+CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.c.o: CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.c.o: rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.c
+CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.c.o: CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/daniel-choate/paml_ros2/build/mapping_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.c.o -MF CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.c.o.d -o CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.c.o -c /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.c
+
+CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.c > CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.c.i
+
+CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.c -o CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.c.s
+
 # Object files for target mapping_interfaces__rosidl_generator_c
 mapping_interfaces__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__description.c.o" \
@@ -450,7 +514,10 @@ mapping_interfaces__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/capture_frame__type_support.c.o" \
 "CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__description.c.o" \
 "CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__functions.c.o" \
-"CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__type_support.c.o"
+"CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__type_support.c.o" \
+"CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__description.c.o" \
+"CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.c.o" \
+"CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.c.o"
 
 # External object files for target mapping_interfaces__rosidl_generator_c
 mapping_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -467,6 +534,9 @@ libmapping_interfaces__rosidl_generator_c.so: CMakeFiles/mapping_interfaces__ros
 libmapping_interfaces__rosidl_generator_c.so: CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__description.c.o
 libmapping_interfaces__rosidl_generator_c.so: CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__functions.c.o
 libmapping_interfaces__rosidl_generator_c.so: CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__type_support.c.o
+libmapping_interfaces__rosidl_generator_c.so: CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__description.c.o
+libmapping_interfaces__rosidl_generator_c.so: CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.c.o
+libmapping_interfaces__rosidl_generator_c.so: CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.c.o
 libmapping_interfaces__rosidl_generator_c.so: CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/build.make
 libmapping_interfaces__rosidl_generator_c.so: /opt/ros/kilted/lib/libsensor_msgs__rosidl_generator_c.so
 libmapping_interfaces__rosidl_generator_c.so: /opt/ros/kilted/lib/libservice_msgs__rosidl_generator_c.so
@@ -476,7 +546,7 @@ libmapping_interfaces__rosidl_generator_c.so: /opt/ros/kilted/lib/libbuiltin_int
 libmapping_interfaces__rosidl_generator_c.so: /opt/ros/kilted/lib/librosidl_runtime_c.so
 libmapping_interfaces__rosidl_generator_c.so: /opt/ros/kilted/lib/librcutils.so
 libmapping_interfaces__rosidl_generator_c.so: CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/daniel-choate/paml_ros2/build/mapping_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking C shared library libmapping_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/daniel-choate/paml_ros2/build/mapping_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking C shared library libmapping_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -512,9 +582,16 @@ CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c
 CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__struct.h
 CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__type_support.c
 CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__type_support.h
+CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__description.c
+CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.c
+CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.h
+CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__struct.h
+CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.c
+CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.h
 CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/mapping_interfaces/srv/execute_mapping_plan.h
 CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/mapping_interfaces/srv/generate_mapping_plan.h
 CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/mapping_interfaces/srv/integrate_frame.h
+CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/mapping_interfaces/srv/reset_map.h
 	cd /home/daniel-choate/paml_ros2/build/mapping_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/daniel-choate/paml_ros2/src/mapping_interfaces /home/daniel-choate/paml_ros2/src/mapping_interfaces /home/daniel-choate/paml_ros2/build/mapping_interfaces /home/daniel-choate/paml_ros2/build/mapping_interfaces /home/daniel-choate/paml_ros2/build/mapping_interfaces/CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/depend
 

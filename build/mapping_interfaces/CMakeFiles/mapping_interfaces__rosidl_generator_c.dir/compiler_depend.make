@@ -1080,257 +1080,519 @@ CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
 
-
-rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__type_support.h:
-
-rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__type_support.c:
-
-rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__functions.c:
-
-rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__struct.h:
-
-rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__functions.h:
-
-rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__type_support.c:
-
-rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__struct.h:
-
-rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__description.c:
-
-rosidl_generator_c/mapping_interfaces/srv/detail/execute_mapping_plan__type_support.h:
-
-/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__struct.h:
-
-/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/pose__functions.h:
-
-/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h:
-
-rosidl_generator_c/mapping_interfaces/srv/detail/execute_mapping_plan__struct.h:
-
-rosidl_generator_c/mapping_interfaces/srv/detail/execute_mapping_plan__functions.h:
-
-rosidl_generator_c/mapping_interfaces/srv/detail/capture_frame__type_support.c:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
-
-rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__functions.h:
-
-/usr/include/x86_64-linux-gnu/sys/types.h:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
-rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__description.c:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/opt/ros/kilted/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/opt/ros/kilted/include/rcutils/rcutils/visibility_control.h:
-
-/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
-
-/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.h:
-
-/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.h:
-
-/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
-
-rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__functions.c:
-
-/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.h:
-
-/opt/ros/kilted/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
-
-/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h:
-
-/opt/ros/kilted/include/rcutils/rcutils/types/rcutils_ret.h:
-
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-rosidl_generator_c/mapping_interfaces/srv/detail/capture_frame__struct.h:
-
-/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__functions.h:
-
-rosidl_generator_c/mapping_interfaces/srv/detail/capture_frame__functions.c:
-
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
-
-/usr/include/endian.h:
-
-rosidl_generator_c/mapping_interfaces/srv/detail/execute_mapping_plan__type_support.c:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
-
-/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h:
-
-/opt/ros/kilted/include/rcutils/rcutils/macros.h:
-
-/opt/ros/kilted/include/std_msgs/std_msgs/msg/detail/header__functions.h:
-
-/usr/include/string.h:
-
-/usr/include/x86_64-linux-gnu/bits/endian.h:
-
-rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__type_support.h:
-
-/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-rosidl_generator_c/mapping_interfaces/srv/detail/capture_frame__description.c:
-
-/usr/include/stdc-predef.h:
-
-/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__functions.h:
-
-/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/point__functions.h:
-
-rosidl_generator_c/mapping_interfaces/srv/detail/capture_frame__type_support.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h:
-
-rosidl_generator_c/mapping_interfaces/msg/rosidl_generator_c__visibility_control.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-rosidl_generator_c/mapping_interfaces/srv/detail/capture_frame__functions.h:
-
-/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
-
-/opt/ros/kilted/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_c__visibility_control.h:
-
-/opt/ros/kilted/include/rcutils/rcutils/visibility_control_macros.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/vector3__functions.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
-
-/opt/ros/kilted/include/builtin_interfaces/builtin_interfaces/msg/detail/time__functions.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.h:
-
-/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h:
-
-/opt/ros/kilted/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
-
-/opt/ros/kilted/include/rcutils/rcutils/allocator.h:
-
-/usr/include/assert.h:
-
-/opt/ros/kilted/include/sensor_msgs/sensor_msgs/msg/detail/image__functions.h:
-
-/opt/ros/kilted/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.h:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/opt/ros/kilted/include/rcutils/rcutils/sha256.h:
-
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
-rosidl_generator_c/mapping_interfaces/srv/detail/execute_mapping_plan__functions.c:
-
-/opt/ros/kilted/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_c__visibility_control.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__functions.h:
-
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/transform__functions.h:
-
-/opt/ros/kilted/include/service_msgs/service_msgs/msg/detail/service_event_info__functions.h:
-
-/opt/ros/kilted/include/service_msgs/service_msgs/msg/rosidl_generator_c__visibility_control.h:
-
-/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h:
-
-/opt/ros/kilted/include/std_msgs/std_msgs/msg/detail/header__struct.h:
-
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
-
-/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h:
-
-/opt/ros/kilted/include/std_msgs/std_msgs/msg/rosidl_generator_c__visibility_control.h:
-
-/usr/include/alloca.h:
-
-/usr/include/features-time64.h:
-
-/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
-
-/usr/include/features.h:
-
-/usr/include/stdint.h:
-
-/usr/include/stdlib.h:
+CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__description.c.o: rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__description.c \
+  rosidl_generator_c/mapping_interfaces/msg/rosidl_generator_c__visibility_control.h \
+  rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.h \
+  rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__struct.h \
+  /opt/ros/kilted/include/builtin_interfaces/builtin_interfaces/msg/detail/time__functions.h \
+  /opt/ros/kilted/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+  /opt/ros/kilted/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/kilted/include/rcutils/rcutils/allocator.h \
+  /opt/ros/kilted/include/rcutils/rcutils/macros.h \
+  /opt/ros/kilted/include/rcutils/rcutils/sha256.h \
+  /opt/ros/kilted/include/rcutils/rcutils/types/rcutils_ret.h \
+  /opt/ros/kilted/include/rcutils/rcutils/visibility_control.h \
+  /opt/ros/kilted/include/rcutils/rcutils/visibility_control_macros.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+  /opt/ros/kilted/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /opt/ros/kilted/include/service_msgs/service_msgs/msg/detail/service_event_info__functions.h \
+  /opt/ros/kilted/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
+  /opt/ros/kilted/include/service_msgs/service_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /usr/include/alloca.h \
+  /usr/include/assert.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
+
+CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.c.o: rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.c \
+  rosidl_generator_c/mapping_interfaces/msg/rosidl_generator_c__visibility_control.h \
+  rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.h \
+  rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__struct.h \
+  /opt/ros/kilted/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+  /opt/ros/kilted/include/rcutils/rcutils/allocator.h \
+  /opt/ros/kilted/include/rcutils/rcutils/macros.h \
+  /opt/ros/kilted/include/rcutils/rcutils/sha256.h \
+  /opt/ros/kilted/include/rcutils/rcutils/types/rcutils_ret.h \
+  /opt/ros/kilted/include/rcutils/rcutils/visibility_control.h \
+  /opt/ros/kilted/include/rcutils/rcutils/visibility_control_macros.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+  /opt/ros/kilted/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /opt/ros/kilted/include/service_msgs/service_msgs/msg/detail/service_event_info__functions.h \
+  /opt/ros/kilted/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
+  /opt/ros/kilted/include/service_msgs/service_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /usr/include/alloca.h \
+  /usr/include/assert.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
+
+CMakeFiles/mapping_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.c.o: rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.c \
+  rosidl_generator_c/mapping_interfaces/msg/rosidl_generator_c__visibility_control.h \
+  rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.h \
+  rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__struct.h \
+  rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.h \
+  /opt/ros/kilted/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+  /opt/ros/kilted/include/rcutils/rcutils/allocator.h \
+  /opt/ros/kilted/include/rcutils/rcutils/macros.h \
+  /opt/ros/kilted/include/rcutils/rcutils/sha256.h \
+  /opt/ros/kilted/include/rcutils/rcutils/types/rcutils_ret.h \
+  /opt/ros/kilted/include/rcutils/rcutils/visibility_control.h \
+  /opt/ros/kilted/include/rcutils/rcutils/visibility_control_macros.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__struct.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h \
+  /opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+  /opt/ros/kilted/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /opt/ros/kilted/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
+  /usr/include/alloca.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
+
+
+rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.h:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__type_support.c:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
 /opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_c__visibility_control.h:
 
-/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__struct.h:
+/usr/include/stdint.h:
+
+/usr/include/features.h:
+
+/usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/opt/ros/kilted/include/std_msgs/std_msgs/msg/detail/header__struct.h:
+
+/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h:
+
+/opt/ros/kilted/include/service_msgs/service_msgs/msg/rosidl_generator_c__visibility_control.h:
+
+/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/transform__functions.h:
+
+/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__functions.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/opt/ros/kilted/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_c__visibility_control.h:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/execute_mapping_plan__functions.c:
+
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+/opt/ros/kilted/include/rcutils/rcutils/sha256.h:
+
+/usr/include/features-time64.h:
+
+/opt/ros/kilted/include/sensor_msgs/sensor_msgs/msg/detail/image__functions.h:
+
+/usr/include/assert.h:
+
+/opt/ros/kilted/include/rcutils/rcutils/allocator.h:
+
+/opt/ros/kilted/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
+
+/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/opt/ros/kilted/include/builtin_interfaces/builtin_interfaces/msg/detail/time__functions.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/opt/ros/kilted/include/rcutils/rcutils/visibility_control_macros.h:
+
+/opt/ros/kilted/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_c__visibility_control.h:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/capture_frame__functions.h:
 
 /usr/include/strings.h:
 
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+rosidl_generator_c/mapping_interfaces/msg/rosidl_generator_c__visibility_control.h:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/capture_frame__type_support.h:
+
+/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__functions.h:
+
 rosidl_generator_c/mapping_interfaces/srv/detail/execute_mapping_plan__description.c:
 
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
+
+/usr/include/stdc-predef.h:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/capture_frame__description.c:
+
+/usr/include/string.h:
+
+/opt/ros/kilted/include/std_msgs/std_msgs/msg/detail/header__functions.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/capture_frame__functions.c:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/capture_frame__struct.h:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_hash.h:
+
+/opt/ros/kilted/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__functions.c:
+
+/opt/ros/kilted/include/std_msgs/std_msgs/msg/rosidl_generator_c__visibility_control.h:
+
+/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
+
+/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.h:
+
+/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.h:
+
+/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.h:
+
+/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h:
+
+/opt/ros/kilted/include/rcutils/rcutils/visibility_control.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/point__functions.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__type_support.h:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/opt/ros/kilted/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/opt/ros/kilted/include/rcutils/rcutils/macros.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__functions.c:
+
+/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h:
+
+/opt/ros/kilted/include/rcutils/rcutils/types/rcutils_ret.h:
+
+/opt/ros/kilted/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h:
+
+/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__functions.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__description.c:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__description.c:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/opt/ros/kilted/include/service_msgs/service_msgs/msg/detail/service_event_info__functions.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/execute_mapping_plan__type_support.c:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/vector3__functions.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__functions.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/capture_frame__type_support.c:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/execute_mapping_plan__functions.h:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/execute_mapping_plan__struct.h:
+
+/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h:
+
+/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h:
+
+/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/pose__functions.h:
+
+/opt/ros/kilted/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__struct.h:
+
+/usr/include/stdlib.h:
+
+/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/pose_array__struct.h:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/execute_mapping_plan__type_support.h:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__description.c:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__struct.h:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/generate_mapping_plan__type_support.c:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__functions.h:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__struct.h:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/reset_map__struct.h:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__functions.c:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__type_support.c:
+
+rosidl_generator_c/mapping_interfaces/srv/detail/integrate_frame__type_support.h:

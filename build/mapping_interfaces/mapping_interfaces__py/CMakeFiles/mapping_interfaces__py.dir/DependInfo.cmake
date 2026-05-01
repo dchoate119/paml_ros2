@@ -23,6 +23,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_py/mapping_interfaces/srv/_generate_mapping_plan_s.c" "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_py/mapping_interfaces/srv/_integrate_frame.py" "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_py/mapping_interfaces/srv/_integrate_frame_s.c" "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_py/mapping_interfaces/srv/_reset_map.py" "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_py/mapping_interfaces/srv/_reset_map_s.c" "/home/daniel-choate/paml_ros2/build/mapping_interfaces/rosidl_generator_py/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

@@ -54,7 +54,6 @@ class MappingPlanner(Node):
 		angles = np.linspace(start, end, num)
 
 		# Create each pose from angle requests 
-		# SIMPLIFIED FOR NOW
 		for i, theta in enumerate(angles):
 			# create pose 
 			pose = Pose()

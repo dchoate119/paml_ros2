@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "rosidl_generator_type_description/mapping_interfaces/srv/ExecuteMappingPlan.json"
   "rosidl_generator_type_description/mapping_interfaces/srv/GenerateMappingPlan.json"
   "rosidl_generator_type_description/mapping_interfaces/srv/IntegrateFrame.json"
+  "rosidl_generator_type_description/mapping_interfaces/srv/ResetMap.json"
 )
 
 # Per-language clean rules from dependency scanning.

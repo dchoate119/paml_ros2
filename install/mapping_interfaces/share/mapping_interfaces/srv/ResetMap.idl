@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mapping_interfaces/srv/ResetMap.srv
+// generated code does not contain a copyright notice
+
+
+module mapping_interfaces {
+  module srv {
+    struct ResetMap_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct ResetMap_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

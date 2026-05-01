@@ -31,7 +31,7 @@ class MappingClient(Node):
 		plan_req.radius = 0.4
 		plan_req.start_angle_deg = 0.0
 		plan_req.end_angle_deg = 160.0
-		plan_req.num_views = 6
+		plan_req.num_views = 4
 		plan_req.height = 0.4
 		plan_req.face_outward = True
 		# Gather planner results

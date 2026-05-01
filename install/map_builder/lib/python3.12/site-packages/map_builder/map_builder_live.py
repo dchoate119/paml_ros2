@@ -5,7 +5,7 @@ from sensor_msgs.msg import Image, PointCloud2
 from std_msgs.msg import Header
 import sensor_msgs_py.point_cloud2 as pc2
 
-from mapping_interfaces.srv import IntegrateFrame
+from mapping_interfaces.srv import IntegrateFrame, ResetMap
 
 import tf2_ros
 
@@ -49,6 +49,12 @@ class MapBuilder(Node):
             self.integrate_callback
         )
 
+        self.reset_map_srv = self.create_service(
+            ResetMap,
+            'reset_map',
+            self.reset_map_callback
+        )
+
         # Storage
         self.latest_rgb = None
         self.latest_depth = None
@@ -76,6 +82,27 @@ class MapBuilder(Node):
 
     def depth_callback(self, msg):
         self.latest_depth = msg
+
+    def reset_map_callback(self, request, response):
+        self.get_logger().info("Resetting map")
+
+        # Clear accumulated Open3D map
+        self.map_pcd = o3d.geometry.PointCloud()
+
+        # If you have extra stored data, clear it too
+        # Example:
+        # self.geoms = []
+        # self.frame_count = 0
+        # self.latest_map_msg = None
+
+        # Publish an empty map so RViz clears visually
+        msg = self.o3d_to_pointcloud2(self.map_pcd, 'base_link')
+        if msg:
+            self.pc_pub.publish(msg)
+
+        response.success = True
+        response.message = "Map reset successfully"
+        return response
 
     # SERVICE CALLBACK 
 
@@ -177,6 +204,8 @@ class MapBuilder(Node):
     # HELPERS
     # =========================================================
 
+
+
     def transform_to_matrix(self, tf):
 
         t = tf.transform.translation
@@ -200,7 +229,21 @@ class MapBuilder(Node):
         colors = np.asarray(pcd.colors)
 
         if len(points) == 0:
-            return None
+            header = Header()
+            header.stamp = self.get_clock().now().to_msg()
+            header.frame_id = frame_id
+
+            fields = [
+                pc2.PointField(name='x', offset=0, datatype=pc2.PointField.FLOAT32, count=1),
+                pc2.PointField(name='y', offset=4, datatype=pc2.PointField.FLOAT32, count=1),
+                pc2.PointField(name='z', offset=8, datatype=pc2.PointField.FLOAT32, count=1),
+                pc2.PointField(name='rgb', offset=12, datatype=pc2.PointField.UINT32, count=1),
+            ]
+
+            return pc2.create_cloud(header, fields, [])
+
+        # if len(points) == 0:
+        #     return None
 
         colors = (colors * 255).astype(np.uint8)
 

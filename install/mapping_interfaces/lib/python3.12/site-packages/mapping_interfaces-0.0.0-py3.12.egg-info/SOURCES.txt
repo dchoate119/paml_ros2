@@ -9,3 +9,4 @@ mapping_interfaces/srv/_capture_frame.py
 mapping_interfaces/srv/_execute_mapping_plan.py
 mapping_interfaces/srv/_generate_mapping_plan.py
 mapping_interfaces/srv/_integrate_frame.py
+mapping_interfaces/srv/_reset_map.py

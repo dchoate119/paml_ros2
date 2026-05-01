@@ -4,6 +4,7 @@
     "/home/daniel-choate/paml_ros2/src/mapping_interfaces:srv/GenerateMappingPlan.srv",
     "/home/daniel-choate/paml_ros2/src/mapping_interfaces:srv/ExecuteMappingPlan.srv",
     "/home/daniel-choate/paml_ros2/src/mapping_interfaces:srv/CaptureFrame.srv",
-    "/home/daniel-choate/paml_ros2/src/mapping_interfaces:srv/IntegrateFrame.srv"
+    "/home/daniel-choate/paml_ros2/src/mapping_interfaces:srv/IntegrateFrame.srv",
+    "/home/daniel-choate/paml_ros2/src/mapping_interfaces:srv/ResetMap.srv"
   ]
 }

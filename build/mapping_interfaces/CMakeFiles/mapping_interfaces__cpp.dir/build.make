@@ -86,6 +86,11 @@ CMakeFiles/mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/
 CMakeFiles/mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/detail/integrate_frame__struct.hpp
 CMakeFiles/mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/detail/integrate_frame__traits.hpp
 CMakeFiles/mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/detail/integrate_frame__type_support.hpp
+CMakeFiles/mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/reset_map.hpp
+CMakeFiles/mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/detail/reset_map__builder.hpp
+CMakeFiles/mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/detail/reset_map__struct.hpp
+CMakeFiles/mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/detail/reset_map__traits.hpp
+CMakeFiles/mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/detail/reset_map__type_support.hpp
 CMakeFiles/mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -111,6 +116,7 @@ rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: rosidl_ad
 rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: rosidl_adapter/mapping_interfaces/srv/ExecuteMappingPlan.idl
 rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: rosidl_adapter/mapping_interfaces/srv/CaptureFrame.idl
 rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: rosidl_adapter/mapping_interfaces/srv/IntegrateFrame.idl
+rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: rosidl_adapter/mapping_interfaces/srv/ResetMap.idl
 rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp: /opt/ros/kilted/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -264,6 +270,21 @@ rosidl_generator_cpp/mapping_interfaces/srv/detail/integrate_frame__traits.hpp: 
 rosidl_generator_cpp/mapping_interfaces/srv/detail/integrate_frame__type_support.hpp: rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mapping_interfaces/srv/detail/integrate_frame__type_support.hpp
 
+rosidl_generator_cpp/mapping_interfaces/srv/reset_map.hpp: rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mapping_interfaces/srv/reset_map.hpp
+
+rosidl_generator_cpp/mapping_interfaces/srv/detail/reset_map__builder.hpp: rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mapping_interfaces/srv/detail/reset_map__builder.hpp
+
+rosidl_generator_cpp/mapping_interfaces/srv/detail/reset_map__struct.hpp: rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mapping_interfaces/srv/detail/reset_map__struct.hpp
+
+rosidl_generator_cpp/mapping_interfaces/srv/detail/reset_map__traits.hpp: rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mapping_interfaces/srv/detail/reset_map__traits.hpp
+
+rosidl_generator_cpp/mapping_interfaces/srv/detail/reset_map__type_support.hpp: rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mapping_interfaces/srv/detail/reset_map__type_support.hpp
+
 rosidl_generator_cpp/mapping_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp: rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mapping_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
@@ -286,9 +307,14 @@ mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/detail/inte
 mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/detail/integrate_frame__struct.hpp
 mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/detail/integrate_frame__traits.hpp
 mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/detail/integrate_frame__type_support.hpp
+mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/detail/reset_map__builder.hpp
+mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/detail/reset_map__struct.hpp
+mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/detail/reset_map__traits.hpp
+mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/detail/reset_map__type_support.hpp
 mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/execute_mapping_plan.hpp
 mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/generate_mapping_plan.hpp
 mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/integrate_frame.hpp
+mapping_interfaces__cpp: rosidl_generator_cpp/mapping_interfaces/srv/reset_map.hpp
 mapping_interfaces__cpp: CMakeFiles/mapping_interfaces__cpp.dir/build.make
 .PHONY : mapping_interfaces__cpp
 

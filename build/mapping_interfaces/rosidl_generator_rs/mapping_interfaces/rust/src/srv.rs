@@ -508,6 +508,106 @@ impl rosidl_runtime_rs::Message for IntegrateFrame_Response {
 }
 
 
+// Corresponds to mapping_interfaces__srv__ResetMap_Request
+
+// This struct is not documented.
+#[allow(missing_docs)]
+
+#[allow(non_camel_case_types)]
+#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))]
+#[derive(Clone, Debug, PartialEq, PartialOrd)]
+pub struct ResetMap_Request {
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub structure_needs_at_least_one_member: u8,
+
+}
+
+
+
+impl Default for ResetMap_Request {
+  fn default() -> Self {
+    <Self as rosidl_runtime_rs::Message>::from_rmw_message(super::srv::rmw::ResetMap_Request::default())
+  }
+}
+
+impl rosidl_runtime_rs::Message for ResetMap_Request {
+  type RmwMsg = super::srv::rmw::ResetMap_Request;
+
+  fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> {
+    match msg_cow {
+      std::borrow::Cow::Owned(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
+        structure_needs_at_least_one_member: msg.structure_needs_at_least_one_member,
+      }),
+      std::borrow::Cow::Borrowed(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
+      structure_needs_at_least_one_member: msg.structure_needs_at_least_one_member,
+      })
+    }
+  }
+
+  fn from_rmw_message(msg: Self::RmwMsg) -> Self {
+    Self {
+      structure_needs_at_least_one_member: msg.structure_needs_at_least_one_member,
+    }
+  }
+}
+
+
+// Corresponds to mapping_interfaces__srv__ResetMap_Response
+
+// This struct is not documented.
+#[allow(missing_docs)]
+
+#[allow(non_camel_case_types)]
+#[cfg_attr(feature = "serde", derive(Deserialize, Serialize))]
+#[derive(Clone, Debug, PartialEq, PartialOrd)]
+pub struct ResetMap_Response {
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub success: bool,
+
+
+    // This member is not documented.
+    #[allow(missing_docs)]
+    pub message: std::string::String,
+
+}
+
+
+
+impl Default for ResetMap_Response {
+  fn default() -> Self {
+    <Self as rosidl_runtime_rs::Message>::from_rmw_message(super::srv::rmw::ResetMap_Response::default())
+  }
+}
+
+impl rosidl_runtime_rs::Message for ResetMap_Response {
+  type RmwMsg = super::srv::rmw::ResetMap_Response;
+
+  fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> {
+    match msg_cow {
+      std::borrow::Cow::Owned(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
+        success: msg.success,
+        message: msg.message.as_str().into(),
+      }),
+      std::borrow::Cow::Borrowed(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
+      success: msg.success,
+        message: msg.message.as_str().into(),
+      })
+    }
+  }
+
+  fn from_rmw_message(msg: Self::RmwMsg) -> Self {
+    Self {
+      success: msg.success,
+      message: msg.message.to_string(),
+    }
+  }
+}
+
+
 
 
 
@@ -594,6 +694,28 @@ impl rosidl_runtime_rs::Service for IntegrateFrame {
     fn get_type_support() -> *const std::ffi::c_void {
         // SAFETY: No preconditions for this function.
         unsafe { rosidl_typesupport_c__get_service_type_support_handle__mapping_interfaces__srv__IntegrateFrame() }
+    }
+}
+
+
+
+
+#[link(name = "mapping_interfaces__rosidl_typesupport_c")]
+extern "C" {
+    fn rosidl_typesupport_c__get_service_type_support_handle__mapping_interfaces__srv__ResetMap() -> *const std::ffi::c_void;
+}
+
+// Corresponds to mapping_interfaces__srv__ResetMap
+#[allow(missing_docs, non_camel_case_types)]
+pub struct ResetMap;
+
+impl rosidl_runtime_rs::Service for ResetMap {
+    type Request = ResetMap_Request;
+    type Response = ResetMap_Response;
+
+    fn get_type_support() -> *const std::ffi::c_void {
+        // SAFETY: No preconditions for this function.
+        unsafe { rosidl_typesupport_c__get_service_type_support_handle__mapping_interfaces__srv__ResetMap() }
     }
 }
 

@@ -18,6 +18,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/ExecuteMappingPlan.srv"
   "srv/CaptureFrame.srv"
   "srv/IntegrateFrame.srv"
+  "srv/ResetMap.srv"
   DEPENDENCIES geometry_msgs std_msgs sensor_msgs
 )
 
