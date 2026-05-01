@@ -1,0 +1,24 @@
+[  1%] Built target mapping_interfaces__rosidl_generator_type_description
+[  3%] Built target mapping_interfaces__rs
+[  3%] Built target ament_cmake_python_copy_mapping_interfaces
+[  4%] Built target mapping_interfaces__cpp
+[ 26%] Built target mapping_interfaces__rosidl_generator_c
+[ 44%] Built target mapping_interfaces__rosidl_typesupport_cpp
+[ 44%] Built target mapping_interfaces__rosidl_typesupport_c
+[ 53%] Built target mapping_interfaces__rosidl_typesupport_introspection_cpp
+[ 63%] Built target mapping_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 72%] Built target mapping_interfaces__rosidl_typesupport_fastrtps_c
+[ 81%] Built target mapping_interfaces__rosidl_typesupport_introspection_c
+[ 81%] Built target mapping_interfaces
+[ 83%] Built target mapping_interfaces__py
+[ 90%] Built target mapping_interfaces__rosidl_generator_py
+[ 93%] Built target mapping_interfaces_s__rosidl_typesupport_introspection_c
+[ 98%] Built target mapping_interfaces_s__rosidl_typesupport_fastrtps_c
+[100%] Built target mapping_interfaces_s__rosidl_typesupport_c
+running egg_info
+writing mapping_interfaces.egg-info/PKG-INFO
+writing dependency_links to mapping_interfaces.egg-info/dependency_links.txt
+writing top-level names to mapping_interfaces.egg-info/top_level.txt
+reading manifest file 'mapping_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'mapping_interfaces.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_mapping_interfaces_egg
