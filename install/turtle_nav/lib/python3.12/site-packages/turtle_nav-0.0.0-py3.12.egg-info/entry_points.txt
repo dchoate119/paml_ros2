@@ -1,0 +1,2 @@
+[console_scripts]
+turtle_nav = turtle_nav.nav_node:main

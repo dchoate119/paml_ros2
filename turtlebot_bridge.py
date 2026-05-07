@@ -53,7 +53,7 @@ class TurtleBridge(Node):
         self.tf_static_pub = self.create_publisher(TFMessage, '/tf_static', tf_static_qos)
 
         # ── Subscriber on kilted (cmd_vel going TO turtlebot) ─────────────
-        self.create_subscription(Twist, '/cmd_vel', self.cmd_vel_cb, 10)
+        self.create_subscription(Twist, '/cmd_vel_nav', self.cmd_vel_cb, 10)
         self.cmd_vel_topic = roslibpy.Topic(
             self.ros_client, '/commands/velocity', 'geometry_msgs/msg/Twist')
         self.cmd_vel_topic.advertise()

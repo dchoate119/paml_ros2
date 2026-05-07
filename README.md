@@ -1,11 +1,14 @@
 # Pose-Aware Mapping and Localization (PAML) 
 
 
-This project consists of a two-phase mapping and localization pipeline for a UR3 robot arm equipped with a realsense RGB-D sensor, and a mobile robot used for the localization phase. Phase 1 consists of the reference map generation phase using vision-based reconstruction techniques. Phase 2 enables localization for a mobile robot moving through the pre-mapped environment. 
+This project consists of a two-phase mapping and localization pipeline for a UR3 robot arm equipped with a Intel realsense 435i RGB-D sensor and a mobile turtlebot used for localization. Phase 1 consists of the RGBD fusion mapping pipeline using UR3 camera poses for stable scene reconstruction. Phase 2 enables localization and path planning for a mobile robot moving through the pre-mapped environment.
 
 ## Phase 1: Reconstruction for high-resolution reference map 
 
-During the reference map generation phase, the UR3 arm will execute a trajectory of poses to encompass full scene capture. At each pose, the system will capture RGB-D data, as well as pose information to be used for map reconstruction. Known poses allow for a diffusion approach, rather than a SLAM approach which requires pose estiamtion. The pose-aware aspect adds accuracy confidence in our reference map. The output of this phase will be a high resolutin 3D map of the environment. 
+During the reference map generation phase, the UR3 arm will execute a trajectory of poses to encompass full scene environment. Throughout the trajectory, the system fuses RGB and depth data into a 3D pointcloud, utilizing joint encoders from the UR3 arms. Due to these motor encoders, the 'Pose-Aware' mapping pipeline allows for real-time fusion without the need for pose estimation and expensive optimization. Known poses also increase accuracy, for a high-resolution, trustworthy map to be used in localization. 
+
+### Phase 1 Demo: 
+![Full phase 1 demo](msc/full_demo.gif)
 
 ## Phase 2: Localization pipeline 
 
