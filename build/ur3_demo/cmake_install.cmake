@@ -54,7 +54,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur3_demo/move_demo")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur3_demo/move_demo"
-         OLD_RPATH "/home/daniel-choate/ws_moveit/install/moveit_ros_planning_interface/lib:/home/daniel-choate/ws_moveit/install/moveit_ros_move_group/lib:/home/daniel-choate/ws_moveit/install/moveit_ros_planning/lib:/home/daniel-choate/ws_moveit/install/moveit_core/lib:/home/daniel-choate/ws_moveit/install/moveit_msgs/lib:/opt/ros/kilted/lib:/home/daniel-choate/ws_moveit/install/moveit_ros_warehouse/lib:/home/daniel-choate/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:"
+         OLD_RPATH "/opt/ros/kilted/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ur3_demo/move_demo")

@@ -1,0 +1,55 @@
+[0.842s] Invoking command in '/home/daniel-choate/paml_ros2/src/mapping_executor': AMENT_PREFIX_PATH=/home/daniel-choate/paml_ros2/install/mapping_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/daniel-choate/paml_ros2/install/mapping_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/daniel-choate/paml_ros2/install/mapping_interfaces/lib:/opt/ros/kilted/opt/gz_sim_vendor/lib:/opt/ros/kilted/opt/gz_sensors_vendor/lib:/opt/ros/kilted/opt/gz_physics_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_gui_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_rendering_vendor/lib:/opt/ros/kilted/opt/gz_plugin_vendor/lib:/opt/ros/kilted/opt/gz_fuel_tools_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/gz_common_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_ogre_next_vendor/lib:/opt/ros/kilted/opt/gz_dartsim_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib:/usr/local/lib PYTHONPATH=/home/daniel-choate/paml_ros2/build/mapping_executor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages:/home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mapping_executor build --build-base /home/daniel-choate/paml_ros2/build/mapping_executor/build install --record /home/daniel-choate/paml_ros2/build/mapping_executor/install.log --single-version-externally-managed install_data
+[1.069s] running egg_info
+[1.070s] creating ../../build/mapping_executor/mapping_executor.egg-info
+[1.088s] writing ../../build/mapping_executor/mapping_executor.egg-info/PKG-INFO
+[1.088s] writing dependency_links to ../../build/mapping_executor/mapping_executor.egg-info/dependency_links.txt
+[1.088s] writing entry points to ../../build/mapping_executor/mapping_executor.egg-info/entry_points.txt
+[1.088s] writing requirements to ../../build/mapping_executor/mapping_executor.egg-info/requires.txt
+[1.088s] writing top-level names to ../../build/mapping_executor/mapping_executor.egg-info/top_level.txt
+[1.089s] writing manifest file '../../build/mapping_executor/mapping_executor.egg-info/SOURCES.txt'
+[1.126s] reading manifest file '../../build/mapping_executor/mapping_executor.egg-info/SOURCES.txt'
+[1.126s] adding license file 'LICENSE'
+[1.126s] writing manifest file '../../build/mapping_executor/mapping_executor.egg-info/SOURCES.txt'
+[1.126s] running build
+[1.126s] running build_py
+[1.127s] creating /home/daniel-choate/paml_ros2/build/mapping_executor/build
+[1.127s] creating /home/daniel-choate/paml_ros2/build/mapping_executor/build/lib
+[1.127s] creating /home/daniel-choate/paml_ros2/build/mapping_executor/build/lib/mapping_executor
+[1.127s] copying mapping_executor/executor_node.py -> /home/daniel-choate/paml_ros2/build/mapping_executor/build/lib/mapping_executor
+[1.134s] copying mapping_executor/__init__.py -> /home/daniel-choate/paml_ros2/build/mapping_executor/build/lib/mapping_executor
+[1.134s] copying mapping_executor/ur3_executor.py -> /home/daniel-choate/paml_ros2/build/mapping_executor/build/lib/mapping_executor
+[1.134s] copying mapping_executor/mapping_client.py -> /home/daniel-choate/paml_ros2/build/mapping_executor/build/lib/mapping_executor
+[1.134s] copying mapping_executor/test_moveit_node.py -> /home/daniel-choate/paml_ros2/build/mapping_executor/build/lib/mapping_executor
+[1.134s] copying mapping_executor/session_manager.py -> /home/daniel-choate/paml_ros2/build/mapping_executor/build/lib/mapping_executor
+[1.135s] copying mapping_executor/py.typed -> /home/daniel-choate/paml_ros2/build/mapping_executor/build/lib/mapping_executor
+[1.135s] running install
+[1.139s] running install_lib
+[1.158s] creating /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor
+[1.158s] copying /home/daniel-choate/paml_ros2/build/mapping_executor/build/lib/mapping_executor/executor_node.py -> /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor
+[1.158s] copying /home/daniel-choate/paml_ros2/build/mapping_executor/build/lib/mapping_executor/__init__.py -> /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor
+[1.158s] copying /home/daniel-choate/paml_ros2/build/mapping_executor/build/lib/mapping_executor/ur3_executor.py -> /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor
+[1.158s] copying /home/daniel-choate/paml_ros2/build/mapping_executor/build/lib/mapping_executor/mapping_client.py -> /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor
+[1.158s] copying /home/daniel-choate/paml_ros2/build/mapping_executor/build/lib/mapping_executor/test_moveit_node.py -> /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor
+[1.158s] copying /home/daniel-choate/paml_ros2/build/mapping_executor/build/lib/mapping_executor/py.typed -> /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor
+[1.159s] copying /home/daniel-choate/paml_ros2/build/mapping_executor/build/lib/mapping_executor/session_manager.py -> /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor
+[1.159s] byte-compiling /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor/executor_node.py to executor_node.cpython-312.pyc
+[1.159s] byte-compiling /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor/__init__.py to __init__.cpython-312.pyc
+[1.159s] byte-compiling /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor/ur3_executor.py to ur3_executor.cpython-312.pyc
+[1.161s] byte-compiling /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor/mapping_client.py to mapping_client.cpython-312.pyc
+[1.161s] byte-compiling /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor/test_moveit_node.py to test_moveit_node.cpython-312.pyc
+[1.162s] byte-compiling /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor/session_manager.py to session_manager.cpython-312.pyc
+[1.162s] running install_data
+[1.162s] creating /home/daniel-choate/paml_ros2/install/mapping_executor/share/ament_index
+[1.163s] creating /home/daniel-choate/paml_ros2/install/mapping_executor/share/ament_index/resource_index
+[1.163s] creating /home/daniel-choate/paml_ros2/install/mapping_executor/share/ament_index/resource_index/packages
+[1.163s] copying resource/mapping_executor -> /home/daniel-choate/paml_ros2/install/mapping_executor/share/ament_index/resource_index/packages
+[1.163s] copying package.xml -> /home/daniel-choate/paml_ros2/install/mapping_executor/share/mapping_executor
+[1.163s] running install_egg_info
+[1.182s] Copying ../../build/mapping_executor/mapping_executor.egg-info to /home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages/mapping_executor-0.0.0-py3.12.egg-info
+[1.182s] running install_scripts
+[1.296s] Installing mapping_client script to /home/daniel-choate/paml_ros2/install/mapping_executor/lib/mapping_executor
+[1.296s] Installing mapping_executor script to /home/daniel-choate/paml_ros2/install/mapping_executor/lib/mapping_executor
+[1.296s] Installing test_moveit script to /home/daniel-choate/paml_ros2/install/mapping_executor/lib/mapping_executor
+[1.296s] Installing ur3_executor script to /home/daniel-choate/paml_ros2/install/mapping_executor/lib/mapping_executor
+[1.296s] writing list of installed files to '/home/daniel-choate/paml_ros2/build/mapping_executor/install.log'
+[1.317s] Invoked command in '/home/daniel-choate/paml_ros2/src/mapping_executor' returned '0': AMENT_PREFIX_PATH=/home/daniel-choate/paml_ros2/install/mapping_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/daniel-choate/paml_ros2/install/mapping_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/daniel-choate/paml_ros2/install/mapping_interfaces/lib:/opt/ros/kilted/opt/gz_sim_vendor/lib:/opt/ros/kilted/opt/gz_sensors_vendor/lib:/opt/ros/kilted/opt/gz_physics_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_gui_vendor/lib:/opt/ros/kilted/opt/gz_transport_vendor/lib:/opt/ros/kilted/opt/gz_rendering_vendor/lib:/opt/ros/kilted/opt/gz_plugin_vendor/lib:/opt/ros/kilted/opt/gz_fuel_tools_vendor/lib:/opt/ros/kilted/opt/gz_msgs_vendor/lib:/opt/ros/kilted/opt/gz_common_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_ogre_next_vendor/lib:/opt/ros/kilted/opt/gz_dartsim_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib:/usr/local/lib PYTHONPATH=/home/daniel-choate/paml_ros2/build/mapping_executor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel-choate/paml_ros2/install/mapping_executor/lib/python3.12/site-packages:/home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mapping_executor build --build-base /home/daniel-choate/paml_ros2/build/mapping_executor/build install --record /home/daniel-choate/paml_ros2/build/mapping_executor/install.log --single-version-externally-managed install_data

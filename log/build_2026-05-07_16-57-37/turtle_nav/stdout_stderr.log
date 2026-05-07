@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/turtle_nav/turtle_nav.egg-info
+writing ../../build/turtle_nav/turtle_nav.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtle_nav/turtle_nav.egg-info/dependency_links.txt
+writing entry points to ../../build/turtle_nav/turtle_nav.egg-info/entry_points.txt
+writing requirements to ../../build/turtle_nav/turtle_nav.egg-info/requires.txt
+writing top-level names to ../../build/turtle_nav/turtle_nav.egg-info/top_level.txt
+writing manifest file '../../build/turtle_nav/turtle_nav.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtle_nav/turtle_nav.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/turtle_nav/turtle_nav.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/daniel-choate/paml_ros2/build/turtle_nav/build
+creating /home/daniel-choate/paml_ros2/build/turtle_nav/build/lib
+creating /home/daniel-choate/paml_ros2/build/turtle_nav/build/lib/turtle_nav
+copying turtle_nav/__init__.py -> /home/daniel-choate/paml_ros2/build/turtle_nav/build/lib/turtle_nav
+copying turtle_nav/nav_node.py -> /home/daniel-choate/paml_ros2/build/turtle_nav/build/lib/turtle_nav
+copying turtle_nav/py.typed -> /home/daniel-choate/paml_ros2/build/turtle_nav/build/lib/turtle_nav
+running install
+running install_lib
+creating /home/daniel-choate/paml_ros2/install/turtle_nav/lib/python3.12/site-packages/turtle_nav
+copying /home/daniel-choate/paml_ros2/build/turtle_nav/build/lib/turtle_nav/__init__.py -> /home/daniel-choate/paml_ros2/install/turtle_nav/lib/python3.12/site-packages/turtle_nav
+copying /home/daniel-choate/paml_ros2/build/turtle_nav/build/lib/turtle_nav/nav_node.py -> /home/daniel-choate/paml_ros2/install/turtle_nav/lib/python3.12/site-packages/turtle_nav
+copying /home/daniel-choate/paml_ros2/build/turtle_nav/build/lib/turtle_nav/py.typed -> /home/daniel-choate/paml_ros2/install/turtle_nav/lib/python3.12/site-packages/turtle_nav
+byte-compiling /home/daniel-choate/paml_ros2/install/turtle_nav/lib/python3.12/site-packages/turtle_nav/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/daniel-choate/paml_ros2/install/turtle_nav/lib/python3.12/site-packages/turtle_nav/nav_node.py to nav_node.cpython-312.pyc
+running install_data
+creating /home/daniel-choate/paml_ros2/install/turtle_nav/share/ament_index
+creating /home/daniel-choate/paml_ros2/install/turtle_nav/share/ament_index/resource_index
+creating /home/daniel-choate/paml_ros2/install/turtle_nav/share/ament_index/resource_index/packages
+copying resource/turtle_nav -> /home/daniel-choate/paml_ros2/install/turtle_nav/share/ament_index/resource_index/packages
+copying package.xml -> /home/daniel-choate/paml_ros2/install/turtle_nav/share/turtle_nav
+running install_egg_info
+Copying ../../build/turtle_nav/turtle_nav.egg-info to /home/daniel-choate/paml_ros2/install/turtle_nav/lib/python3.12/site-packages/turtle_nav-0.0.0-py3.12.egg-info
+running install_scripts
+Installing turtle_nav script to /home/daniel-choate/paml_ros2/install/turtle_nav/lib/turtle_nav
+writing list of installed files to '/home/daniel-choate/paml_ros2/build/turtle_nav/install.log'

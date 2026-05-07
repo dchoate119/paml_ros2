@@ -1,7 +1,7 @@
 # Pose-Aware Mapping and Localization (PAML) 
 
 
-This project consists of a two-phase mapping and localization pipeline for a UR3 robot arm equipped with a Intel realsense 435i RGB-D sensor and a mobile turtlebot used for localization. Phase 1 consists of the RGBD fusion mapping pipeline using UR3 camera poses for stable scene reconstruction. Phase 2 enables localization and path planning for a mobile robot moving through the pre-mapped environment.
+This project consists of a two-phase mapping and localization pipeline for a UR3 robot arm equipped with a Intel realsense 435i RGB-D sensor and a mobile turtlebot used for localization. Phase 1 consists of a custom RGBD fusion mapping pipeline using UR3 camera poses for stable scene reconstruction. Phase 2 enables localization and path planning for a mobile robot moving through the pre-mapped environment.
 
 ## Phase 1: Reconstruction for high-resolution reference map 
 
@@ -10,9 +10,25 @@ During the reference map generation phase, the UR3 arm will execute a trajectory
 ### Phase 1 Demo: 
 ![Full phase 1 demo](msc/full_demo.gif)
 
+#### Phase 1 Node breakdown 
+- A
+- B
+- C 
+
 ## Phase 2: Localization pipeline 
 
-During the localization phase, a turtlebot wil execute a trajectory plan to travel across the previously mapped environment. At each timestep, a comparison to the reference map, using an ICP-style algorithm, will provide a global map state estimate to be used by Nav2 for velocity control.
+Phase 2 uses the pre-built 3D map for turtlebot localization. The turtlebot is executes a trajectory plan to travel across the environment. At each timestep, a comparison to the reference map provides a gloabl map state estimate used by Nav2 for velocity control.
+
+
+### Phase 2 Demo: 
+*in progress*
+
+
+#### Phase 2 Node breakdown
+- A
+- B
+- C
+
 
 # Relevant Commit IDs
 - Initial Implementation: 30243fc
@@ -27,11 +43,9 @@ During the localization phase, a turtlebot wil execute a trajectory plan to trav
 
 
 
-#### Plan for external tools 
+#### External tools 
 - MoveIt
 - Nav2
-- TSDF fusion (NVlabs)
-
 
 
 ##### Progress
@@ -41,49 +55,10 @@ During the localization phase, a turtlebot wil execute a trajectory plan to trav
 
 
 
-TODO List 
-- [ ] Package setup for phase 1
-	- [x] mapping_planner
-	- [x] mapping_executor
-	- [x] MoveIt
-	- [x] ur3_driver
-	- [x] realsense_driver 
-	- [x] RGBD_capture 
-	- [x] map_builder 
-	- [x] map_server
-	- [ ] robot_state_publisher 
-- [ ] Package setup for phase 2
 
 
-*Phase 1 progress*
-- [ ] mapping_planner 
-	- [x] basic pose generator for demo
-	- [x] initial rviz verification
-	- [ ] adjust for specific scene
-	- [ ] add filtering for reachability
-	- [ ] optimize for smooth execution 
-- [ ] mapping_executor
-	- [x] basic setup for trajectory execution 
-	- [x] mapping_client setup for specific scene 
-- [ ] MoveIt
-	- [x] basic demo for moving UR3 
-	- [x] visualize in rviz
-- [ ] ur3_driver
-	- [x] basic implementation for UR3 movement
-	- [x] link mapping client to moveit to execute trajectory 
-- [x] realsense_driver 
-- [ ] RGBD_capture 
-	- [x] initial setup - basic data subscriber
-	- [ ] link to tf tree
-- [x] map_builder 
-- [x] map_server
-- [ ] robot_state_publisher 
-	- [ ] link tf poses 
-
-*Phase 2 progress*
-- [ ] localization bringup 
-	- [x] initial package setup
-	- [x] link to turtlebot
-	- [ ] state machine for localization pipeline
-- [ ] map server bridge
-	- [ ] link phase1 map to nav2
+*TODO/Future work*
+- [ ] Nav2 adjustments for pose goals 
+- [ ] Adjust state machine for mapping and surveying
+- [ ] Better pipeline for map conversion - Nav2 friendly form
+- [ ] Custom map representation using TSDF

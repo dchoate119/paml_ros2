@@ -1,0 +1,77 @@
+[0.862s] Invoking command in '/home/daniel-choate/paml_ros2/build/ur3_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daniel-choate/paml_ros2/src/ur3_demo -DCMAKE_INSTALL_PREFIX=/home/daniel-choate/paml_ros2/install/ur3_demo
+[0.908s] -- The C compiler identification is GNU 13.3.0
+[0.952s] -- The CXX compiler identification is GNU 13.3.0
+[0.970s] -- Detecting C compiler ABI info
+[1.061s] -- Detecting C compiler ABI info - done
+[1.074s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.074s] -- Detecting C compile features
+[1.074s] -- Detecting C compile features - done
+[1.084s] -- Detecting CXX compiler ABI info
+[1.174s] -- Detecting CXX compiler ABI info - done
+[1.181s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.181s] -- Detecting CXX compile features
+[1.182s] -- Detecting CXX compile features - done
+[1.185s] -- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)
+[1.366s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.512s] -- Found rclcpp: 29.5.7 (/opt/ros/kilted/share/rclcpp/cmake)
+[1.566s] -- Found rosidl_generator_c: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[1.583s] -- Found rosidl_generator_cpp: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[1.602s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.621s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.714s] -- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[1.718s] -- Found rmw_cyclonedds_cpp: 4.0.2 (/opt/ros/kilted/share/rmw_cyclonedds_cpp/cmake)
+[1.776s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.853s] -- Found moveit_ros_planning_interface: 2.14.3 (/opt/ros/kilted/share/moveit_ros_planning_interface/cmake)
+[2.012s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[2.370s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.441s] -- Found parameter_traits: 0.7.0 (/opt/ros/kilted/share/parameter_traits/cmake)
+[2.456s] -- Found rclcpp_lifecycle: 29.5.7 (/opt/ros/kilted/share/rclcpp_lifecycle/cmake)
+[2.507s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: random 
+[2.554s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.554s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.576s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.715s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[2.758s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[2.850s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[2.883s] -- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+[2.966s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.966s] -- Configured cppcheck include dirs: 
+[2.966s] -- Configured cppcheck exclude dirs and/or files: 
+[2.966s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.966s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.967s] -- Added test 'lint_cmake' to check CMake code style
+[2.967s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.968s] -- Added test 'uncrustify' to check C / C++ code style
+[2.968s] -- Configured uncrustify additional arguments: 
+[2.968s] -- Added test 'xmllint' to check XML markup files
+[2.969s] -- Configuring done (2.1s)
+[2.989s] -- Generating done (0.0s)
+[2.993s] -- Build files have been written to: /home/daniel-choate/paml_ros2/build/ur3_demo
+[3.004s] Invoked command in '/home/daniel-choate/paml_ros2/build/ur3_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daniel-choate/paml_ros2/src/ur3_demo -DCMAKE_INSTALL_PREFIX=/home/daniel-choate/paml_ros2/install/ur3_demo
+[3.004s] Invoking command in '/home/daniel-choate/paml_ros2/build/ur3_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel-choate/paml_ros2/build/ur3_demo -- -j20 -l20
+[3.051s] [ 50%] [32mBuilding CXX object CMakeFiles/move_demo.dir/src/move_demo.cpp.o[0m
+[7.885s] [100%] [32m[1mLinking CXX executable move_demo[0m
+[8.107s] [100%] Built target move_demo
+[8.120s] Invoked command in '/home/daniel-choate/paml_ros2/build/ur3_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel-choate/paml_ros2/build/ur3_demo -- -j20 -l20
+[8.122s] Invoking command in '/home/daniel-choate/paml_ros2/build/ur3_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/daniel-choate/paml_ros2/build/ur3_demo
+[8.133s] -- Install configuration: ""
+[8.133s] -- Installing: /home/daniel-choate/paml_ros2/install/ur3_demo/lib/ur3_demo/move_demo
+[8.134s] -- Set non-toolchain portion of runtime path of "/home/daniel-choate/paml_ros2/install/ur3_demo/lib/ur3_demo/move_demo" to ""
+[8.134s] -- Installing: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/launch
+[8.134s] -- Installing: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/launch/launch.py
+[8.134s] -- Installing: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ament_index/resource_index/package_run_dependencies/ur3_demo
+[8.134s] -- Installing: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ament_index/resource_index/parent_prefix_path/ur3_demo
+[8.134s] -- Installing: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/environment/ament_prefix_path.sh
+[8.134s] -- Installing: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/environment/ament_prefix_path.dsv
+[8.134s] -- Installing: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/environment/path.sh
+[8.134s] -- Installing: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/environment/path.dsv
+[8.135s] -- Installing: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/local_setup.bash
+[8.135s] -- Installing: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/local_setup.sh
+[8.135s] -- Installing: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/local_setup.zsh
+[8.135s] -- Installing: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/local_setup.dsv
+[8.135s] -- Installing: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/package.dsv
+[8.135s] -- Installing: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ament_index/resource_index/packages/ur3_demo
+[8.135s] -- Installing: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/cmake/ur3_demoConfig.cmake
+[8.135s] -- Installing: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/cmake/ur3_demoConfig-version.cmake
+[8.135s] -- Installing: /home/daniel-choate/paml_ros2/install/ur3_demo/share/ur3_demo/package.xml
+[8.138s] Invoked command in '/home/daniel-choate/paml_ros2/build/ur3_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/daniel-choate/paml_ros2/build/ur3_demo
