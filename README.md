@@ -43,8 +43,9 @@ Phase 2 uses the pre-built 3D map for turtlebot localization. The turtlebot is e
 - MoveIt 2
 - RViz2
 - Nav2 
-- Turtlebot mobile robot
+- Turtlebot mobile robot (Tufts university 'baymax' used for this demo)
 - ROS bridge
+- Realsense mount: used model from [Thingiverse by Bono88](https://www.thingiverse.com/thing:5394492)
 
 ---
 
@@ -155,8 +156,6 @@ Create the SSH tunnel between the local machine and TurtleBot.
 ssh -L 9090:localhost:9090 baymax@10.5.10.74
 ```
 
----
-
 #### Terminal 3 — ROS Bridge Script
 
 Launch the custom ROS bridge script.
@@ -168,7 +167,13 @@ python3 ~/paml_ros2/turtlebot_bridge.py
 ```
 
 
-#### Terminal 4 — Localization
+#### Terminal 4 - Launch rviz
+
+```bash
+rviz2
+```
+
+#### Terminal 5 — Localization
 
 Launch AMCL localization against the prebuilt map (edit directory location if necessary).
 
@@ -180,7 +185,7 @@ ros2 launch nav2_bringup localization_launch.py \
 ```
 
 
-#### Terminal 5 — Nav2 Navigation Stack
+#### Terminal 6 — Nav2 Navigation Stack
 
 Launch the Nav2 navigation servers (edit directory location if necessary).
 
@@ -192,7 +197,7 @@ ros2 launch nav2_bringup navigation_launch.py \
 ```
 
 
-#### Terminal 6 — Custom Navigation Client
+#### Terminal 7 — Custom Navigation Goals
 
 Launch the custom TurtleBot navigation node.
 
@@ -213,6 +218,15 @@ ros2 run turtle_nav turtle_nav
 - Linked mapping client to moveit to execute custom trajectory: 52020e5
 - Updated rgb data, starting map builder node: f4eeb04
 - Map builder custom node and Nav2 implementation: 47266ff
+- Trajectory updates and modifications: fc55024
+- Modified xacro fro camera mount: f167d2f
+- Added rgbd capture synced with executor: 79e6e96
+- Camera calibration and pose syncing: 6c3ae04
+- Fixed map builder for demo: 17037da
+- Added turtlebot and nav2 SLAM configs: 5364329
+- Updated launch file for custom nodes: 4536104
+- State machine adjustments for demo: 836bb49
+- Turtlebot bridge bug fixes and nav2 node redesign: 5e3f1fe
 
 
 
