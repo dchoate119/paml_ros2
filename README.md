@@ -10,10 +10,14 @@ During the reference map generation phase, the UR3 arm will execute a trajectory
 ### Phase 1 Demo: 
 ![Full phase 1 demo](msc/full_demo.gif)
 
-#### Phase 1 Node breakdown 
-- A
-- B
-- C 
+#### Phase 1 Main Nodes: breakdown and project requirements
+- Mapping client: takes in information about the scene, requests a plan from mapping planner
+- Mapping planner: **written from scratch**: plans a set of end effector poses to travel to, fully encompassing the given scene
+- UR3 executor: **Moveit**: executes planned trajectory for the ur3 arm using moveit, avoiding collision with depth camera and mounting table
+- RGBD capture: **Perception**: grabs depth and rgb info, fed to map builder node
+- Map builder: **custom component**: custom map builder node which incorporates RGBD fusion to build a 3D map
+- Session manager: **supervisory control**: state machine for idle and mapping stages used by the mapping executor
+- Custom URDF for rgbd camera and mount in UR3 custom description
 
 ## Phase 2: Localization pipeline 
 
@@ -25,9 +29,90 @@ Phase 2 uses the pre-built 3D map for turtlebot localization. The turtlebot is e
 
 
 #### Phase 2 Node breakdown
-- A
-- B
-- C
+- Turtle nav: **Nav2**: sends goal states for the turtlebot according to the pre-built map using Nav2
+
+
+
+## Build and launch 
+
+### Requirements 
+- ROS 2 Kilted
+- Universal Robots UR3e
+- Intel RealSenseD435i
+- MoveIt 2
+- RViz2
+
+---
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/dchoate119/paml_ros2.git
+cd paml_ros2
+```
+
+---
+
+### Build the Workspace
+
+```bash
+source /opt/ros/kilted/setup.bash
+
+colcon build --symlink-install
+
+source install/setup.bash
+```
+
+---
+
+### Connect to the UR3e
+
+Ensure the robot and host machine are on the same network.
+
+Update the UR3e IP address in the launch configuration if needed.
+
+---
+
+### Launch Phase 1 Mapping
+
+This launch file starts:
+
+- UR robot driver
+- MoveIt 2
+- RealSense driver
+- Mapping planner
+- RGBD capture node
+- Map builder
+- UR3 executor
+- RViz2 visualization
+
+```bash
+ros2 launch mapping_bringup phase1_bringup.launch.py
+```
+
+---
+
+### Visualize the Map in RViz2
+
+Add a `PointCloud2` display and subscribe to the map topic:
+
+```text
+/map_pointcloud
+```
+
+Replace with your actual point cloud topic if different.
+
+---
+
+### Run the Mapping Client
+
+Open a new terminal:
+
+```bash
+source ~/paml_ros2/install/setup.bash
+
+ros2 run mapping_executor mapping_client
+```
 
 
 # Relevant Commit IDs
