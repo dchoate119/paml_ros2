@@ -33,9 +33,7 @@ class MapSessionManager(Node):
 
         self.get_logger().info("Map Session Manager Ready")
 
-    # ================================
     # STATE CONTROL
-    # ================================
 
     def start_callback(self, request, response):
         self.get_logger().info("Starting mapping session")
@@ -51,9 +49,7 @@ class MapSessionManager(Node):
         response.message = "Mapping stopped"
         return response
 
-    # ================================
     # CONTROLLED INTEGRATION
-    # ================================
 
     def integrate_frame(self, waypoint_id):
 
@@ -74,9 +70,7 @@ class MapSessionManager(Node):
         result = future.result()
         return result.success if result else False
 
-    # ================================
     # RESET
-    # ================================
 
     def reset_map(self):
 

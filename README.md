@@ -25,7 +25,7 @@ Phase 2 uses the pre-built 3D map for turtlebot localization. The turtlebot is e
 
 
 ### Phase 2 Demo: 
-*in progress*
+![Phase 2 demo](msc/turtle_demo.gif)
 
 
 #### Phase 2 Node breakdown
@@ -235,8 +235,8 @@ ros2 run turtle_nav turtle_nav
 - Nav2
 
 
-##### Progress
-
+##### Other fun videos 
+![Mapping demo with ros_output](msc/mapping_demo_ROS_OUTPUT.gif)
 ![MoveIt Demo](msc/movement_sim_test.gif)
 ![Custom map builder (not pose-aware)](msc/mapping_demo.gif)
 

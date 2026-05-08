@@ -26,8 +26,8 @@ class SimpleNav(Node):
         goal.header.stamp = self.get_clock().now().to_msg()
 
         # Goal position
-        goal.pose.position.x = -0.42
-        goal.pose.position.y = -1.04
+        goal.pose.position.x = -4.42
+        goal.pose.position.y = -4.04
         goal.pose.position.z = 0.0
 
         # Goal orientation

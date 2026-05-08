@@ -1,0 +1,25 @@
+[4.549s] Invoking command in '/home/daniel-choate/paml_ros2/src/turtle_nav': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel-choate/paml_ros2/build/turtle_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel-choate/paml_ros2/install/turtle_nav/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_nav build --build-base /home/daniel-choate/paml_ros2/build/turtle_nav/build install --record /home/daniel-choate/paml_ros2/build/turtle_nav/install.log --single-version-externally-managed install_data
+[5.025s] running egg_info
+[5.068s] writing ../../build/turtle_nav/turtle_nav.egg-info/PKG-INFO
+[5.069s] writing dependency_links to ../../build/turtle_nav/turtle_nav.egg-info/dependency_links.txt
+[5.069s] writing entry points to ../../build/turtle_nav/turtle_nav.egg-info/entry_points.txt
+[5.069s] writing requirements to ../../build/turtle_nav/turtle_nav.egg-info/requires.txt
+[5.069s] writing top-level names to ../../build/turtle_nav/turtle_nav.egg-info/top_level.txt
+[5.150s] reading manifest file '../../build/turtle_nav/turtle_nav.egg-info/SOURCES.txt'
+[5.150s] adding license file 'LICENSE'
+[5.151s] writing manifest file '../../build/turtle_nav/turtle_nav.egg-info/SOURCES.txt'
+[5.151s] running build
+[5.152s] running build_py
+[5.152s] copying turtle_nav/nav_node.py -> /home/daniel-choate/paml_ros2/build/turtle_nav/build/lib/turtle_nav
+[5.153s] running install
+[5.160s] running install_lib
+[5.195s] copying /home/daniel-choate/paml_ros2/build/turtle_nav/build/lib/turtle_nav/nav_node.py -> /home/daniel-choate/paml_ros2/install/turtle_nav/lib/python3.12/site-packages/turtle_nav
+[5.196s] byte-compiling /home/daniel-choate/paml_ros2/install/turtle_nav/lib/python3.12/site-packages/turtle_nav/nav_node.py to nav_node.cpython-312.pyc
+[5.197s] running install_data
+[5.197s] running install_egg_info
+[5.237s] removing '/home/daniel-choate/paml_ros2/install/turtle_nav/lib/python3.12/site-packages/turtle_nav-0.0.0-py3.12.egg-info' (and everything under it)
+[5.237s] Copying ../../build/turtle_nav/turtle_nav.egg-info to /home/daniel-choate/paml_ros2/install/turtle_nav/lib/python3.12/site-packages/turtle_nav-0.0.0-py3.12.egg-info
+[5.238s] running install_scripts
+[5.464s] Installing turtle_nav script to /home/daniel-choate/paml_ros2/install/turtle_nav/lib/turtle_nav
+[5.464s] writing list of installed files to '/home/daniel-choate/paml_ros2/build/turtle_nav/install.log'
+[5.498s] Invoked command in '/home/daniel-choate/paml_ros2/src/turtle_nav' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel-choate/paml_ros2/build/turtle_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel-choate/paml_ros2/install/turtle_nav/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_nav build --build-base /home/daniel-choate/paml_ros2/build/turtle_nav/build install --record /home/daniel-choate/paml_ros2/build/turtle_nav/install.log --single-version-externally-managed install_data

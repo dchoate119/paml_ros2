@@ -1,0 +1,254 @@
+[0.083s] Invoking command in '/home/daniel-choate/paml_ros2/build/mapping_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel-choate/paml_ros2/install/ur3_movement:/home/daniel-choate/paml_ros2/install/turtle_nav:/home/daniel-choate/paml_ros2/install/rgbd_capture:/home/daniel-choate/paml_ros2/install/mapping_planner:/home/daniel-choate/paml_ros2/install/mapping_executor:/home/daniel-choate/paml_ros2/install/mapping_bringup:/home/daniel-choate/paml_ros2/install/map_builder:/home/daniel-choate/paml_ros2/install/localization_bringup:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel-choate/paml_ros2/build/mapping_interfaces -- -j20 -l20
+[2.206s] [  1%] Built target mapping_interfaces__rosidl_generator_type_description
+[2.207s] [  2%] Built target mapping_interfaces__rs
+[2.207s] [  2%] Built target ament_cmake_python_copy_mapping_interfaces
+[2.207s] [  4%] Built target mapping_interfaces__cpp
+[2.207s] [ 26%] Built target mapping_interfaces__rosidl_generator_c
+[2.207s] [ 36%] Built target mapping_interfaces__rosidl_typesupport_c
+[2.207s] [ 45%] Built target mapping_interfaces__rosidl_typesupport_introspection_c
+[2.208s] [ 54%] Built target mapping_interfaces__rosidl_typesupport_introspection_cpp
+[2.209s] [ 64%] Built target mapping_interfaces__rosidl_typesupport_cpp
+[2.209s] [ 73%] Built target mapping_interfaces__rosidl_typesupport_fastrtps_c
+[2.209s] [ 82%] Built target mapping_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.209s] [ 82%] Built target mapping_interfaces
+[2.209s] [ 84%] Built target mapping_interfaces__py
+[2.209s] [ 92%] Built target mapping_interfaces__rosidl_generator_py
+[2.209s] [ 97%] Built target mapping_interfaces_s__rosidl_typesupport_fastrtps_c
+[2.210s] [ 97%] Built target mapping_interfaces_s__rosidl_typesupport_introspection_c
+[2.211s] [100%] Built target mapping_interfaces_s__rosidl_typesupport_c
+[2.211s] running egg_info
+[2.211s] writing mapping_interfaces.egg-info/PKG-INFO
+[2.212s] writing dependency_links to mapping_interfaces.egg-info/dependency_links.txt
+[2.212s] writing top-level names to mapping_interfaces.egg-info/top_level.txt
+[2.212s] reading manifest file 'mapping_interfaces.egg-info/SOURCES.txt'
+[2.212s] writing manifest file 'mapping_interfaces.egg-info/SOURCES.txt'
+[2.212s] [100%] Built target ament_cmake_python_build_mapping_interfaces_egg
+[2.704s] Invoked command in '/home/daniel-choate/paml_ros2/build/mapping_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel-choate/paml_ros2/install/ur3_movement:/home/daniel-choate/paml_ros2/install/turtle_nav:/home/daniel-choate/paml_ros2/install/rgbd_capture:/home/daniel-choate/paml_ros2/install/mapping_planner:/home/daniel-choate/paml_ros2/install/mapping_executor:/home/daniel-choate/paml_ros2/install/mapping_bringup:/home/daniel-choate/paml_ros2/install/map_builder:/home/daniel-choate/paml_ros2/install/localization_bringup:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/daniel-choate/paml_ros2/build/mapping_interfaces -- -j20 -l20
+[2.726s] Invoking command in '/home/daniel-choate/paml_ros2/build/mapping_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel-choate/paml_ros2/install/ur3_movement:/home/daniel-choate/paml_ros2/install/turtle_nav:/home/daniel-choate/paml_ros2/install/rgbd_capture:/home/daniel-choate/paml_ros2/install/mapping_planner:/home/daniel-choate/paml_ros2/install/mapping_executor:/home/daniel-choate/paml_ros2/install/mapping_bringup:/home/daniel-choate/paml_ros2/install/map_builder:/home/daniel-choate/paml_ros2/install/localization_bringup:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/daniel-choate/paml_ros2/build/mapping_interfaces
+[2.745s] -- Install configuration: ""
+[2.748s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/ament_index/resource_index/rosidl_interfaces/mapping_interfaces
+[2.748s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/srv/GenerateMappingPlan.json
+[2.749s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/srv/ExecuteMappingPlan.json
+[2.749s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/srv/CaptureFrame.json
+[2.749s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/srv/IntegrateFrame.json
+[2.749s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/srv/ResetMap.json
+[2.751s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces
+[2.752s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/msg
+[2.753s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.755s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv
+[2.755s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/integrate_frame.h
+[2.756s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/execute_mapping_plan.h
+[2.758s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/reset_map.h
+[2.760s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail
+[2.761s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/capture_frame__type_support.c
+[2.761s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/integrate_frame__functions.h
+[2.761s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/reset_map__functions.h
+[2.762s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/integrate_frame__type_support.h
+[2.762s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/execute_mapping_plan__functions.c
+[2.762s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/generate_mapping_plan__description.c
+[2.762s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/capture_frame__type_support.h
+[2.763s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/execute_mapping_plan__struct.h
+[2.763s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/capture_frame__functions.c
+[2.763s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/generate_mapping_plan__functions.h
+[2.763s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/reset_map__type_support.h
+[2.763s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/execute_mapping_plan__description.c
+[2.764s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/generate_mapping_plan__struct.h
+[2.764s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/generate_mapping_plan__functions.c
+[2.764s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/reset_map__description.c
+[2.765s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/integrate_frame__struct.h
+[2.765s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/reset_map__type_support.c
+[2.765s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/integrate_frame__description.c
+[2.766s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/capture_frame__functions.h
+[2.766s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/capture_frame__struct.h
+[2.766s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/execute_mapping_plan__functions.h
+[2.766s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/execute_mapping_plan__type_support.h
+[2.766s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/reset_map__functions.c
+[2.766s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/capture_frame__description.c
+[2.767s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/generate_mapping_plan__type_support.c
+[2.767s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/generate_mapping_plan__type_support.h
+[2.767s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/execute_mapping_plan__type_support.c
+[2.767s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/reset_map__struct.h
+[2.767s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/integrate_frame__functions.c
+[2.767s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/integrate_frame__type_support.c
+[2.768s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/capture_frame.h
+[2.768s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/generate_mapping_plan.h
+[2.768s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/environment/library_path.sh
+[2.768s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/environment/library_path.dsv
+[2.769s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/libmapping_interfaces__rosidl_generator_c.so
+[2.769s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces
+[2.769s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/msg
+[2.769s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.770s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv
+[2.770s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail
+[2.770s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/generate_mapping_plan__rosidl_typesupport_fastrtps_c.h
+[2.770s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/execute_mapping_plan__rosidl_typesupport_fastrtps_c.h
+[2.770s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/capture_frame__rosidl_typesupport_fastrtps_c.h
+[2.770s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/integrate_frame__rosidl_typesupport_fastrtps_c.h
+[2.771s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/reset_map__rosidl_typesupport_fastrtps_c.h
+[2.771s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/libmapping_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.771s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces
+[2.771s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/msg
+[2.771s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.771s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv
+[2.772s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/generate_mapping_plan.hpp
+[2.772s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail
+[2.772s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/reset_map__type_support.hpp
+[2.772s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/integrate_frame__type_support.hpp
+[2.773s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/generate_mapping_plan__type_support.hpp
+[2.773s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/reset_map__builder.hpp
+[2.773s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/execute_mapping_plan__type_support.hpp
+[2.773s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/capture_frame__struct.hpp
+[2.773s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/generate_mapping_plan__struct.hpp
+[2.774s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/execute_mapping_plan__struct.hpp
+[2.775s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/integrate_frame__struct.hpp
+[2.775s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/capture_frame__type_support.hpp
+[2.775s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/execute_mapping_plan__builder.hpp
+[2.775s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/execute_mapping_plan__traits.hpp
+[2.775s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/reset_map__traits.hpp
+[2.775s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/generate_mapping_plan__traits.hpp
+[2.776s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/integrate_frame__traits.hpp
+[2.776s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/reset_map__struct.hpp
+[2.776s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/generate_mapping_plan__builder.hpp
+[2.776s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/capture_frame__builder.hpp
+[2.776s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/integrate_frame__builder.hpp
+[2.776s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/capture_frame__traits.hpp
+[2.776s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/integrate_frame.hpp
+[2.777s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/execute_mapping_plan.hpp
+[2.777s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/capture_frame.hpp
+[2.777s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/reset_map.hpp
+[2.777s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces
+[2.777s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/msg
+[2.778s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.778s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv
+[2.778s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail
+[2.778s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/dds_fastrtps
+[2.778s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/reset_map__rosidl_typesupport_fastrtps_cpp.hpp
+[2.778s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/generate_mapping_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[2.778s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/execute_mapping_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[2.779s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/integrate_frame__rosidl_typesupport_fastrtps_cpp.hpp
+[2.781s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/capture_frame__rosidl_typesupport_fastrtps_cpp.hpp
+[2.782s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/libmapping_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.782s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces
+[2.783s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/msg
+[2.783s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.783s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv
+[2.784s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail
+[2.785s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/capture_frame__type_support.c
+[2.785s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/execute_mapping_plan__rosidl_typesupport_introspection_c.h
+[2.786s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/reset_map__rosidl_typesupport_introspection_c.h
+[2.787s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/capture_frame__rosidl_typesupport_introspection_c.h
+[2.787s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/reset_map__type_support.c
+[2.787s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/generate_mapping_plan__rosidl_typesupport_introspection_c.h
+[2.788s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/generate_mapping_plan__type_support.c
+[2.788s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/execute_mapping_plan__type_support.c
+[2.788s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/integrate_frame__rosidl_typesupport_introspection_c.h
+[2.789s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/integrate_frame__type_support.c
+[2.789s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/libmapping_interfaces__rosidl_typesupport_introspection_c.so
+[2.789s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/libmapping_interfaces__rosidl_typesupport_c.so
+[2.790s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces
+[2.790s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv
+[2.790s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail
+[2.790s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/integrate_frame__rosidl_typesupport_introspection_cpp.hpp
+[2.791s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/integrate_frame__type_support.cpp
+[2.791s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/reset_map__rosidl_typesupport_introspection_cpp.hpp
+[2.791s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/capture_frame__type_support.cpp
+[2.792s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/generate_mapping_plan__type_support.cpp
+[2.792s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/execute_mapping_plan__type_support.cpp
+[2.792s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/execute_mapping_plan__rosidl_typesupport_introspection_cpp.hpp
+[2.794s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/capture_frame__rosidl_typesupport_introspection_cpp.hpp
+[2.795s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/generate_mapping_plan__rosidl_typesupport_introspection_cpp.hpp
+[2.795s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/include/mapping_interfaces/mapping_interfaces/srv/detail/reset_map__type_support.cpp
+[2.796s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/libmapping_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.796s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/libmapping_interfaces__rosidl_typesupport_cpp.so
+[2.797s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/environment/pythonpath.sh
+[2.797s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/environment/pythonpath.dsv
+[2.797s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces-0.0.0-py3.12.egg-info
+[2.798s] -- Installing: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[2.798s] -- Installing: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[2.799s] -- Installing: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[2.799s] -- Installing: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[2.800s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces
+[2.800s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.800s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces/mapping_interfaces_s__rosidl_typesupport_c.so
+[2.800s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces/__init__.py
+[2.800s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.801s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces/srv
+[2.801s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces/srv/_capture_frame_s.c
+[2.801s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces/srv/_generate_mapping_plan.py
+[2.802s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces/srv/__init__.py
+[2.802s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces/srv/_reset_map_s.c
+[2.802s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces/srv/_execute_mapping_plan_s.c
+[2.802s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces/srv/_integrate_frame.py
+[2.803s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces/srv/_capture_frame.py
+[2.804s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces/srv/_generate_mapping_plan_s.c
+[2.804s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces/srv/_execute_mapping_plan.py
+[2.806s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces/srv/_integrate_frame_s.c
+[2.806s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces/srv/_reset_map.py
+[2.808s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces/mapping_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[2.809s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces/mapping_interfaces_s__rosidl_typesupport_introspection_c.so
+[2.809s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces/_mapping_interfaces_s.ep.rosidl_typesupport_c.c
+[2.857s] Listing '/home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces'...
+[2.858s] Listing '/home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces/srv'...
+[2.869s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces/mapping_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[2.870s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces/mapping_interfaces_s__rosidl_typesupport_introspection_c.so
+[2.870s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/python3.12/site-packages/mapping_interfaces/mapping_interfaces_s__rosidl_typesupport_c.so
+[2.870s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/lib/libmapping_interfaces__rosidl_generator_py.so
+[2.871s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/ament_index/resource_index/rust_packages/mapping_interfaces
+[2.871s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/rust
+[2.871s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/rust/src
+[2.871s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/rust/src/srv
+[2.871s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/rust/src/srv/rmw.rs
+[2.872s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/rust/src/lib.rs
+[2.872s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/rust/src/srv.rs
+[2.872s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/rust/build.rs
+[2.872s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/rust/Cargo.toml
+[2.872s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/srv/GenerateMappingPlan.idl
+[2.872s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/srv/ExecuteMappingPlan.idl
+[2.872s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/srv/CaptureFrame.idl
+[2.872s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/srv/IntegrateFrame.idl
+[2.872s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/srv/ResetMap.idl
+[2.873s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/srv/GenerateMappingPlan.srv
+[2.873s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/srv/ExecuteMappingPlan.srv
+[2.873s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/srv/CaptureFrame.srv
+[2.873s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/srv/IntegrateFrame.srv
+[2.873s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/srv/ResetMap.srv
+[2.873s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/ament_index/resource_index/package_run_dependencies/mapping_interfaces
+[2.874s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/ament_index/resource_index/parent_prefix_path/mapping_interfaces
+[2.874s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/environment/ament_prefix_path.sh
+[2.874s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/environment/ament_prefix_path.dsv
+[2.874s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/environment/path.sh
+[2.874s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/environment/path.dsv
+[2.874s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/local_setup.bash
+[2.874s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/local_setup.sh
+[2.874s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/local_setup.zsh
+[2.874s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/local_setup.dsv
+[2.874s] -- Installing: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/package.dsv
+[2.875s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/ament_index/resource_index/packages/mapping_interfaces
+[2.875s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/cmake/export_mapping_interfaces__rosidl_generator_cExport.cmake
+[2.875s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/cmake/export_mapping_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.875s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/cmake/export_mapping_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.875s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/cmake/export_mapping_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.875s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/cmake/export_mapping_interfaces__rosidl_generator_cppExport.cmake
+[2.875s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/cmake/export_mapping_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.876s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/cmake/export_mapping_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.876s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/cmake/mapping_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.876s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/cmake/mapping_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.876s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/cmake/mapping_interfaces__rosidl_typesupport_cExport.cmake
+[2.876s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/cmake/mapping_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.876s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/cmake/mapping_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.876s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/cmake/mapping_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.878s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/cmake/mapping_interfaces__rosidl_typesupport_cppExport.cmake
+[2.878s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/cmake/mapping_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.878s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/cmake/export_mapping_interfaces__rosidl_generator_pyExport.cmake
+[2.879s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/cmake/export_mapping_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.879s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.879s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.879s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.879s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.880s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.880s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.880s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.882s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/cmake/mapping_interfacesConfig.cmake
+[2.882s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/cmake/mapping_interfacesConfig-version.cmake
+[2.882s] -- Up-to-date: /home/daniel-choate/paml_ros2/install/mapping_interfaces/share/mapping_interfaces/package.xml
+[2.888s] Invoked command in '/home/daniel-choate/paml_ros2/build/mapping_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel-choate/paml_ros2/install/ur3_movement:/home/daniel-choate/paml_ros2/install/turtle_nav:/home/daniel-choate/paml_ros2/install/rgbd_capture:/home/daniel-choate/paml_ros2/install/mapping_planner:/home/daniel-choate/paml_ros2/install/mapping_executor:/home/daniel-choate/paml_ros2/install/mapping_bringup:/home/daniel-choate/paml_ros2/install/map_builder:/home/daniel-choate/paml_ros2/install/localization_bringup:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/daniel-choate/paml_ros2/build/mapping_interfaces
