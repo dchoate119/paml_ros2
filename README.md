@@ -234,6 +234,7 @@ ros2 run turtle_nav turtle_nav
 #### External tools 
 - MoveIt
 - Nav2
+- Realsense mount: used model from [Thingiverse by Bono88](https://www.thingiverse.com/thing:5394492)
 
 
 ##### Other fun videos 
