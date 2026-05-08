@@ -29,7 +29,8 @@ Phase 2 uses the pre-built 3D map for turtlebot localization. The turtlebot is e
 
 
 #### Phase 2 Node breakdown
-- Turtle nav: **Nav2**: sends goal states for the turtlebot according to the pre-built map using Nav2
+- [Turtle Nav Node](https://github.com/dchoate119/paml_ros2/blob/main/src/turtle_nav/turtle_nav/nav_node.py): **Nav2**: sends goal states for the turtlebot according to the pre-built map using Nav2
+- Note: for demo purposes, the pre-built map was created with the SLAM toolbox
 
 ---
 
@@ -41,6 +42,9 @@ Phase 2 uses the pre-built 3D map for turtlebot localization. The turtlebot is e
 - Intel RealSenseD435i
 - MoveIt 2
 - RViz2
+- Nav2 
+- Turtlebot mobile robot
+- ROS bridge
 
 ---
 
@@ -113,6 +117,90 @@ source ~/paml_ros2/install/setup.bash
 
 ros2 run mapping_executor mapping_client
 ```
+
+
+### Launch Phase 2 Localization
+
+This setup consists of:
+
+- TurtleBot bringup running remotely on the robot
+- SSH tunnel for rosbridge communication
+- Local ROS bridge script
+- Nav2 localization
+- Nav2 navigation stack
+- Custom navigation client
+
+---
+
+#### Terminal 1 — TurtleBot Bringup (SSH into Robot)
+
+SSH into the TurtleBot and launch the robot drivers. Includes Astra Orbec Camera for localization 
+
+```bash
+ssh baymax@10.5.10.74
+
+cd ~/kobuki_ws_2
+
+source install/setup.bash
+
+ros2 launch ./src/launchfile/turtlebot_bringup.launch.py
+```
+
+
+#### Terminal 2 — SSH Tunnel for rosbridge
+
+Create the SSH tunnel between the local machine and TurtleBot.
+
+```bash
+ssh -L 9090:localhost:9090 baymax@10.5.10.74
+```
+
+---
+
+#### Terminal 3 — ROS Bridge Script
+
+Launch the custom ROS bridge script.
+
+```bash
+source ~/rosbridge_env/bin/activate
+
+python3 ~/paml_ros2/turtlebot_bridge.py
+```
+
+
+#### Terminal 4 — Localization
+
+Launch AMCL localization against the prebuilt map (edit directory location if necessary).
+
+```bash
+ros2 launch nav2_bringup localization_launch.py \
+  map:=/paml_ros2/my_map.yaml \
+  use_sim_time:=false \
+  params_file:=/home/daniel-choate/paml_ros2/nav2_params.yaml
+```
+
+
+#### Terminal 5 — Nav2 Navigation Stack
+
+Launch the Nav2 navigation servers (edit directory location if necessary).
+
+```bash
+ros2 launch nav2_bringup navigation_launch.py \
+  map:=/paml_ros2/my_map.yaml \
+  use_sim_time:=false \
+  params_file:=/home/daniel-choate/paml_ros2/nav2_params.yaml
+```
+
+
+#### Terminal 6 — Custom Navigation Client
+
+Launch the custom TurtleBot navigation node.
+
+```bash
+ros2 run turtle_nav turtle_nav
+```
+
+
 
 
 # Relevant Commit IDs
