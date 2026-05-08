@@ -5,13 +5,13 @@ This project consists of a two-phase mapping and localization pipeline for a UR3
 
 ## Phase 1: Reconstruction for high-resolution reference map 
 
-During the reference map generation phase, the UR3 arm will execute a trajectory of poses to encompass full scene environment. Throughout the trajectory, the system fuses RGB and depth data into a 3D pointcloud, utilizing joint encoders from the UR3 arms. Due to these motor encoders, the 'Pose-Aware' mapping pipeline allows for real-time fusion without the need for pose estimation and expensive optimization. Known poses also increase accuracy, for a high-resolution, trustworthy map to be used in localization. 
+During the reference map generation phase, the UR3 arm executes a trajectory of poses to encompass the desired scene. Throughout the trajectory, the system fuses RGB and depth data into a 3D pointcloud, utilizing joint encoders from the UR3 arms. Due to these motor encoders, the 'Pose-Aware' mapping pipeline allows for real-time fusion without the need for pose estimation and expensive optimization. Known poses also increase accuracy, for a high-resolution, trustworthy map to be used in localization. 
 
 ### Phase 1 Demo: 
 ![Full phase 1 demo](msc/full_demo.gif)
 
 #### Phase 1 Main Nodes: breakdown and project requirements
-- [Mapping Client Node](https://github.com/dchoate119/paml_ros2/blob/main/src/mapping_executor/mapping_executor/mapping_client.py): takes in information about the scene, requests a plan from mapping planner
+- [Mapping Client Node](https://github.com/dchoate119/paml_ros2/blob/main/src/mapping_executor/mapping_executor/mapping_client.py): takes in information about the scene, requests a plan from mapping planner, sends plan to executor
 - [Mapping Planner Node](https://github.com/dchoate119/paml_ros2/blob/main/src/mapping_planner/mapping_planner/planner_node.py): **written from scratch**: plans a set of end effector poses to travel to, fully encompassing the given scene
 - [UR3 Executor Node](https://github.com/dchoate119/paml_ros2/blob/main/src/mapping_executor/mapping_executor/ur3_executor.py): **Moveit**: executes planned trajectory for the ur3 arm using moveit, avoiding collision with depth camera and mounting table
 - [RGBD Capture Node](https://github.com/dchoate119/paml_ros2/blob/main/src/rgbd_capture/rgbd_capture/capture_node.py): **Perception**: grabs depth and rgb info, fed to map builder node
@@ -21,7 +21,7 @@ During the reference map generation phase, the UR3 arm will execute a trajectory
 
 ## Phase 2: Localization 
 
-Phase 2 uses the pre-built 3D map for turtlebot localization. The turtlebot is executes a trajectory plan to travel across the environment. At each timestep, a comparison to the reference map provides a gloabl map state estimate used by Nav2 for velocity control.
+Phase 2 uses the pre-built map for turtlebot localization. The turtlebot executes a trajectory plan to travel across the environment. At each timestep, a comparison to the reference map provides a gloabl map state estimate used by Nav2 for velocity control.
 
 
 ### Phase 2 Demo: 
@@ -40,7 +40,7 @@ Phase 2 uses the pre-built 3D map for turtlebot localization. The turtlebot is e
 - ROS 2 Kilted
 - Universal Robots UR3e
 - Intel RealSenseD435i
-- MoveIt 2
+- MoveIt2
 - RViz2
 - Nav2 
 - Turtlebot mobile robot (Tufts university 'baymax' used for this demo)
@@ -63,7 +63,7 @@ cd paml_ros2
 ```bash
 source /opt/ros/kilted/setup.bash
 
-colcon build --symlink-install
+colcon build
 
 source install/setup.bash
 ```
@@ -74,7 +74,7 @@ source install/setup.bash
 
 Ensure the robot and host machine are on the same network.
 
-Update the personal IP address on teach pendant, and UR3e IP on launch configuration if needed.
+Update personal IP address on teach pendant, and UR3e IP on launch configuration if needed.
 
 ---
 
@@ -83,7 +83,7 @@ Update the personal IP address on teach pendant, and UR3e IP on launch configura
 This launch file starts:
 
 - UR robot driver
-- MoveIt 2
+- MoveIt2
 - RealSense driver
 - Mapping planner
 - RGBD capture node
@@ -227,6 +227,7 @@ ros2 run turtle_nav turtle_nav
 - Updated launch file for custom nodes: 4536104
 - State machine adjustments for demo: 836bb49
 - Turtlebot bridge bug fixes and nav2 node redesign: 5e3f1fe
+- Final nav2 node adjustments: cfeb2fe
 
 
 
@@ -245,7 +246,5 @@ ros2 run turtle_nav turtle_nav
 
 
 *TODO/Future work*
-- [ ] Nav2 adjustments for pose goals 
-- [ ] Adjust state machine for mapping and surveying
 - [ ] Better pipeline for map conversion - Nav2 friendly form
 - [ ] Custom map representation using TSDF

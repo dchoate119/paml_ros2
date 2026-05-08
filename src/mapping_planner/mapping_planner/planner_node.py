@@ -16,7 +16,6 @@ class MappingPlanner(Node):
 	Class for mapping planner 
 	Current objective: simple scene division into n sections
 	Cover each section with a scan, return poses in a service 
-	Poses are in BASE_LINK frame (not end effector)
 	"""
 
 	def __init__(self):
