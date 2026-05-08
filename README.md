@@ -74,7 +74,7 @@ source install/setup.bash
 
 Ensure the robot and host machine are on the same network.
 
-Update the UR3e IP address in the launch configuration if needed.
+Update the personal IP address on teach pendant, and UR3e IP on launch configuration if needed.
 
 ---
 
@@ -179,7 +179,7 @@ Launch AMCL localization against the prebuilt map (edit directory location if ne
 
 ```bash
 ros2 launch nav2_bringup localization_launch.py \
-  map:=/home/daniel-choate/paml_ros2/map_05_08_001.yaml \
+  map:=/home/daniel-choate/paml_ros2/data/map_05_08_001.yaml \
   use_sim_time:=false \
   params_file:=/home/daniel-choate/paml_ros2/nav2_params.yaml
 ```
