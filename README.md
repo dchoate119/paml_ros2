@@ -11,15 +11,15 @@ During the reference map generation phase, the UR3 arm will execute a trajectory
 ![Full phase 1 demo](msc/full_demo.gif)
 
 #### Phase 1 Main Nodes: breakdown and project requirements
-- Mapping client: takes in information about the scene, requests a plan from mapping planner
-- Mapping planner: **written from scratch**: plans a set of end effector poses to travel to, fully encompassing the given scene
-- UR3 executor: **Moveit**: executes planned trajectory for the ur3 arm using moveit, avoiding collision with depth camera and mounting table
-- RGBD capture: **Perception**: grabs depth and rgb info, fed to map builder node
-- Map builder: **custom component**: custom map builder node which incorporates RGBD fusion to build a 3D map
-- Session manager: **supervisory control**: state machine for idle and mapping stages used by the mapping executor
-- Custom URDF for rgbd camera and mount in UR3 custom description
+- [Mapping Client Node](https://github.com/dchoate119/paml_ros2/blob/main/src/mapping_executor/mapping_executor/mapping_client.py): takes in information about the scene, requests a plan from mapping planner
+- [Mapping Planner Node](https://github.com/dchoate119/paml_ros2/blob/main/src/mapping_planner/mapping_planner/planner_node.py): **written from scratch**: plans a set of end effector poses to travel to, fully encompassing the given scene
+- [UR3 Executor Node](https://github.com/dchoate119/paml_ros2/blob/main/src/mapping_executor/mapping_executor/ur3_executor.py): **Moveit**: executes planned trajectory for the ur3 arm using moveit, avoiding collision with depth camera and mounting table
+- [RGBD Capture Node](https://github.com/dchoate119/paml_ros2/blob/main/src/rgbd_capture/rgbd_capture/capture_node.py): **Perception**: grabs depth and rgb info, fed to map builder node
+- [Map Builder Node](https://github.com/dchoate119/paml_ros2/blob/main/src/map_builder/map_builder/map_builder_live.py): **custom component**: custom map builder node which incorporates RGBD fusion to build a 3D map
+- [Session Manager Node](https://github.com/dchoate119/paml_ros2/blob/main/src/mapping_executor/mapping_executor/session_manager.py): **supervisory control**: state machine for idle and mapping stages used by the mapping executor
+- [Custom URDF](https://github.com/dchoate119/paml_ros2/blob/main/src/ur3_custom_description/urdf/ur3e_with_camera.xacro) for rgbd camera and mount in UR3 custom description
 
-## Phase 2: Localization pipeline 
+## Phase 2: Localization 
 
 Phase 2 uses the pre-built 3D map for turtlebot localization. The turtlebot is executes a trajectory plan to travel across the environment. At each timestep, a comparison to the reference map provides a gloabl map state estimate used by Nav2 for velocity control.
 
@@ -31,9 +31,9 @@ Phase 2 uses the pre-built 3D map for turtlebot localization. The turtlebot is e
 #### Phase 2 Node breakdown
 - Turtle nav: **Nav2**: sends goal states for the turtlebot according to the pre-built map using Nav2
 
+---
 
-
-## Build and launch 
+# Build and launch 
 
 ### Requirements 
 - ROS 2 Kilted
