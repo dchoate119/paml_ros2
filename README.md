@@ -179,7 +179,7 @@ Launch AMCL localization against the prebuilt map (edit directory location if ne
 
 ```bash
 ros2 launch nav2_bringup localization_launch.py \
-  map:=/paml_ros2/my_map.yaml \
+  map:=/home/daniel-choate/paml_ros2/map_05_08_001.yaml \
   use_sim_time:=false \
   params_file:=/home/daniel-choate/paml_ros2/nav2_params.yaml
 ```
@@ -191,7 +191,7 @@ Launch the Nav2 navigation servers (edit directory location if necessary).
 
 ```bash
 ros2 launch nav2_bringup navigation_launch.py \
-  map:=/paml_ros2/my_map.yaml \
+  map:=/home/daniel-choate/paml_ros2/data/map_05_08_001.yaml \
   use_sim_time:=false \
   params_file:=/home/daniel-choate/paml_ros2/nav2_params.yaml
 ```
