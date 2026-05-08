@@ -17,7 +17,7 @@ During the reference map generation phase, the UR3 arm executes a trajectory of 
 - [RGBD Capture Node](https://github.com/dchoate119/paml_ros2/blob/main/src/rgbd_capture/rgbd_capture/capture_node.py): **Perception**: grabs depth and rgb info, fed to map builder node
 - [Map Builder Node](https://github.com/dchoate119/paml_ros2/blob/main/src/map_builder/map_builder/map_builder_live.py): **custom component**: custom map builder node which incorporates RGBD fusion to build a 3D map
 - [Session Manager Node](https://github.com/dchoate119/paml_ros2/blob/main/src/mapping_executor/mapping_executor/session_manager.py): **supervisory control**: state machine for idle and mapping stages used by the mapping executor
-- [Custom URDF](https://github.com/dchoate119/paml_ros2/blob/main/src/ur3_custom_description/urdf/ur3e_with_camera.xacro) for rgbd camera and mount in UR3 custom description
+- [Custom Xacro](https://github.com/dchoate119/paml_ros2/blob/main/src/ur3_custom_description/urdf/ur3e_with_camera.xacro) for rgbd camera and mount in UR3 custom description
 
 ## Phase 2: Localization 
 
