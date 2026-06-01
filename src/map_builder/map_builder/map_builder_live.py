@@ -22,7 +22,7 @@ class MapBuilder(Node):
 
         self.bridge = CvBridge()
 
-        # Subscribers 
+        # Subscribers - just store latest RGB and depth
         self.rgb_sub = self.create_subscription(
             Image,
             '/camera/camera/color/image_raw',
